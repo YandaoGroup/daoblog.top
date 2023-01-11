@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+<style type="text/css">
+    html {
+        filter: grayscale(80%); 
+        -webkit-filter: grayscale(80%); 
+        -moz-filter: grayscale(80%); 
+        -ms-filter: grayscale(80%); 
+        -o-filter: grayscale(80%); 
+        -webkit-filter: grayscale(0.96);
+    }
+</style>-->
+<!--<script async defer data-website-id="cbe599bd-f759-4316-b5b9-eb4d27936e14" src="https://umami.ydlk.cc/fenxi.js"></script>-->
+<script async defer src="https://analytics.umami.is/script.js" data-website-id="8fc5692e-566b-4c02-a8e5-d683560426d3"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
+<script>
+  new LingQue.Monitor().init({id:"JvkK0PV98iBkjgQV",sendSuspicious:true});
+</script>
+<meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>配置GPG签名，让你的Git提交不被冒充 | Yandao&#39;s Blog</title>
+
+<link rel="shortcut icon" href="https://www.daoblog.top/favicon.ico?v=1673428505704">
+
+<!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/mainColor/heoMainColor.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/hidescrollbar/hidescrollbar.css">-->
+<link href="https://doge.jsdelivr.daoblog.top/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://www.daoblog.top/styles/main.css">
+<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+<!--<link rel="stylesheet" href="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/index.bundle.css">-->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<!--<script src="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/hidescrollbar/hidescrollbar.js" type="text/javascript"></script>-->
+<script src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--<script src="https://lib.baomitu.com/pjax/0.2.8/pjax.min.js"></script>-->
+<!-- <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.js"></script>-->
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto&c=i&c=k" defer></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<script defer type="text/javascript" src="https://www.daoblog.top/js/console-text.js"></script>
+<script src="https://doge.jsdelivr.daoblog.top/npm/pangu.simple@1.0.5/dist/browser/pangu.js"></script>
+<script defer type="text/javascript" src="/js/mouse.js"></script>
+<!--<script src="https://doge.jsdelivr.daoblog.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script>
+<script src="/js/lunar.js"></script>
+<script src="/js/day.js"></script>-->
+<!--<script async data-pjax src="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/rightmenu/rightmenu.js"></script>-->
+
+<!-- 引入 Noto Serif SC -->
+<link type="text/css" rel="preload stylesheet" as="style" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" crossorigin >
+
+<!-- Google font预加载&缓存 -->
+<link rel="dns-prefetch" href="https://fonts.loli.net/">
+<link rel="dns-prefetch" href="https://gstatic.loli.net/">
+ 
+<link rel="preconnect"  href="https://gstatic.loli.net"  crossorigin />
+
+<noscript>
+<link rel="stylesheet"  href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" onload="this.media='all'" />
+</noscript>
+
+<!-- <link href='https://fonts.loli.net/css?family=Noto+Sans' rel='stylesheet'> -->
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+    
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.1/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script> 
+    
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline-meta.css"/>
+    <script src="https://cdn.zhheo.com/JS-Heo/privacy/privacy.js"></script>
+    <script src="https://doge.jsdelivr.daoblog.top/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Yandao&#39;s Blog
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/friends" class="menu gt-a-link">
+                    友链
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/fcircle" class="menu gt-a-link">
+                    鱼塘
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/shuoshuo" class="menu gt-a-link">
+                    说说
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://yandaostatus.statuspage.io/" class="menu gt-a-link" target="_blank">
+                    状态
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1673428505704"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    配置GPG签名，让你的Git提交不被冒充
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2023-01-04 ·
+                    </time>
+                    
+                        <a href="https://www.daoblog.top/tag/notes/" class="post-tags">
+                            # notes
+                        </a>
+                    
+                        <a href="https://www.daoblog.top/tag/github/" class="post-tags">
+                            # github
+                        </a>
+                    
+                        <a href="https://www.daoblog.top/tag/tech/" class="post-tags">
+                            # tech
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <blockquote>
+<p>当你发现自己的名下出现了一些未曾谋面的commits时，你就知道花几分钟配置一下GPG签名有多重要了</p>
+</blockquote>
+<!-- more -->
+<p>本文将重点讨论GPG密钥的生成以及其与Git&amp;GitHub的集成，GPG命令行工具的安装不在本文的讨论范畴之内。</p>
+<p>请注意，如果删除了先前有的GPG密钥，则<strong>凡使用了此签名的提交均会变灰</strong>，请自行斟酌！</p>
+<blockquote>
+<p><ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#step-one-%E7%94%9F%E6%88%90%E4%B8%80%E5%AF%B9%E5%AF%86%E9%92%A5">Step One. 生成一对密钥</a></li>
+<li><a href="#step-two-%E8%8E%B7%E5%8F%96%E5%AF%86%E9%92%A5%E4%BF%A1%E6%81%AF">Step Two. 获取密钥信息</a></li>
+<li><a href="#step-three-%E6%8A%8A%E5%AF%86%E9%92%A5%E5%91%8A%E8%AF%89git">Step Three. 把密钥告诉Git</a></li>
+<li><a href="#step-four-%E6%8A%8A%E5%AF%86%E9%92%A5%E5%91%8A%E8%AF%89github">Step Four. 把密钥告诉GitHub</a></li>
+</ul>
+</li>
+</ul>
+</p>
+</blockquote>
+<p>写作本文的契机是因为一个月前我配置GPG密钥时读了GitHub的官方文章，结果简中部分不但语句不通，甚至翻译还很不全......虽然最后折腾好了（挺简单一事），但是考虑到日后可能自己也有参考的需要，而且看到了Spencer's Blog上的<a href="https://spencer-blog-legacy.vercel.app/2020/08/wait-this-is-not-my-commit/">这篇文章</a>，便决定干脆写篇文章记录一下好了。</p>
+<h2 id="step-one-生成一对密钥">Step One. 生成一对密钥</h2>
+<p>在安装完GPG后，你可以使用命令<code>gpg --version</code>来检测GPG是否安装成功</p>
+<blockquote>
+<p>Tip: GPG的存储根目录为输出内容中的<code>Home</code>目录。<br>
+Windows环境可能会出现签名失败的bug，建议提前先记一下这个目录。</p>
+</blockquote>
+<p>我们使用下面的命令来为我们自己生成一对GPG密钥（公钥+私钥）</p>
+<pre><code class="language-shell">gpg --full-generate-key
+</code></pre>
+<blockquote>
+<p>注意，上面的代码需要GPG版本为<code>2.1.17</code>或更高。</p>
+</blockquote>
+<ul>
+<li>对于密钥种类，在此处输入<code>1</code>（为<code>RSA and DSA</code>）</li>
+<li>对于密钥种类，GitHub要求的最短长度为<code>4096bits</code>，一般来讲选择这个即可（输入<code>4096</code>）</li>
+<li>对于密钥有效时长，默认为永久有效，请根据实际情况选择
+<ul>
+<li>选择了有效期后，GPG会让你确认密钥会在多久后过期，若无误，在此时输入<code>y</code>表确认</li>
+</ul>
+</li>
+<li>输入用户信息时，请确保输入了GitHub帐户上绑定了的<mark>经过验证的</mark>电子邮件地址
+<ul>
+<li>“要将电子邮件地址保密，请使用GitHub提供的<code>no-reply</code>电子邮件地址。”</li>
+<li>“建议使用GitHub账户的用户名”</li>
+<li><code>comment</code>一项为密钥的注释，非必需</li>
+</ul>
+</li>
+<li>最后一步，输入一个安全且你记得住的密码，回车，稍等片刻，等待命令行打印相关信息</li>
+</ul>
+<p>若打印出了密钥的有关信息，则说明此时密钥已经生成成功啦，恭喜🎉</p>
+<pre><code>gpg: revocation certificate stored as 'C:\\Users\\xxxxxx\\AppData\\Roaming\\gnupg\\openpgp-revocs.d\\997AAxxxxxB2E8FxxxxxC38A9xxxxx5B217xxxxx.rev'
+public and secret key created and signed.
+
+pub   rsa4096 2023-01-05 [SC] [expires: 2023-01-06]
+      997AAxxxxxB2E8FxxxxxC38A9xxxxxx5B217xxxxx
+uid                      YanDao0313 &lt;xxxxxxxxxx@qq.com&gt;
+sub   rsa4096 2023-01-05 [E] [expires: 2023-01-06]
+</code></pre>
+<h2 id="step-two-获取密钥信息">Step Two. 获取密钥信息</h2>
+<p>接下来，输入以下命令，它会让GPG列出我们当前拥有的全部<code>GPG Key</code></p>
+<pre><code class="language-shell">gpg --list-secret-keys --keyid-format=long
+</code></pre>
+<p>效果如下：</p>
+<pre><code>gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   3  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 3u
+gpg: next trustdb check due at 2023-01-06
+C:\Users\xxxxxx\AppData\Roaming\gnupg\pubring.kbx
+------------------------------------------------
+sec   rsa4096/9D34EF5B217774C7 2023-01-05 [SC] [expires: 2023-01-06]
+      997AAxxxxxB2E8FxxxxxC38A9xxxxxx5B217xxxxx
+uid                 [ultimate] YanDao0313 &lt;xxxxxxxxxx@qq.com&gt;
+ssb   rsa4096/C4F16EA309D522FD 2023-01-05 [E] [expires: 2023-01-06]
+</code></pre>
+<p>在本例中，<code>sec</code>一行中的<code>rsa4096/9D34EF5B217774C7</code>即为GPG私钥，后半段的<code>9D34EF5B217774C7</code>为私钥ID</p>
+<h2 id="step-three-把密钥告诉git">Step Three. 把密钥告诉Git</h2>
+<p>在终端中输入如下命令，记得将<code>9D34EF5B217774C7</code>替换为你自己的私钥ID</p>
+<pre><code class="language-shell">git config --global user.signingkey 9D34EF5B217774C7
+</code></pre>
+<p>可选地，你可以全局强制使用GPG对提交签名，只需下面一行代码：</p>
+<pre><code class="language-shell">git config --global commit.gpgsign true
+</code></pre>
+<p>注意：在执行此命令后，每一次提交都需要输入密码进行签名，输一次密码即进入<code>sudo  mode</code>，接下来的几分钟提交时不用再输密码。</p>
+<p>此时可以进行一次提交，看看签名生效了没，如果Git报错满天飞，那么可能是Git调用了与我们刚刚使用的不一致的GPG，可以输入以下的命令进行手动指定：</p>
+<pre><code class="language-shell">git config --global gpg.program /把目录替换成你的/114514/1919810/gpg
+</code></pre>
+<p>不要忘记替换成刚刚提到过的<code>home</code>目录哦（这逝homo目录罢（悲</p>
+<h2 id="step-four-把密钥告诉github">Step Four. 把密钥告诉GitHub</h2>
+<p>接下来，在终端中输入下面这一行命令，将<code>9D34EF5B217774C7</code>替换为你刚刚得到的私钥ID</p>
+<pre><code class="language-shell">gpg --armor --export 9D34EF5B217774C7
+</code></pre>
+<p>若无误，它会打印出一串很长的GPG密钥，请复制以<code>-----BEGIN PGP PUBLIC KEY BLOCK-----</code>为开头并以<code>-----END PGP PUBLIC KEY BLOCK-----</code>为结尾的密钥内容，请先暂时保存（但是不要以明文留存）</p>
+<blockquote>
+<p>注意，<mark>包含</mark>这两句哦~</p>
+</blockquote>
+<p>将输出粘贴进入GitHub的<a href="https://github.com/settings/keys">Settings » SSH and GPG keys</a>，选择<code>New GPG key</code>项，配置、验证并保存。之后，凡是正确签名了的commit都有一个漂亮的绿标<code>Verified</code>字样，<s>可以拿去炫耀</s> 即使账号被恶意使用也有证据来证明那不是你的行为了！</p>
+<blockquote>
+<p>👨‍💻 本文到此结束，祝你不被冒充！</p>
+</blockquote>
+
+                </div>
+            </article>
+        </div>
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://www.daoblog.top/post/webcam-230103/" class="post-title gt-a-link">
+                    七中 | 网课取景建议
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+            <!--<script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>-->
+
+<style>
+	div#waline{
+		width:100%;
+		max-width: 1050px;
+		padding: 2.5%;
+		font-family: "Noto Serif SC";
+	}
+	:root {
+        --waline-font-size: 18px;
+		font-family: "Noto Serif SC";
+		--waline-font-family: "Noto Serif SC";
+    }
+	span.katex { font-size: 18px; }
+	.wl-emoji-popup { font-size: 16px !important; }
+	.wl-emoji-popup button { height: 2em; }
+	.wl-panel {
+	    background: #6b938914 !important;
+    }
+	.wl-editor {
+	    background-color: rgba(83, 131, 130, 0.13) !important;
+	}
+</style>
+
+
+	<!--<div id="vcomments"></div>-->
+	<div id="waline"></div>
+
+<script type="module">
+	// Settings for Valine (For Original Theme)
+	// new Valine({
+	// 	el: '#vcomments',
+	//	appId: 'bAd7RExcBmuv1CJq53BAcHVv-gzGzoHsz',
+	//	appKey: 'g7dYw8npvGrgorSgGa4AH8L0',
+	//	avatar: 'retro',
+	//	pageSize: 10,
+	//	recordIp: true,
+	//	placeholder: 'ヽ(○´∀`)ﾉ♪  这里可评论哦~',
+	//	visitor: false,
+	//});
+	import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+	init({
+      el: '#waline',
+      serverURL: 'https://waline.ydlk.cc',
+	  avatar: 'retro',
+	  recordIp: true,
+	  reaction: true,
+	  pageview: true,
+	  comment: true,
+	  emoji: [
+      '//unpkg.com/@waline/emojis@1.1.0/bmoji',
+      '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+	  '//cdn.jsdelivr.net/npm/sticker-heo@2022.7.5/Sticker-100/',
+    ],
+	reaction: [
+    'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_sunglasses.png',
+    'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_thumbsup.png',
+    'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_doge.png',	
+	'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_confused.png',
+	'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_sweat.png',
+    'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_sleepy.png',
+  ],
+	  dark: false,
+	  recaptchaV3Key: "6LeicsQjAAAAAJpXhbQ4zMFDSj31XQqTI_2St5ZP",
+	  copyright: false,
+    });
+</script>
+<!--<script>
+    var versionNo = '1.1.1';
+    if(!window.localStorage.getItem('update-version') || window.localStorage.getItem('update-version') !=versionNo){
+        window.localStorage.setItem('update-version',versionNo)
+        alert('友情提示：我站已强制开启评论验证，请先在评论区点击登录，再进行评论，否则无法使用评论')
+    }
+</script>-->
+
+        
+
+        <!--<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>-->
+<div class="site-footer gt-c-content-color-first">
+    <!--<div class="slogan gt-c-content-color-first">Yandao's Personal Blog Website</div>-->
+    <p>【一言】</p><p id="hitokoto">😀 一言模块正在加载......</p>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    
+    <div class="footer-info">
+        
+    </div>
+    <p><a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2022002434号-1</a> | <a href="https://icp.gov.moe/?keyword=20220054" target="_blank">萌ICP备20220054号</a> | <a href="https://www.daoblog.top/post/privacy/" target="_blank">隐私政策</a><br />
+    <br />
+    <span id="runtime_span"></span>
+    <div>
+        同时提供：<a href="https://www.daoblog.top/atom.xml" target="_blank">RSS</a> | Made with ❤️ by <a href="https://yandao.is-a.dev/" target="_blank">Yandao</a> | <!--Power by <a href="https://vercel.com?utm_source=powered-by-vercel" target="_blank">Vercel</a> | --><span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        <p>Copyright © 2021-2023 <a href="https://yandao.is-a.dev/" target="_blank">Yandao</a>. All Rights Reserved.</p>
+    </div>
+    <div id="goTopBtn"><span class="glyphicon glyphicon-chevron-up">&Delta;</span></div>
+</div>
+<!--<script src="https://www.daoblog.top/asoul-l2d.js"></script>-->
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    /*返回顶部*/
+    $(window).scroll(function(){
+       var sc=$(window).scrollTop();
+       var rwidth=$(window).width()
+       if(sc>0){
+        $("#goTopBtn").css("display","block");
+        $("#goTopBtn").css("left",(rwidth-36)+"px")
+       }else{
+       $("#goTopBtn").css("display","none");
+       }
+     })
+     $("#goTopBtn").click(function(){
+       var sc=$(window).scrollTop();
+       $('body,html').animate({scrollTop:0},500);
+     })
+</script>
+<script src="https://yandaostatus.statuspage.io/embed/script.js"></script>
+<script>
+    function show_runtime() {window.setTimeout("show_runtime()",1000); X=new Date("11/12/2021 11:45:014"); Y=new Date(); T=(Y.getTime()-X.getTime()); M=24*60*60*1000; a=T/M;A=Math.floor(a); b=(a-A)*24;B=Math.floor(b); c=(b-B)*60;C=Math.floor((b-B)*60); D=Math.floor((c-C)*60); runtime_span.innerHTML="本站已运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();  Date("11/12/2021 11:45:14") 
+</script>
+<!--<script src="https://unpkg.com/petite-vue"></script>
+<script src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/index.bundle.js"></script>
+<script src="https://www.daoblog.top/music.js"></script>-->
+<script>
+  hljs.highlightAll()
+</script>
+<script>
+    pangu.spacingPage();
+</script>
+<script>
+    document.body.oncopy = function (){
+        iziToast.info({
+            timeout: 2000,
+            icon: 'Fontawesome', 
+            closeOnEscape: 'true', 
+            transitionIn: 'bounceInLeft', 
+            transitionOut: 'fadeOutRight',
+            displayMode: 'replace', 
+            layout: '2', 
+            position: 'topRight',
+            icon: 'fad fa-copy',
+            backgroundColor: '#fff', 
+            title: '复制成功', 
+            message: '未经许可，请勿转载' 
+        });
+    }
+</script>
+
+    </div>
+</div>
+</body>
+</html>

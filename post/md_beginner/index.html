@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+<style type="text/css">
+    html {
+        filter: grayscale(80%); 
+        -webkit-filter: grayscale(80%); 
+        -moz-filter: grayscale(80%); 
+        -ms-filter: grayscale(80%); 
+        -o-filter: grayscale(80%); 
+        -webkit-filter: grayscale(0.96);
+    }
+</style>-->
+<!--<script async defer data-website-id="cbe599bd-f759-4316-b5b9-eb4d27936e14" src="https://umami.ydlk.cc/fenxi.js"></script>-->
+<script async defer src="https://analytics.umami.is/script.js" data-website-id="8fc5692e-566b-4c02-a8e5-d683560426d3"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
+<script>
+  new LingQue.Monitor().init({id:"JvkK0PV98iBkjgQV",sendSuspicious:true});
+</script>
+<meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>写给新手的Markdown快速上手指南 | Yandao&#39;s Blog</title>
+
+<link rel="shortcut icon" href="https://www.daoblog.top/favicon.ico?v=1673428505704">
+
+<!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/mainColor/heoMainColor.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/hidescrollbar/hidescrollbar.css">-->
+<link href="https://doge.jsdelivr.daoblog.top/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://www.daoblog.top/styles/main.css">
+<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+<!--<link rel="stylesheet" href="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/index.bundle.css">-->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<!--<script src="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/hidescrollbar/hidescrollbar.js" type="text/javascript"></script>-->
+<script src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--<script src="https://lib.baomitu.com/pjax/0.2.8/pjax.min.js"></script>-->
+<!-- <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.js"></script>-->
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto&c=i&c=k" defer></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<script defer type="text/javascript" src="https://www.daoblog.top/js/console-text.js"></script>
+<script src="https://doge.jsdelivr.daoblog.top/npm/pangu.simple@1.0.5/dist/browser/pangu.js"></script>
+<script defer type="text/javascript" src="/js/mouse.js"></script>
+<!--<script src="https://doge.jsdelivr.daoblog.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script>
+<script src="/js/lunar.js"></script>
+<script src="/js/day.js"></script>-->
+<!--<script async data-pjax src="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/rightmenu/rightmenu.js"></script>-->
+
+<!-- 引入 Noto Serif SC -->
+<link type="text/css" rel="preload stylesheet" as="style" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" crossorigin >
+
+<!-- Google font预加载&缓存 -->
+<link rel="dns-prefetch" href="https://fonts.loli.net/">
+<link rel="dns-prefetch" href="https://gstatic.loli.net/">
+ 
+<link rel="preconnect"  href="https://gstatic.loli.net"  crossorigin />
+
+<noscript>
+<link rel="stylesheet"  href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" onload="this.media='all'" />
+</noscript>
+
+<!-- <link href='https://fonts.loli.net/css?family=Noto+Sans' rel='stylesheet'> -->
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+    
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.1/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script> 
+    
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline-meta.css"/>
+    <script src="https://cdn.zhheo.com/JS-Heo/privacy/privacy.js"></script>
+    <script src="https://doge.jsdelivr.daoblog.top/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Yandao&#39;s Blog
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/friends" class="menu gt-a-link">
+                    友链
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/fcircle" class="menu gt-a-link">
+                    鱼塘
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/shuoshuo" class="menu gt-a-link">
+                    说说
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://yandaostatus.statuspage.io/" class="menu gt-a-link" target="_blank">
+                    状态
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1673428505704"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    写给新手的Markdown快速上手指南
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2022-07-15 ·
+                    </time>
+                    
+                        <a href="https://www.daoblog.top/tag/old/" class="post-tags">
+                            # Old
+                        </a>
+                    
+                        <a href="https://www.daoblog.top/tag/tech/" class="post-tags">
+                            # tech
+                        </a>
+                    
+                        <a href="https://www.daoblog.top/tag/markdown/" class="post-tags">
+                            # markdown
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <blockquote>
+<p>markdown真的很简单！</p>
+</blockquote>
+<!-- more -->
+<p>阅读原生Markdown版本，请<a href="https://yandao.rth.app/gomarkdown.md">点击此处</a></p>
+<blockquote>
+<p>同时推荐以下视频<br /></p>
+<iframe src="//player.bilibili.com/player.html?aid=647631019&bvid=BV1Ve4y1s7Qs&cid=894088883&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=935192264&bvid=BV1TM4y1F7u2&cid=471437536&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</blockquote>
+<h2 id="一-写在前面">一、写在前面</h2>
+<h3 id="什么是markdown">什么是Markdown</h3>
+<p>在<a href="https://zh.wikipedia.org/zh-cn/Markdown">维基百科</a>上介绍说：“Markdown是一种<a href="https://zh.wikipedia.org/wiki/%E8%BD%BB%E9%87%8F%E7%BA%A7%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80">轻量级标记语言</a>，创始人为<a href="https://zh.wikipedia.org/wiki/%E7%B4%84%E7%BF%B0%C2%B7%E6%A0%BC%E9%AD%AF%E4%BC%AF">约翰·格鲁伯</a>。它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的<a href="https://zh.wikipedia.org/wiki/XHTML">XHTML</a>（或者<a href="https://zh.wikipedia.org/wiki/HTML">HTML</a>）文档。”</p>
+<p><s>因为我懒</s> 维基百科的介绍已经很详细了，对于实在不理解的同学，你可以简单地把markdown理解为一种直接用简单的符号就可以完成文章基础排版、层次划分的写作语法</p>
+<p>值得一提的是，Markdown并不是一个软件，而是一种写作方式，也就是一套写作语法体系，而借由这点，你也可以很便捷地在多种软件之间享受到一样的书写体验，我也会在文末列出我正在使用的支持markdown的写作软件</p>
+<h3 id="为什么要用markdown">为什么要用Markdown</h3>
+<p>下面我列出几点我个人使用markdown的原因</p>
+<ul>
+<li>
+<p>多软件可用（例如Wordpress、Notion、wiki.js、印象笔记、StackEdit…）</p>
+</li>
+<li>
+<p>不过度依赖图形界面，在进行灵感集中输出时更为方便，效率更高<br>
+举个例子：我之前写的一篇文章就是用的Wordpress可视化编辑器，说句实在话，不是我故意黑，但是这个“优化后的写作编辑器”与我个人而言还是不好用，说白了就是“效率太低”，用鼠标在界面上点来点去来排版真的不怎么方便</p>
+</li>
+<li>
+<p>快速实现整齐排版</p>
+</li>
+<li>
+<p>手不用在键盘与鼠标之间多次往返，长期写作更舒适</p>
+</li>
+<li>
+<p>（我自己的特殊原因）右手骨折，活动范围不大</p>
+</li>
+</ul>
+<h3 id="markdown有哪些不足较主观">Markdown有哪些不足（较主观）</h3>
+<ol>
+<li>
+<p>基础语法你自己还是要记一点，不然用不来（不过这都能难到你的话，我只能说你有点懒…）</p>
+</li>
+<li>
+<p>有些语法其实并不特别方便（例如插入文本超链接、图片与表格）</p>
+</li>
+<li>
+<p>与其说是“美观的排版”，但其实更接近于规定文章的结构层次划分，没有那么厉害，最终还是得看编辑器的渲染效果，千万不要指望用它来进行精美的排版</p>
+</li>
+<li>
+<p>最终呈现效果依赖于编辑器渲染，同一篇文章，在不同的编辑器下差别可能会很大（例如热铁盒网页托管渲染的与印象笔记渲染的效果差别就比较大）（非恰饭）</p>
+</li>
+</ol>
+<h2 id="二-基础语法">二、基础语法</h2>
+<h3 id="标题">标题</h3>
+<p>在当行语句最开头加上井号 # 就是标题，一共有六级，有多少个井号就是几级的标题</p>
+<p><em>注意</em>： 大多数语法后面不要忘了加上一个空格来让编辑器识别出来语法格式</p>
+<figure data-type="image" tabindex="1"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/20220715190831.png" alt="" loading="lazy"></figure>
+<h3 id="段落与文本">段落与文本</h3>
+<p>直接输入文字就可以直接显示，与word相差无几</p>
+<figure data-type="image" tabindex="2"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/20220715191323.png" alt="" loading="lazy"></figure>
+<p>但值得一提的是，在markdown中，普通段落换行是如下两种方式</p>
+<ol>
+<li>
+<p>在单行末尾加上两个空格<sub>（部分编辑器也可以处理源文件同行内用两个空格换行的，但比较少见）</sub></p>
+</li>
+<li>
+<p>每行之间单独空一行</p>
+</li>
+</ol>
+<figure data-type="image" tabindex="3"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/20220715192432.png" alt="" loading="lazy"></figure>
+<p>同时，如果要对文字进行一些简单的操作，markdown也是可以胜任的</p>
+<ol>
+<li>
+<p><em>倾斜文本</em> 将文本前后用星号 * 包裹起来就可以倾斜被框住的文本</p>
+</li>
+<li>
+<p><strong>加粗文本</strong> 将文本前后用两个型号 ** 包裹起来就可以加粗被框住的文本</p>
+</li>
+<li>
+<p><em><strong>既加粗又倾斜</strong></em> 将文本前后用三个星号 *** 包裹起来就可以实现</p>
+</li>
+<li>
+<p><sub>缩小文本（角标）</sub> 将文本前后用一条波浪线 ~ 包裹起来即可（部分编辑器有此语法）</p>
+</li>
+<li>
+<p><s>删除线</s> 将文本前后用两条波浪线 ~~ 包裹起来即可</p>
+</li>
+</ol>
+<figure data-type="image" tabindex="4"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/20220715192018.png" alt="" loading="lazy"></figure>
+<p>注意：不要忘了加上空格使编辑器顺利识别文本中的语法</p>
+<p>还有短语段之间的分割线，你只需要单行输入多个短横线就可以了，例如“----------”（就大多数编辑器而言，大于等于三条）</p>
+<p>例子⬇️</p>
+<hr>
+<h3 id="列举">列举</h3>
+<p>首先是无序列举（无标号），一共有两种方式</p>
+<ol>
+<li>
+<p>在单行开头打上 * 并空一格</p>
+</li>
+<li>
+<p>在单行开头打上 - 并空一格（我比较习惯于这种）</p>
+</li>
+</ol>
+<ul>
+<li>这是第一种方法</li>
+</ul>
+<ul>
+<li>这是第二种</li>
+</ul>
+<figure data-type="image" tabindex="5"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/20221221105936.png" alt="" loading="lazy"></figure>
+<p>其次是有序列举，在单行开头加上如“1.”“2.”等语句，以此类推即可</p>
+<ol>
+<li>
+<p>第一个</p>
+</li>
+<li>
+<p>第二个</p>
+</li>
+<li>
+<p>第三个</p>
+</li>
+<li>
+<p>还有更多...</p>
+</li>
+</ol>
+<figure data-type="image" tabindex="6"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/20221221110243.png" alt="" loading="lazy"></figure>
+<p>同样的，不要忘了加上空格让编辑器识别出语法（如“- ”“1. ”）</p>
+<h3 id="表格">表格</h3>
+<p>说完了列举，我们就来看表格，他的逻辑其实与你在纸上画表格很类似，下面就是一个例子</p>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th>性别</th>
+<th>年龄</th>
+<th>职业</th>
+<th>住址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>李田所</td>
+<td>男</td>
+<td>24</td>
+<td>学生</td>
+<td>日本东京下北泽</td>
+</tr>
+<tr>
+<td>御坂美琴</td>
+<td>女</td>
+<td>14</td>
+<td>学生</td>
+<td>日本学园都市</td>
+</tr>
+<tr>
+<td>老颜</td>
+<td>男</td>
+<td>14</td>
+<td>学生</td>
+<td>盒打击是吧，芝士计划的一部分！</td>
+</tr>
+<tr>
+<td>xxx</td>
+<td>x</td>
+<td>xx</td>
+<td>xxx</td>
+<td>xxxxxxxxxxxxxx</td>
+</tr>
+</tbody>
+</table>
+<p>第一行是表头，第二行用作表头与内容的分割，- 的个数可以调整（大于等于1），第三行及之后是表格内容</p>
+<p>具体可以参考图片，文字不容易说清楚：</p>
+<figure data-type="image" tabindex="7"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/20221221110351.png" alt="" loading="lazy"></figure>
+<p>混进去了奇怪的东西（悲）</p>
+<h3 id="插入项目">插入项目</h3>
+<ol>
+<li>
+<p>插入文本超链接<br>
+示例：<code>[text](https://example.com/)</code> <a href="https://xn--fhqw2khm122n.cn">链接文本</a>，这种超链接可在段落内直接使用，内容间无需空格也能被正确识别</p>
+<figure data-type="image" tabindex="8"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/20221221110518.png" alt="" loading="lazy"></figure>
+</li>
+<li>
+<p>插入图片<br>
+示例：<code>![img](https://example.com/example.jpg)</code> <img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/icon.jpg" alt="" loading="lazy"> 前者为图片无法加载时使用的占位文本（可略去），后者为图片地址</p>
+<figure data-type="image" tabindex="9"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/20221221110717.png" alt="" loading="lazy"></figure>
+</li>
+</ol>
+<p>但说句实在话，这个还是有点繁琐了，所以我一般都直接用PicGo的复制链接功能，传上图床之后就能直接复制markdown格式的链接 <s>其实就是懒</s></p>
+<h3 id="各种引用">各种引用</h3>
+<p>markdown里有两种引用，一种是引用文本（块引用），一种是引用代码</p>
+<ol>
+<li>块引用<br>
+格式：在段首加上大于号右半边 &gt;</li>
+</ol>
+<blockquote>
+<p>这是一个示例</p>
+</blockquote>
+<figure data-type="image" tabindex="10"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/20221221112154.png" alt="" loading="lazy"></figure>
+<ol start="2">
+<li>代码（代码引用）<br>
+格式：单行代码前后用 ` 框起来，<br>
+多行在段前一排与段后一排用```框起来</li>
+</ol>
+<p>示例：</p>
+<p><code>print('Hello world!')</code></p>
+<pre><code class="language-python">print('Hello world!')
+print(&quot;An Example&quot;)
+print('''We are studying Python at school. I don't kown why. ''')
+</code></pre>
+<figure data-type="image" tabindex="11"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/20221221111017.png" alt="" loading="lazy"></figure>
+<h3 id="数学公式">数学公式</h3>
+<p>这个上手就真的有一些难度了，我个人因为极少用到，所以一般都是用一些线上生成器，如果你确实有需要，可以自行查找相关语法</p>
+<p>下面有两个例子：</p>
+<p>行内公式（部分编辑器支持）</p>
+<p>$ {x}<sup>{2}+2xy+{y}</sup>{2}=0 $</p>
+<p><code>$ {x}^{2}+2xy+{y}^{2}=0 $</code></p>
+<p>块公式（部分编辑器支持）</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">{x}^{2}+2xy+{y}^{2}=0 
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9474379999999999em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">x</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">2</span><span class="mord mathdefault">x</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.0585479999999998em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span></span></p>
+<p><code>$$ {x}^{2}+2xy+{y}^{2}=0 $$</code></p>
+<figure data-type="image" tabindex="12"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/20221221111048.png" alt="" loading="lazy"></figure>
+<h2 id="三-写在最后">三、写在最后</h2>
+<h3 id="软件推荐">软件推荐</h3>
+<p>在看完了上面的内容之后的你想必已经迫不及待了吧？在了解了基础的写作语法之后你就可以开始尝试着写作了！</p>
+<p>在这里我简单地列举一下我所使用的支持markdown语法的软件：</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>推荐指数</th>
+<th>类别</th>
+<th>平台</th>
+<th>特点</th>
+<th>官网</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wordpress</td>
+<td>⭐⭐</td>
+<td>博客软件</td>
+<td>自行搭建网页端</td>
+<td>开源 新版对Markdown的兼容性是个谜，不再推荐</td>
+<td><a href="https://cn.wordpress.org/">官网（简中）</a></td>
+</tr>
+<tr>
+<td>Typecho</td>
+<td>⭐⭐⭐</td>
+<td>博客软件</td>
+<td>自行搭建网页端</td>
+<td>开源 轻量化、生态佳，上手有门槛</td>
+<td><a href="https://typecho.org/">官网（简中）</a></td>
+</tr>
+<tr>
+<td>Notion</td>
+<td>⭐⭐⭐</td>
+<td>多用途</td>
+<td>全平台</td>
+<td>闭源 功能强大，上手有门槛，免费，没有官方中文</td>
+<td><a href="https://www.notion.so/">官网（En）</a></td>
+</tr>
+<tr>
+<td>flowus</td>
+<td>⭐⭐⭐</td>
+<td>多用途</td>
+<td>全平台</td>
+<td>闭源 功能强大，有门槛，免费，国内公司，懂得都懂</td>
+<td><a href="https://flowus.cn/">官网（简中）</a></td>
+</tr>
+<tr>
+<td>印象笔记</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>笔记类软件</td>
+<td>全平台</td>
+<td>闭源 功能强大，界面美观，但免费版功能有限</td>
+<td><a href="https://staging.yinxiang.com/">官网（简中）</a></td>
+</tr>
+<tr>
+<td>为知笔记</td>
+<td>⭐⭐⭐⭐</td>
+<td>笔记类软件</td>
+<td>全平台</td>
+<td>半开放 可自建服务，官方服务免费100天</td>
+<td><a href="https://www.wiz.cn/zh-cn">官网（简中）</a></td>
+</tr>
+<tr>
+<td>Wiki.js</td>
+<td>⭐⭐⭐</td>
+<td>知识库</td>
+<td>自行搭建网页端</td>
+<td>开源 免费好用的知识库，上手有门槛，要自行搭建</td>
+<td><a href="https://js.wiki/">官网（En）</a></td>
+</tr>
+<tr>
+<td>Gitbook</td>
+<td>⭐⭐</td>
+<td>多用途</td>
+<td>网页端</td>
+<td>偏闭源 中国大陆间歇性访问，纯英文</td>
+<td><a href="https://www.gitbook.com/">官网（En）</a></td>
+</tr>
+<tr>
+<td>Gridea</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>静态站点生成器</td>
+<td>电脑端</td>
+<td>开源 功能强大，界面美观，上手门槛较低</td>
+<td><a href="https://gridea.dev/">官网（简中）</a></td>
+</tr>
+<tr>
+<td>Hexo</td>
+<td>⭐⭐⭐⭐</td>
+<td>静态站点生成器</td>
+<td>电脑端</td>
+<td>开源 功能强大，基于命令行，不适合新手</td>
+<td><a href="https://hexo.io/">官网（简中）</a></td>
+</tr>
+<tr>
+<td>hugo</td>
+<td>⭐⭐⭐⭐</td>
+<td>静态站点生成器</td>
+<td>电脑端</td>
+<td>开源 功能强大，基于命令行，生态略差</td>
+<td><a href="https://gohugo.io/">官网（En）</a></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>话说WP对Markdown表格的支持又歇菜了......</p>
+</blockquote>
+<h3 id="一些想法">一些想法</h3>
+<p>懒得升华力，开摆。</p>
+
+                </div>
+            </article>
+        </div>
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://www.daoblog.top/post/20220702/" class="post-title gt-a-link">
+                    测试
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+            <!--<script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>-->
+
+<style>
+	div#waline{
+		width:100%;
+		max-width: 1050px;
+		padding: 2.5%;
+		font-family: "Noto Serif SC";
+	}
+	:root {
+        --waline-font-size: 18px;
+		font-family: "Noto Serif SC";
+		--waline-font-family: "Noto Serif SC";
+    }
+	span.katex { font-size: 18px; }
+	.wl-emoji-popup { font-size: 16px !important; }
+	.wl-emoji-popup button { height: 2em; }
+	.wl-panel {
+	    background: #6b938914 !important;
+    }
+	.wl-editor {
+	    background-color: rgba(83, 131, 130, 0.13) !important;
+	}
+</style>
+
+
+	<!--<div id="vcomments"></div>-->
+	<div id="waline"></div>
+
+<script type="module">
+	// Settings for Valine (For Original Theme)
+	// new Valine({
+	// 	el: '#vcomments',
+	//	appId: 'bAd7RExcBmuv1CJq53BAcHVv-gzGzoHsz',
+	//	appKey: 'g7dYw8npvGrgorSgGa4AH8L0',
+	//	avatar: 'retro',
+	//	pageSize: 10,
+	//	recordIp: true,
+	//	placeholder: 'ヽ(○´∀`)ﾉ♪  这里可评论哦~',
+	//	visitor: false,
+	//});
+	import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+	init({
+      el: '#waline',
+      serverURL: 'https://waline.ydlk.cc',
+	  avatar: 'retro',
+	  recordIp: true,
+	  reaction: true,
+	  pageview: true,
+	  comment: true,
+	  emoji: [
+      '//unpkg.com/@waline/emojis@1.1.0/bmoji',
+      '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+	  '//cdn.jsdelivr.net/npm/sticker-heo@2022.7.5/Sticker-100/',
+    ],
+	reaction: [
+    'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_sunglasses.png',
+    'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_thumbsup.png',
+    'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_doge.png',	
+	'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_confused.png',
+	'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_sweat.png',
+    'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_sleepy.png',
+  ],
+	  dark: false,
+	  recaptchaV3Key: "6LeicsQjAAAAAJpXhbQ4zMFDSj31XQqTI_2St5ZP",
+	  copyright: false,
+    });
+</script>
+<!--<script>
+    var versionNo = '1.1.1';
+    if(!window.localStorage.getItem('update-version') || window.localStorage.getItem('update-version') !=versionNo){
+        window.localStorage.setItem('update-version',versionNo)
+        alert('友情提示：我站已强制开启评论验证，请先在评论区点击登录，再进行评论，否则无法使用评论')
+    }
+</script>-->
+
+        
+
+        <!--<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>-->
+<div class="site-footer gt-c-content-color-first">
+    <!--<div class="slogan gt-c-content-color-first">Yandao's Personal Blog Website</div>-->
+    <p>【一言】</p><p id="hitokoto">😀 一言模块正在加载......</p>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    
+    <div class="footer-info">
+        
+    </div>
+    <p><a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2022002434号-1</a> | <a href="https://icp.gov.moe/?keyword=20220054" target="_blank">萌ICP备20220054号</a> | <a href="https://www.daoblog.top/post/privacy/" target="_blank">隐私政策</a><br />
+    <br />
+    <span id="runtime_span"></span>
+    <div>
+        同时提供：<a href="https://www.daoblog.top/atom.xml" target="_blank">RSS</a> | Made with ❤️ by <a href="https://yandao.is-a.dev/" target="_blank">Yandao</a> | <!--Power by <a href="https://vercel.com?utm_source=powered-by-vercel" target="_blank">Vercel</a> | --><span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        <p>Copyright © 2021-2023 <a href="https://yandao.is-a.dev/" target="_blank">Yandao</a>. All Rights Reserved.</p>
+    </div>
+    <div id="goTopBtn"><span class="glyphicon glyphicon-chevron-up">&Delta;</span></div>
+</div>
+<!--<script src="https://www.daoblog.top/asoul-l2d.js"></script>-->
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    /*返回顶部*/
+    $(window).scroll(function(){
+       var sc=$(window).scrollTop();
+       var rwidth=$(window).width()
+       if(sc>0){
+        $("#goTopBtn").css("display","block");
+        $("#goTopBtn").css("left",(rwidth-36)+"px")
+       }else{
+       $("#goTopBtn").css("display","none");
+       }
+     })
+     $("#goTopBtn").click(function(){
+       var sc=$(window).scrollTop();
+       $('body,html').animate({scrollTop:0},500);
+     })
+</script>
+<script src="https://yandaostatus.statuspage.io/embed/script.js"></script>
+<script>
+    function show_runtime() {window.setTimeout("show_runtime()",1000); X=new Date("11/12/2021 11:45:014"); Y=new Date(); T=(Y.getTime()-X.getTime()); M=24*60*60*1000; a=T/M;A=Math.floor(a); b=(a-A)*24;B=Math.floor(b); c=(b-B)*60;C=Math.floor((b-B)*60); D=Math.floor((c-C)*60); runtime_span.innerHTML="本站已运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();  Date("11/12/2021 11:45:14") 
+</script>
+<!--<script src="https://unpkg.com/petite-vue"></script>
+<script src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5115/index.bundle.js"></script>
+<script src="https://www.daoblog.top/music.js"></script>-->
+<script>
+  hljs.highlightAll()
+</script>
+<script>
+    pangu.spacingPage();
+</script>
+<script>
+    document.body.oncopy = function (){
+        iziToast.info({
+            timeout: 2000,
+            icon: 'Fontawesome', 
+            closeOnEscape: 'true', 
+            transitionIn: 'bounceInLeft', 
+            transitionOut: 'fadeOutRight',
+            displayMode: 'replace', 
+            layout: '2', 
+            position: 'topRight',
+            icon: 'fad fa-copy',
+            backgroundColor: '#fff', 
+            title: '复制成功', 
+            message: '未经许可，请勿转载' 
+        });
+    }
+</script>
+
+    </div>
+</div>
+</body>
+</html>
