@@ -1,0 +1,20 @@
+{
+    "name": "Yandao's Blog",
+    "short_name": "DaoBlog",
+    "start_url": "https://www.daoblog.top/",
+    "description": "Yandao's personal blog website",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "lang": "zh-CN",
+    "dir": "ltr",
+    "theme_color": "rgba(0,0,0,0.5)",
+    "background_color": "transparent",
+    "icons": [
+      {
+        "src": "logo.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
+      }
+    ]
+  }

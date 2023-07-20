@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+<style type="text/css">
+    html {
+        filter: grayscale(80%); 
+        -webkit-filter: grayscale(80%); 
+        -moz-filter: grayscale(80%); 
+        -ms-filter: grayscale(80%); 
+        -o-filter: grayscale(80%); 
+        -webkit-filter: grayscale(0.96);
+    }
+</style>-->
+<style type="text/css">
+  .indeximg {
+      filter: grayscale(80%); 
+      -webkit-filter: grayscale(80%); 
+      -moz-filter: grayscale(80%); 
+      -ms-filter: grayscale(80%); 
+      -o-filter: grayscale(80%); 
+      -webkit-filter: grayscale(0.96);
+  }
+</style>
+<script async src="https://umami.ydlk.cc/script.js" data-website-id="d672eae5-ce9f-4d45-91d3-194292d75a0f"></script>
+<!--<script async defer src="https://analytics.umami.is/script.js" data-website-id="8fc5692e-566b-4c02-a8e5-d683560426d3"></script>-->
+<!--<script defer src="/_vercel/insights/script.js"></script>
+<script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
+<script>
+  new LingQue.Monitor().init({id:"JvkK0PV98iBkjgQV",sendSuspicious:true});
+</script>-->
+<meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>常用脚本合集 | Kris Yan</title>
+
+<link rel="shortcut icon" href="https://www.daoblog.top/favicon.ico?v=1689863572672">
+
+<!--<link rel="stylesheet" type="text/css" href="https://doge.jsdelivr.daoblog.top/gh/zhheo/JS-Heo@main/mainColor/heoMainColor.css">
+<link rel="stylesheet" type="text/css" href="https://doge.jsdelivr.daoblog.top/npm/js-heo@1.0.11/hidescrollbar/hidescrollbar.css">-->
+<link href="https://doge.jsdelivr.daoblog.top/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://www.daoblog.top/styles/main.css">
+<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+<!--<link rel="stylesheet" href="https://static.daoblog.top/5115/index.bundle.css">-->
+<!-- <link rel="stylesheet" href="https://doge.jsdelivr.daoblog.top/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<!--<script src="https://doge.jsdelivr.daoblog.top/npm/js-heo@1.0.11/hidescrollbar/hidescrollbar.js" type="text/javascript"></script>-->
+<script src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--<script src="https://lib.baomitu.com/pjax/0.2.8/pjax.min.js"></script>-->
+<!-- <script src="https://doge.jsdelivr.daoblog.top/npm/pjax/pjax.js"></script>-->
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto&c=i&c=k" defer></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<script defer type="text/javascript" src="https://www.daoblog.top/js/console-text.js"></script>
+<script src="https://doge.jsdelivr.daoblog.top/npm/pangu.simple@1.0.5/dist/browser/pangu.js"></script>
+<link rel="stylesheet" href="https://www.daoblog.top/media/heomaincolor.css">
+<!--<script defer type="text/javascript" src="/js/mouse.js"></script>-->
+<!--<script src="https://doge.jsdelivr.daoblog.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script>
+<script src="/js/lunar.js"></script>
+<script src="/js/day.js"></script>-->
+<!--<script async data-pjax src="https://doge.jsdelivr.daoblog.top/gh/zhheo/JS-Heo@main/rightmenu/rightmenu.js"></script>-->
+
+<!-- 引入 Noto Serif SC 
+<link type="text/css" rel="preload stylesheet" as="style" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" crossorigin >
+
+!-- Google font预加载&缓存 --
+<link rel="dns-prefetch" href="https://fonts.loli.net/">
+<link rel="dns-prefetch" href="https://gstatic.loli.net/">
+ 
+<link rel="preconnect"  href="https://gstatic.loli.net"  crossorigin />
+
+<noscript>
+<link rel="stylesheet"  href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" onload="this.media='all'" />
+</noscript>-->
+
+<!--<link rel='stylesheet' href='https://ik.imagekit.io/chinesefonts/packages/syst/dist/SourceHanSerifCN/result.css' />-->
+
+<!-- <link href='https://fonts.loli.net/css?family=Noto+Sans' rel='stylesheet'> -->
+
+<!-- <script src="https://doge.jsdelivr.daoblog.top/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://doge.jsdelivr.daoblog.top/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://doge.jsdelivr.daoblog.top/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://doge.jsdelivr.daoblog.top/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+<!--<script src="//geoip-js.com/js/apis/geoip2/v2.1/geoip2.js" type="text/javascript"></script>
+<script>
+var foreignTips = (function () {
+    var onSuccess = function (geoipResponse) {
+      if (!geoipResponse.country.iso_code) {
+        return;
+      }
+      var code = geoipResponse.country.iso_code.toLowerCase();
+      if (code != 'cn'){
+        iziToast.info({
+            title: 'Notice',
+            message: '使用国外网络访问将无法部分内容，敬请谅解。If you use foreign network access, you will not be able to access some contents.',
+        });
+    };
+    var onError = function (error) {
+    };
+    return function () {
+      geoip2.country(onSuccess, onError);
+    };
+  }()});
+  foreignTips();
+</script>-->
+
+<!--<script src="https://doge.jsdelivr.daoblog.top/npm/hexo-lanternjs@1.0.0/lantern.min.js"></script>--
+<link rel="manifest" href="index.webmanifest" />
+!-- 老浏览器私有 meta 标签兼容 --
+<script src="https://doge.jsdelivr.daoblog.top/npm/pwacompat@2.0.15/pwacompat.min.js"></script>-->
+
+<!--<script>
+  zif (localStorage.getItem('20230121') === null) ;{
+    iziToast.info({
+      title: 'Notice',
+      message: '大陆访问困难？请访问cn.daoblog.top。点我确认知晓'
+    });
+    localStorage.setItem('20230121', 'true');
+  }
+</script>-->
+
+<!--<script src="https://doge.jsdelivr.daoblog.top/npm/hexo-lanternjs@1.0.0/lantern.min.js"></script>-->
+<!--<script src="https://doge.jsdelivr.daoblog.top/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>-->
+
+<!-- OG -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="常用脚本合集 | Kris Yan">
+<meta property="og:description" content="Personal blog website of Kris Yan">
+<meta property="og:image" content="https://www.daoblog.top/OG/ogimg.jpg">
+<meta property="twitter:creator" content="@YanDao0313">
+<!--<meta property="og:url" content="http://www.daoblog.top/">-->
+
+<!-- wx&qq -->
+<script>
+  wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
+  wx.updateAppMessageShareData({ 
+    desc: 'Personal blog website of Kris Yan', // 分享描述
+    imgUrl: 'https://www.daoblog.top/images/avatar.png', // 分享图标
+    success: function () {
+      console.log("TX APP Success");// 设置成功
+    }
+  });
+  wx.updateTimelineShareData({ 
+    imgUrl: 'https://www.daoblog.top/images/avatar.png', // 分享图标
+    success: function () {
+      console.log("TX Timeline Success");// 设置成功
+    }
+  });
+});
+</script>
+
+
+
+    <link rel="stylesheet" href="https://doge.jsdelivr.daoblog.top/npm/katex@0.12.0/dist/katex.css">
+    
+        <script src="https://doge.jsdelivr.daoblog.top/npm/mermaid@9.1.1/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script> 
+    
+    <link rel="stylesheet" href="https://doge.unpkg.daoblog.top/@waline/client@v2/dist/waline.css"/>
+    <link rel="stylesheet" href="https://doge.unpkg.daoblog.top/@waline/client@v2/dist/waline-meta.css"/>
+    <!--<script src="https://cdn.zhheo.com/JS-Heo/privacy/privacy.js"></script>-->
+    <script src="https://doge.jsdelivr.daoblog.top/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+    <!--<script src="/js/shirokoai.js"></script>-->
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <div id="lantern-wrapper" class="lantern-wrapper" no-select></div>
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像" data-cursor="block" data-cursor-style="backdropBlur: 0; durationBackdropFilter: 500; radius: 50%" >
+        <div class="site-name gt-c-content-color-first" data-cursor="block" data-cursor-style="backdropBlur: 0; durationBackdropFilter: 500">
+            Kris Yan
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link" data-cursor="block">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link" data-cursor="block">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link" data-cursor="block">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/friends" class="menu gt-a-link" data-cursor="block">
+                    友链
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://yandaostatus.statuspage.io/" class="menu gt-a-link" target="_blank" data-cursor="block">
+                    状态
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link" data-cursor="block">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center" data-cursor="text">
+            <form id="gridea-search-form" style="position: relative" data-update="1689863572672"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+            <!--<script async src="https://cse.google.com/cse.js?cx=c77ab7baf59fb4f8f"></script>
+            <div class="gcse-search"></div>-->
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second" style="border-radius: 10px;">
+            <article class="gt-post-content">
+                <h2 class="post-title" data-cursor="text">
+                    常用脚本合集
+                </h2>
+                <div class="post-info">
+                    <a href='javascript:AutoHan_StranBody()' id='StranLink' data-cursor="block">切换繁体</a>
+                    <time class="post-time gt-c-content-color-first" data-cursor="text">
+                        · 2022-11-18 ·
+                    </time>
+                    
+                        <a href="https://www.daoblog.top/tag/notes/" class="post-tags" data-cursor="block">
+                            # notes
+                        </a>
+                    
+                        <a href="https://www.daoblog.top/tag/tech/" class="post-tags" data-cursor="block">
+                            # tech
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <!--<div class="post-ai">
+                        <div class="ai-title">
+                            <i class="heofont icon-jiqiren ai-title-icon tianliGPT-title-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+                                    <title>机器人</title>
+                                        <g id="机器人" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <path d="M34.717885,5.03561087 C36.12744,5.27055371 37.079755,6.60373651 36.84481,8.0132786 L35.7944,14.3153359 L38.375,14.3153359 C43.138415,14.3153359 47,18.1768855 47,22.9402569 L47,34.4401516 C47,39.203523 43.138415,43.0650727 38.375,43.0650727 L9.625,43.0650727 C4.861585,43.0650727 1,39.203523 1,34.4401516 L1,22.9402569 C1,18.1768855 4.861585,14.3153359 9.625,14.3153359 L12.2056,14.3153359 L11.15519,8.0132786 C10.920245,6.60373651 11.87256,5.27055371 13.282115,5.03561087 C14.69167,4.80066802 16.024865,5.7529743 16.25981,7.16251639 L17.40981,14.0624532 C17.423955,14.1470924 17.43373,14.2315017 17.43948,14.3153359 L30.56052,14.3153359 C30.56627,14.2313867 30.576045,14.1470924 30.59019,14.0624532 L31.74019,7.16251639 C31.975135,5.7529743 33.30833,4.80066802 34.717885,5.03561087 Z M38.375,19.4902885 L9.625,19.4902885 C7.719565,19.4902885 6.175,21.0348394 6.175,22.9402569 L6.175,34.4401516 C6.175,36.3455692 7.719565,37.89012 9.625,37.89012 L38.375,37.89012 C40.280435,37.89012 41.825,36.3455692 41.825,34.4401516 L41.825,22.9402569 C41.825,21.0348394 40.280435,19.4902885 38.375,19.4902885 Z M14.8575,23.802749 C16.28649,23.802749 17.445,24.9612484 17.445,26.3902253 L17.445,28.6902043 C17.445,30.1191812 16.28649,31.2776806 14.8575,31.2776806 C13.42851,31.2776806 12.27,30.1191812 12.27,28.6902043 L12.27,26.3902253 C12.27,24.9612484 13.42851,23.802749 14.8575,23.802749 Z M33.1425,23.802749 C34.57149,23.802749 35.73,24.9612484 35.73,26.3902253 L35.73,28.6902043 C35.73,30.1191812 34.57149,31.2776806 33.1425,31.2776806 C31.71351,31.2776806 30.555,30.1191812 30.555,28.6902043 L30.555,26.3902253 C30.555,24.9612484 31.71351,23.802749 33.1425,23.802749 Z" id="形状结合" fill="#444444" fill-rule="nonzero"></path>
+                                        </g>
+                                </svg>
+                            </i>
+                            <div class="ai-title-text">AI摘要</div>
+                            <div id="ai-Toggle">切换</div>
+                            <div class="ai-tag" id="ai-tag">ShirokoAI</div>
+                        </div>
+                        <div class="ai-explanation" style="display: block;">
+                            老师，请再等等哦~
+                        </div>
+                        <div class="ai-suggestions"></div>
+                    </div>-->
+                    <div class="note-TianliGPT"><div class="tianliGPT-title">
+                        <i class="tianliGPT-title-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+                                <title>机器人</title>
+                                    <g id="机器人" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" data-cursor="block">
+                                        <path d="M34.717885,5.03561087 C36.12744,5.27055371 37.079755,6.60373651 36.84481,8.0132786 L35.7944,14.3153359 L38.375,14.3153359 C43.138415,14.3153359 47,18.1768855 47,22.9402569 L47,34.4401516 C47,39.203523 43.138415,43.0650727 38.375,43.0650727 L9.625,43.0650727 C4.861585,43.0650727 1,39.203523 1,34.4401516 L1,22.9402569 C1,18.1768855 4.861585,14.3153359 9.625,14.3153359 L12.2056,14.3153359 L11.15519,8.0132786 C10.920245,6.60373651 11.87256,5.27055371 13.282115,5.03561087 C14.69167,4.80066802 16.024865,5.7529743 16.25981,7.16251639 L17.40981,14.0624532 C17.423955,14.1470924 17.43373,14.2315017 17.43948,14.3153359 L30.56052,14.3153359 C30.56627,14.2313867 30.576045,14.1470924 30.59019,14.0624532 L31.74019,7.16251639 C31.975135,5.7529743 33.30833,4.80066802 34.717885,5.03561087 Z M38.375,19.4902885 L9.625,19.4902885 C7.719565,19.4902885 6.175,21.0348394 6.175,22.9402569 L6.175,34.4401516 C6.175,36.3455692 7.719565,37.89012 9.625,37.89012 L38.375,37.89012 C40.280435,37.89012 41.825,36.3455692 41.825,34.4401516 L41.825,22.9402569 C41.825,21.0348394 40.280435,19.4902885 38.375,19.4902885 Z M14.8575,23.802749 C16.28649,23.802749 17.445,24.9612484 17.445,26.3902253 L17.445,28.6902043 C17.445,30.1191812 16.28649,31.2776806 14.8575,31.2776806 C13.42851,31.2776806 12.27,30.1191812 12.27,28.6902043 L12.27,26.3902253 C12.27,24.9612484 13.42851,23.802749 14.8575,23.802749 Z M33.1425,23.802749 C34.57149,23.802749 35.73,24.9612484 35.73,26.3902253 L35.73,28.6902043 C35.73,30.1191812 34.57149,31.2776806 33.1425,31.2776806 C31.71351,31.2776806 30.555,30.1191812 30.555,28.6902043 L30.555,26.3902253 C30.555,24.9612484 31.71351,23.802749 33.1425,23.802749 Z" id="形状结合" fill="#444444" fill-rule="nonzero"></path>
+                                    </g>
+                            </svg>
+                        </i>
+                        <div class="tianliGPT-title-text" data-cursor="text">AI生成的内容仅供参考，不代表文章全部内容及本人立场</div>
+                        <div class="tianliGPT-tag" id="tianliGPT-tag" data-cursor="block">Tip</div>
+                    </div>
+                </div>
+                <div data-cursor="text">
+                    <blockquote>
+<p>一个简单的整理~</p>
+</blockquote>
+<!-- more -->
+<h2 id="综合工具箱强烈推荐集成了很多脚本">综合工具箱（强烈推荐，集成了很多脚本）</h2>
+<pre><code>wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &amp;&amp; chmod +x box.sh &amp;&amp; clear &amp;&amp; ./box.sh
+</code></pre>
+<h2 id="杜甫测试">杜甫测试</h2>
+<pre><code>wget -q https://github.com/Aniverse/A/raw/i/a &amp;&amp; bash a
+</code></pre>
+<h2 id="dd相关">DD相关</h2>
+<h3 id="甲骨文dd脚本">甲骨文DD脚本</h3>
+<p>Debian 10</p>
+<pre><code>bash &lt;(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -d 10 -v 64 -p &quot;自定义root密码&quot; -port &quot;自定义ssh端口&quot;
+</code></pre>
+<p>Ubuntu 20.04</p>
+<pre><code>bash &lt;(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -u 20.04 -v 64 -p &quot;自定义root密码&quot; -port &quot;自定义ssh端口&quot;
+</code></pre>
+<h3 id="moeclub脚本">MoeClub脚本</h3>
+<p>22/11/2021 15:21 萌咖更新脚本：</p>
+<p>1.新增对 Oracle AMD，Oracle ARM全面支持. 可支持从 Ubuntu, Oracle Linux 等系统网络重装.<br>
+2.更新 dd 镜像的基础系统版本.<br>
+3.移除对外部 wget 的依赖.<br>
+4.新增 -port 参数, 可更改默认SSH端口.<br>
+5.更新 内置的网络参数计算 逻辑.<br>
+6.更新 grub 配置文件定位逻辑, 可支持任意引导grub的系统.</p>
+<pre><code>bash &lt;(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -d 10 -v 64 -p &quot;自定义root密码&quot; -port &quot;自定义ssh端口&quot;
+</code></pre>
+<p>-d 10 -v 64<br>
+-d 9 -v 64<br>
+-u 20.04 -v 64<br>
+-u 18.04 -v 64</p>
+<p>开机改密脚本：</p>
+<pre><code>#!/bin/bash
+echo root:Vicer |sudo chpasswd root
+sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
+sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
+sudo reboot
+</code></pre>
+<h3 id="另一位大佬的">另一位大佬的</h3>
+<pre><code>wget --no-check-certificate -O AutoReinstall.sh https://git.io/AutoReinstall.sh &amp;&amp; bash AutoReinstall.sh
+</code></pre>
+<blockquote>
+<p>注意<br>
+CentOS默认密码Pwd@CentOS 其它系统Pwd@Linux<br>
+OpenVZ / LXC 架构系统不适用</p>
+</blockquote>
+<p>来源：https://blog.hicasper.com/post/135.html 参考：https://www.ydyno.com/archives/1245.html 感谢大佬的付出！</p>
+<pre><code>bash &lt;(wget --no-check-certificate -qO- 'https://file.geekn.net/CNODnjau/InstallNET.sh') -d 11 -v 64 -a -firmware
+</code></pre>
+<p>-firmware 额外的驱动支持<br>
+-d 后面是系统版本号<br>
+-v 后面写64位 32位<br>
+-a （不清楚这个干啥的但是每个脚本都带）<br>
+–mirror 后面是镜像源地址<br>
+-p 后写自定义密码</p>
+<blockquote>
+<p>镜像站地址<br>
+官方给出的地址列表：https://www.debian.org/mirror/list</p>
+<p>一些国内的<br>
+ftp.cn.debian.org<br>
+mirror.bjtu.edu.cn<br>
+mirror.lzu.edu.cn<br>
+mirror.nju.edu.cn<br>
+mirrors.163.com<br>
+mirrors.bfsu.edu.cn<br>
+mirrors.hit.edu.cn<br>
+mirrors.huaweicloud.com<br>
+mirror.sjtu.edu.cn<br>
+mirrors.tuna.tsinghua.edu.cn<br>
+mirrors.ustc.edu.cn</p>
+<p>使用方法：（大致都是一样的）</p>
+<p>清华源<br>
+--mirror 'https://mirrors.ustc.edu.cn/debian/'</p>
+<p>腾讯源<br>
+--mirror 'https://mirrors.aliyun.com/debian/'</p>
+<p>阿里源<br>
+--mirror 'https://mirrors.aliyun.com/debian/'</p>
+<p>华为源<br>
+--mirror 'https://mirrors.huaweicloud.com/debian/'</p>
+</blockquote>
+<h3 id="秋水逸冰-windows-2012201620192022-1011-dd-镜像">秋水逸冰 Windows 2012/2016/2019/2022 10/11 DD 镜像</h3>
+<p>适用于 UEFI 启动的多个 Windows 系统 DD 镜像：</p>
+<p>https://teddysun.com/656.html</p>
+<p>分别是：</p>
+<ul>
+<li>Windows Server 2012 R2 Datacenter</li>
+<li>Windows Server 2016 Datacenter (build: 14393.5006)</li>
+<li>Windows Server 2019 Datacenter (build: 17763.2686)</li>
+<li>Windows Server 2022 Datacenter (build: 20348.587)</li>
+<li>Windows 10 Enterprise LTSC (build: 19044.1288)</li>
+<li>Windows 11 Pro for Workstations 21H2 (build: 22000.194)</li>
+</ul>
+<p>适用于 BIOS 启动的 Windows Server 2022 Datacenter DD 镜像：</p>
+<p>https://teddysun.com/629.html</p>
+<p>适用于 BIOS 启动的 Windows 11 Pro for Workstations 21H2 DD 镜像：</p>
+<p>https://teddysun.com/642.html</p>
+<p>适用于 BIOS 启动的 Windows 10 Enterprise LTSC DD 镜像：</p>
+<p>https://teddysun.com/640.html</p>
+<p>适用于 BIOS 启动的 Windows Server 2019/2016/2012R2 Datacenter DD 镜像：</p>
+<p>https://teddysun.com/545.html</p>
+<p>分别是：</p>
+<ul>
+<li>Windows Server 2019 Datacenter（Build: 17763.2686）</li>
+<li>Windows Server 2016 Datacenter（Build: 14393.5006）</li>
+<li>Windows Server 2012 R2 Datacenter</li>
+</ul>
+<h2 id="测试相关">测试相关</h2>
+<h3 id="机器测试">机器测试</h3>
+<h4 id="单线程测试">单线程测试</h4>
+<pre><code>bash &lt;(curl -Lso- https://bench.im/hyperspeed)
+</code></pre>
+<h4 id="测速脚本">测速脚本</h4>
+<pre><code>curl -fsL https://ilemonra.in/LemonBenchIntl | bash -s fast
+</code></pre>
+<h4 id="superbench">superbench</h4>
+<pre><code>wget -qO- git.io/superbench.sh | bash
+</code></pre>
+<h4 id="benchsh">Bench.sh</h4>
+<pre><code>wget -qO- bench.sh | bash
+</code></pre>
+<h3 id="速度测试">速度测试</h3>
+<h4 id="直接显示回程线路">直接显示回程线路</h4>
+<pre><code>curl https://raw.githubusercontent.com/zhucaidan/mtr_trace/main/mtr_trace.sh|bash
+
+
+wget -q route.f2k.pub -O route &amp;&amp; bash route
+
+
+# 第一个
+wget https://raw.githubusercontent.com/nanqinlang-script/testrace/master/testrace.sh
+</code></pre>
+<p>bash testrace.sh</p>
+<pre><code># 第二个
+wget -qO- git.io/besttrace | bash
+</code></pre>
+<h4 id="四网测速">四网测速</h4>
+<pre><code>wget -O jcnf.sh https://raw.githubusercontent.com/Netflixxp/jcnfbesttrace/main/jcnf.sh
+
+bash jcnf.sh
+</code></pre>
+<h4 id="三网测速">三网测速</h4>
+<pre><code>bash &lt;(curl -Lso- https://git.io/superspeed_uxh)
+</code></pre>
+<p>带快速四网测试版本：</p>
+<pre><code>bash &lt;(curl -Lso- https://dl.233.mba/d/sh/speedtest.sh)
+
+bash &lt;(curl -Lso- https://git.io/J1SEh)
+</code></pre>
+<p>带综合测试的版本（CPU信息、Geekbench等）：</p>
+<pre><code>bash &lt;(wget --no-check-certificate -O- https://dl.233.mba/d/sh/superbenchpro.sh)
+</code></pre>
+<blockquote>
+<p>来源：https://www.wrnxr.cn/163.html</p>
+</blockquote>
+<h3 id="测试25端口">测试25端口</h3>
+<pre><code>telnet smtp.aol.com 25
+</code></pre>
+<h3 id="测试ipv4优先-ipv6优先">测试IPv4优先 / IPv6优先</h3>
+<pre><code>curl ip.p3terx.com
+</code></pre>
+<h3 id="流媒体测试">流媒体测试</h3>
+<h4 id="全媒体测试">全媒体测试</h4>
+<pre><code>bash &lt;(curl -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/check.sh)
+</code></pre>
+<h4 id="奈飞测试">奈飞测试</h4>
+<pre><code>wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.5/nf_2.5_linux_amd64 &amp;&amp; chmod +x nf &amp;&amp; clear &amp;&amp; ./nf
+
+#第一个
+bash &lt;(curl -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/check.sh)
+
+# 第二个
+bash &lt;(curl -sSL &quot;https://github.com/CoiaPrant/MediaUnlock_Test/raw/main/check.sh&quot;)
+</code></pre>
+<h2 id="warp">WARP</h2>
+<pre><code>wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/YG-tsj/CFWarp-Pro/multi.sh &amp;&amp; chmod +x multi.sh &amp;&amp; ./multi.sh
+</code></pre>
+<p>之后进入脚本快捷方式为 <code>bash multi.sh</code></p>
+<h2 id="服务器时间">服务器时间</h2>
+<h3 id="centos-同步时间">CentOS 同步时间</h3>
+<pre><code>yum -y install ntpdate
+timedatectl set-timezone Asia/Shanghai
+ntpdate ntp1.aliyun.com
+</code></pre>
+<h2 id="bbr">BBR</h2>
+<h3 id="centos-7-bbr">CentOS 7 BBR</h3>
+<pre><code>wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh
+</code></pre>
+<h3 id="一键开启bbr">一键开启BBR</h3>
+<p>注意：需要Linux Kernel 内核升级到 4.9 及以上版本可以实现 BBR 加速</p>
+<pre><code>uname -srm
+</code></pre>
+<p>输出结果应为：</p>
+<pre><code>Linux 3.10.0-957.12.2.el7.x86_64 x86_64
+# Tip
+3 - 内核版本.
+10 - 主修订版本.
+0-957 - 次要修订版本.
+12 - 补丁版本.
+</code></pre>
+<p>一般来说，Ubuntu18.04以上就可以 (默认内核 <code>4.15</code> )</p>
+<pre><code>echo &quot;net.core.default_qdisc=fq&quot; &gt;&gt; /etc/sysctl.conf
+echo &quot;net.ipv4.tcp_congestion_control=bbr&quot; &gt;&gt; /etc/sysctl.conf
+
+sysctl -p
+
+sysctl net.ipv4.tcp_available_congestion_control
+
+lsmod | grep bbr
+</code></pre>
+<h2 id="docker相关">Docker相关</h2>
+<h3 id="更新-安装必备软件">更新、安装必备软件</h3>
+<pre><code>wget -qO- get.docker.com | bash
+</code></pre>
+<h3 id="海外服务器">海外服务器</h3>
+<h4 id="安装docker">安装Docker</h4>
+<pre><code>wget -qO- get.docker.com | bash
+</code></pre>
+<h4 id="卸载docker">卸载Docker</h4>
+<pre><code>sudo apt-get purge docker-ce docker-ce-cli containerd.io
+
+
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+</code></pre>
+<h4 id="安装docker-compose">安装Docker-compose</h4>
+<pre><code> sudo curl -L &quot;https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)&quot; -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+</code></pre>
+<p>查看版本</p>
+<pre><code>docker-compose --version
+</code></pre>
+<h3 id="大陆服务器">大陆服务器</h3>
+<h4 id="安装docker-2">安装docker</h4>
+<pre><code>curl -sSL https://get.daocloud.io/docker | sh
+</code></pre>
+<h4 id="卸载docker-2">卸载docker</h4>
+<pre><code>sudo apt-get remove docker docker-engine
+rm -fr /var/lib/docker/
+</code></pre>
+<h4 id="安装docker-compose-2">安装docker-compose</h4>
+<pre><code>curl -L https://get.daocloud.io/docker/compose/releases/download/v2.1.1/docker-	compose-`uname -s`-`uname -m` &gt; /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+</code></pre>
+<h2 id="防火墙">防火墙</h2>
+<h3 id="centos-关闭防火墙">CentOS 关闭防火墙</h3>
+<pre><code>systemctl start supervisord
+systemctl disable firewalld
+systemctl stop firewalld
+</code></pre>
+<h2 id="宝塔相关">宝塔相关</h2>
+<h3 id="宝塔aapanel那啥">宝塔&amp;aapanel那啥</h3>
+<pre><code># 宝塔&amp;aapanel破解
+编辑 /www/server/panel/class/panelplugin.py
+找到 softList['list'] = tmpList 这行代码
+在下面添加以下代码，注意缩进！！！
+
+softList['pro'] = 1
+for soft in softList['list']:
+soft['endtime'] = 0
+
+编辑完毕后保存重启面板即可
+</code></pre>
+<h3 id="宝塔安装">宝塔安装</h3>
+<h4 id="centos">CentOS</h4>
+<pre><code>yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh ed8484bec
+</code></pre>
+<h4 id="ubuntu-或-deepin">Ubuntu 或 Deepin</h4>
+<pre><code>wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh &amp;&amp; sudo bash install.sh ed8484bec
+</code></pre>
+<h4 id="debian">Debian</h4>
+<pre><code>wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh &amp;&amp; bash install.sh ed8484bec
+</code></pre>
+<h4 id="龙芯架构脚本">龙芯架构脚本</h4>
+<pre><code>wget -O install_panel.sh http://download.bt.cn/install/0/loongarch64/loongarch64_install_panel.sh &amp;&amp; bash install_panel.sh ed8484bec
+</code></pre>
+<h4 id="万能安装脚本">万能安装脚本</h4>
+<pre><code>if [ -f /usr/bin/curl ];then curl -sSO https://download.bt.cn/install/install_panel.sh;else wget -O install_panel.sh https://download.bt.cn/install/install_panel.sh;fi;bash install_panel.sh ed8484bec
+</code></pre>
+<blockquote>
+<p>注意：必须为没装过其它环境如Apache/Nginx/php/MySQL的新系统,推荐使用centos 7.X的系统安装宝塔面板</p>
+<p>推荐使用Chrome、火狐、edge浏览器，国产浏览器请使用极速模式访问面板登录地址</p>
+<p>如果不确定使用哪个Linux系统版本的，可以使用万能安装脚本</p>
+<p>国产龙芯架构CPU安装命令，支持龙芯架构的loongnix 8.x、统信UOS 20、kylin v10系统</p>
+</blockquote>
+<h2 id="最后">最后...</h2>
+<p>大家有好用的脚本欢迎推荐，有需求也欢迎留言~</p>
+
+                </div>
+                </div>
+            </article>
+        </div>
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first" data-cursor="text">下一篇</div>
+                <a href="https://www.daoblog.top/post/Notes-Example/" class="post-title gt-a-link" data-cursor="block">
+                    Notes Example
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+            <!--<script src='https://doge.jsdelivr.daoblog.top/npm/valine/dist/Valine.min.js'></script>-->
+
+<style>
+	div#waline{
+		width:100%;
+		max-width: 1050px;
+		padding: 2.5%;
+		font-family: "Noto Serif SC";
+	}
+	:root {
+        --waline-font-size: 18px;
+		font-family: "Noto Serif SC";
+		--waline-font-family: "Noto Serif SC";
+    }
+	span.katex { font-size: 18px; }
+	.wl-emoji-popup { font-size: 16px !important; }
+	.wl-emoji-popup button { height: 2em; }
+	.wl-panel {
+	    background: #6b938914 !important;
+    }
+	.wl-editor {
+	    background-color: rgba(83, 131, 130, 0.13) !important;
+	}
+</style>
+
+
+	<!--<div id="vcomments"></div>-->
+	<div id="waline"></div>
+
+<script type="module">
+	// Settings for Valine (For Original Theme)
+	// new Valine({
+	// 	el: '#vcomments',
+	//	appId: 'bAd7RExcBmuv1CJq53BAcHVv-gzGzoHsz',
+	//	appKey: 'g7dYw8npvGrgorSgGa4AH8L0',
+	//	avatar: 'retro',
+	//	pageSize: 10,
+	//	recordIp: true,
+	//	placeholder: 'ヽ(○´∀`)ﾉ♪  这里可评论哦~',
+	//	visitor: false,
+	//});
+	import { init } from 'https://doge.unpkg.daoblog.top/@waline/client@v2/dist/waline.mjs';
+	init({
+      el: '#waline',
+      serverURL: 'https://waline.ydlk.cc',
+	  avatar: 'retro',
+	  recordIp: true,
+	  reaction: false,
+	  pageview: true,
+	  comment: true,
+	  emoji: [
+      //'//doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bmoji',
+      '//doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili',
+	  '//doge.jsdelivr.daoblog.top/npm/sticker-heo@2022.7.5/Sticker-100/',
+    ],
+	//reaction: [
+    //'https://doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili/bb_sunglasses.png',
+    //'https://doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili/bb_thumbsup.png',
+    //'https://doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili/bb_doge.png',	
+	//'https://doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili/bb_confused.png',
+	//'https://doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili/bb_sweat.png',
+    //'https://doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili/bb_sleepy.png',
+  //],
+	  dark: false,
+	  recaptchaV3Key: "6LeicsQjAAAAAJpXhbQ4zMFDSj31XQqTI_2St5ZP",
+	  copyright: false,
+    });
+</script>
+<!--<script>
+    var versionNo = '1.1.1';
+    if(!window.localStorage.getItem('update-version') || window.localStorage.getItem('update-version') !=versionNo){
+        window.localStorage.setItem('update-version',versionNo)
+        alert('友情提示：我站已强制开启评论验证，请先在评论区点击登录，再进行评论，否则无法使用评论')
+    }
+</script>-->
+
+        
+
+        <!--<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>-->
+<script>
+    pangu.spacingPage();
+</script>
+<script 
+  data-host-id="1" 
+  data-close-width="48" 
+  data-close-height="48" 
+  data-open-width="380" 
+  data-open-height="680" 
+  src="https://chat.origin.yandao.cloud/widget.js" 
+  async ></script>
+<div class="site-footer gt-c-content-color-first">
+    <!--<div class="slogan gt-c-content-color-first">Old Personal blog website of Kris Yan</div>-->
+    <p data-cursor="text">【一言】</p><p id="hitokoto" data-cursor="text">😀 一言模块正在加载......</p>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    
+    <div class="footer-info" data-cursor="text">
+        
+    </div>
+    <p><a href="https://beian.miit.gov.cn/" target="_blank" data-cursor="block">蜀ICP备2022002434号-1</a> | <a href="https://icp.gov.moe/?keyword=20220054" target="_blank" data-cursor="block">萌ICP备20220054号</a> | <a href="https://www.daoblog.top/post/privacy/" target="_blank" data-cursor="block">隐私</a> | <a href='javascript:AutoHan_StranBody()' id='StranLink' data-cursor="block">切换繁体</a><br />
+    <br />
+    <span id="runtime_span"></span>
+    <div>
+        <p data-cursor="text">同时提供：<a href="https://www.daoblog.top/atom.xml" target="_blank" data-cursor="block">RSS</a> | Made with ❤️ by <a href="https://krisyan.dev/" target="_blank" data-cursor="block">Kris Yan</a> | <!--Power by <a href="https://vercel.com?utm_source=powered-by-vercel" target="_blank" data-cursor="block">Vercel</a> | --><span id="busuanzi_container_site_pv" data-cursor="text">总访问量<span id="busuanzi_value_site_pv"></span>次</span></p>
+        <p data-cursor="text">Copyright © 2021-2023 <a href="https://krisyan.dev/" target="_blank" data-cursor="block">Kris Yan</a>. All Rights Reserved. | <a href="https://www.daoblog.top/post/changelog/" data-cursor="block">Theme</a></p>
+    </div>
+    <div id="goTopBtn" data-cursor="block"><span class="glyphicon glyphicon-chevron-up">&Delta;</span></div>
+</div>
+<!--<script src="https://www.daoblog.top/asoul-l2d.js"></script>-->
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    /*返回顶部*/
+    $(window).scroll(function(){
+       var sc=$(window).scrollTop();
+       var rwidth=$(window).width()
+       if(sc>0){
+        $("#goTopBtn").css("display","block");
+        $("#goTopBtn").css("left",(rwidth-36)+"px")
+       }else{
+       $("#goTopBtn").css("display","none");
+       }
+     })
+     $("#goTopBtn").click(function(){
+       var sc=$(window).scrollTop();
+       $('body,html').animate({scrollTop:0},500);
+     })
+</script>
+<script src="https://yandaostatus.statuspage.io/embed/script.js"></script>
+<script>
+    function show_runtime() {window.setTimeout("show_runtime()",1000); X=new Date("11/12/2021 11:45:014"); Y=new Date(); T=(Y.getTime()-X.getTime()); M=24*60*60*1000; a=T/M;A=Math.floor(a); b=(a-A)*24;B=Math.floor(b); c=(b-B)*60;C=Math.floor((b-B)*60); D=Math.floor((c-C)*60); runtime_span.innerHTML="本站已运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();  Date("11/12/2021 11:45:14") 
+</script>
+<!--<script src="https://doge.unpkg.daoblog.top/petite-vue"></script>
+<script src="https://static.daoblog.top/5115/index.bundle.js"></script>
+<script src="https://www.daoblog.top/music.js"></script>-->
+<script>
+  hljs.highlightAll()
+</script>
+<script>
+    document.body.oncopy = function (){
+        iziToast.info({
+            timeout: 2000,
+            icon: 'Fontawesome', 
+            closeOnEscape: 'true', 
+            transitionIn: 'bounceInLeft', 
+            transitionOut: 'fadeOutRight',
+            displayMode: 'replace', 
+            layout: '2', 
+            position: 'topRight',
+            icon: 'fad fa-copy',
+            backgroundColor: '#fff', 
+            title: '复制成功', 
+            message: '未经许可，请勿转载' 
+        });
+    }
+</script>
+<!--<script>
+    let lantern = new Lantern('lantern-wrapper', {
+        date: {								// 日期格式：'月-日'
+            from: '12-20',					// 开始悬挂灯笼的日期
+            to: '1-31'						// 结束悬挂灯笼的日期
+        },
+        postion: {
+            zIndex: 9999,					// 整个灯笼的 z-index 属性
+            lanternRL: [10, 150, 150, 10],	// 灯笼距离边界的距离：左侧灯笼距离左边的距离，右侧登录距离右侧的距离；页面灯笼从左往右依次设置
+            lanternTop: 0					// 灯笼距离顶部的距离。你也可以使用数组从左往右依次设置每个灯笼的距顶距离，例如：[0, 100, 200, 300]
+        },
+        content: '新年快乐'					 // 灯笼内显示的文字，只会截取前四个字符
+    });
+</script>-->
+<script type="module">
+    import cursor from "https://doge.unpkg.daoblog.top/ipad-cursor@latest"
+
+    // 判断用户为桌面端时执行 cursor.initCursor()
+    function isDesktop() {
+      return window.matchMedia("(min-width: 992px)").matches;
+    }
+
+    if (isDesktop()) {
+      cursor.initCursor();
+    }
+</script>
+<script src="https://www.daoblog.top/js/Std_StranJF.js" integrity="sha384-dCV+UmPZoyu+EQKH2Feh0Omt4XRyIZT8QOsbFvLIr022OVZg9WmgIctnlHCnEJiX" crossorigin="anonymous"></script>
+    </div>
+</div>
+<script src="//instant.page/5.1.1" type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+<link rel="stylesheet" href="https://doge.jsdelivr.daoblog.top/gh/zhheo/Post-Abstract-AI@0.11/tianli_gpt.css">
+<script>
+    let tianliGPT_postSelector = '.post-detail .post-content';
+    let tianliGPT_key = 'va2Tg5QtTPe1nIjpH1yS';
+</script>
+<script src="https://doge.jsdelivr.daoblog.top/gh/zhheo/Post-Abstract-AI@0.11/tianli_gpt.js"></script>
+<script>
+    var tianl1GPT = document.getElementById("tianliGPT-tag");
+    var content = tianl1GPT.innerHTML;
+    content = content.replace("TianliGPT", "ShirokoAI");
+    tianl1GPT.innerHTML = content;   
+</script>
+<script>
+// 获取文章ID
+var url = window.location.href;
+var id = url.match(/\/post\/([^/]+)/)[1];
+
+// 创建标签和播放器
+var tagDiv = document.createElement('div');
+tagDiv.className = 'tianliGPT-tag';
+tagDiv.id = 'tianliGPT-tag';
+tagDiv.setAttribute('data-cursor', 'block');
+tagDiv.innerHTML = '日语朗读';
+tagDiv.addEventListener('click', toggleAudio);
+
+// 获取标题元素
+var titleDiv = document.querySelector('.tianliGPT-title-text');
+
+// 设置样式使标签紧挨在标题右边
+tagDiv.style.display = 'inline-block';
+
+// 将标签插入到目标元素旁边
+titleDiv.parentNode.insertBefore(tagDiv, titleDiv.nextSibling);
+
+// 音频播放器
+var audio = new Audio();
+audio.src = 'https://static.daoblog.top/vits/' + id + '.mp3';
+audio.volume = 0.75; // 设置音量为百分之75
+
+function toggleAudio() {
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+}
+</script>
+<script>
+// 获取需要添加属性的元素
+const explanationDiv = document.querySelector('.tianliGPT-explanation');
+const titleIcon = document.querySelector('.tianliGPT-title-icon i');
+const titleTextDiv = document.querySelector('.tianliGPT-title-text');
+const tagDiv = document.querySelector('#tianliGPT-tag');
+
+// 为元素添加 data-cursor 属性
+explanationDiv.setAttribute('data-cursor', 'text');
+titleIcon.setAttribute('data-cursor', 'block');
+titleTextDiv.setAttribute('data-cursor', 'text');
+tagDiv.setAttribute('data-cursor', 'block');
+
+</script>
+</body>
+</html>

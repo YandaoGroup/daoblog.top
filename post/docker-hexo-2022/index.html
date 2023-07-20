@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+<style type="text/css">
+    html {
+        filter: grayscale(80%); 
+        -webkit-filter: grayscale(80%); 
+        -moz-filter: grayscale(80%); 
+        -ms-filter: grayscale(80%); 
+        -o-filter: grayscale(80%); 
+        -webkit-filter: grayscale(0.96);
+    }
+</style>-->
+<style type="text/css">
+  .indeximg {
+      filter: grayscale(80%); 
+      -webkit-filter: grayscale(80%); 
+      -moz-filter: grayscale(80%); 
+      -ms-filter: grayscale(80%); 
+      -o-filter: grayscale(80%); 
+      -webkit-filter: grayscale(0.96);
+  }
+</style>
+<script async src="https://umami.ydlk.cc/script.js" data-website-id="d672eae5-ce9f-4d45-91d3-194292d75a0f"></script>
+<!--<script async defer src="https://analytics.umami.is/script.js" data-website-id="8fc5692e-566b-4c02-a8e5-d683560426d3"></script>-->
+<!--<script defer src="/_vercel/insights/script.js"></script>
+<script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
+<script>
+  new LingQue.Monitor().init({id:"JvkK0PV98iBkjgQV",sendSuspicious:true});
+</script>-->
+<meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Docker项目 | Hexo在线管理+ Butterfly主题+ Twikoo评论系统 | Kris Yan</title>
+
+<link rel="shortcut icon" href="https://www.daoblog.top/favicon.ico?v=1689863572672">
+
+<!--<link rel="stylesheet" type="text/css" href="https://doge.jsdelivr.daoblog.top/gh/zhheo/JS-Heo@main/mainColor/heoMainColor.css">
+<link rel="stylesheet" type="text/css" href="https://doge.jsdelivr.daoblog.top/npm/js-heo@1.0.11/hidescrollbar/hidescrollbar.css">-->
+<link href="https://doge.jsdelivr.daoblog.top/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://www.daoblog.top/styles/main.css">
+<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+<!--<link rel="stylesheet" href="https://static.daoblog.top/5115/index.bundle.css">-->
+<!-- <link rel="stylesheet" href="https://doge.jsdelivr.daoblog.top/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<!--<script src="https://doge.jsdelivr.daoblog.top/npm/js-heo@1.0.11/hidescrollbar/hidescrollbar.js" type="text/javascript"></script>-->
+<script src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--<script src="https://lib.baomitu.com/pjax/0.2.8/pjax.min.js"></script>-->
+<!-- <script src="https://doge.jsdelivr.daoblog.top/npm/pjax/pjax.js"></script>-->
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto&c=i&c=k" defer></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<script defer type="text/javascript" src="https://www.daoblog.top/js/console-text.js"></script>
+<script src="https://doge.jsdelivr.daoblog.top/npm/pangu.simple@1.0.5/dist/browser/pangu.js"></script>
+<link rel="stylesheet" href="https://www.daoblog.top/media/heomaincolor.css">
+<!--<script defer type="text/javascript" src="/js/mouse.js"></script>-->
+<!--<script src="https://doge.jsdelivr.daoblog.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script>
+<script src="/js/lunar.js"></script>
+<script src="/js/day.js"></script>-->
+<!--<script async data-pjax src="https://doge.jsdelivr.daoblog.top/gh/zhheo/JS-Heo@main/rightmenu/rightmenu.js"></script>-->
+
+<!-- 引入 Noto Serif SC 
+<link type="text/css" rel="preload stylesheet" as="style" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" crossorigin >
+
+!-- Google font预加载&缓存 --
+<link rel="dns-prefetch" href="https://fonts.loli.net/">
+<link rel="dns-prefetch" href="https://gstatic.loli.net/">
+ 
+<link rel="preconnect"  href="https://gstatic.loli.net"  crossorigin />
+
+<noscript>
+<link rel="stylesheet"  href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" onload="this.media='all'" />
+</noscript>-->
+
+<!--<link rel='stylesheet' href='https://ik.imagekit.io/chinesefonts/packages/syst/dist/SourceHanSerifCN/result.css' />-->
+
+<!-- <link href='https://fonts.loli.net/css?family=Noto+Sans' rel='stylesheet'> -->
+
+<!-- <script src="https://doge.jsdelivr.daoblog.top/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://doge.jsdelivr.daoblog.top/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://doge.jsdelivr.daoblog.top/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://doge.jsdelivr.daoblog.top/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+<!--<script src="//geoip-js.com/js/apis/geoip2/v2.1/geoip2.js" type="text/javascript"></script>
+<script>
+var foreignTips = (function () {
+    var onSuccess = function (geoipResponse) {
+      if (!geoipResponse.country.iso_code) {
+        return;
+      }
+      var code = geoipResponse.country.iso_code.toLowerCase();
+      if (code != 'cn'){
+        iziToast.info({
+            title: 'Notice',
+            message: '使用国外网络访问将无法部分内容，敬请谅解。If you use foreign network access, you will not be able to access some contents.',
+        });
+    };
+    var onError = function (error) {
+    };
+    return function () {
+      geoip2.country(onSuccess, onError);
+    };
+  }()});
+  foreignTips();
+</script>-->
+
+<!--<script src="https://doge.jsdelivr.daoblog.top/npm/hexo-lanternjs@1.0.0/lantern.min.js"></script>--
+<link rel="manifest" href="index.webmanifest" />
+!-- 老浏览器私有 meta 标签兼容 --
+<script src="https://doge.jsdelivr.daoblog.top/npm/pwacompat@2.0.15/pwacompat.min.js"></script>-->
+
+<!--<script>
+  zif (localStorage.getItem('20230121') === null) ;{
+    iziToast.info({
+      title: 'Notice',
+      message: '大陆访问困难？请访问cn.daoblog.top。点我确认知晓'
+    });
+    localStorage.setItem('20230121', 'true');
+  }
+</script>-->
+
+<!--<script src="https://doge.jsdelivr.daoblog.top/npm/hexo-lanternjs@1.0.0/lantern.min.js"></script>-->
+<!--<script src="https://doge.jsdelivr.daoblog.top/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>-->
+
+<!-- OG -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Docker项目 | Hexo在线管理+ Butterfly主题+ Twikoo评论系统 | Kris Yan">
+<meta property="og:description" content="Personal blog website of Kris Yan">
+<meta property="og:image" content="https://www.daoblog.top/OG/ogimg.jpg">
+<meta property="twitter:creator" content="@YanDao0313">
+<!--<meta property="og:url" content="http://www.daoblog.top/">-->
+
+<!-- wx&qq -->
+<script>
+  wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
+  wx.updateAppMessageShareData({ 
+    desc: 'Personal blog website of Kris Yan', // 分享描述
+    imgUrl: 'https://www.daoblog.top/images/avatar.png', // 分享图标
+    success: function () {
+      console.log("TX APP Success");// 设置成功
+    }
+  });
+  wx.updateTimelineShareData({ 
+    imgUrl: 'https://www.daoblog.top/images/avatar.png', // 分享图标
+    success: function () {
+      console.log("TX Timeline Success");// 设置成功
+    }
+  });
+});
+</script>
+
+
+
+    <link rel="stylesheet" href="https://doge.jsdelivr.daoblog.top/npm/katex@0.12.0/dist/katex.css">
+    
+        <script src="https://doge.jsdelivr.daoblog.top/npm/mermaid@9.1.1/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script> 
+    
+    <link rel="stylesheet" href="https://doge.unpkg.daoblog.top/@waline/client@v2/dist/waline.css"/>
+    <link rel="stylesheet" href="https://doge.unpkg.daoblog.top/@waline/client@v2/dist/waline-meta.css"/>
+    <!--<script src="https://cdn.zhheo.com/JS-Heo/privacy/privacy.js"></script>-->
+    <script src="https://doge.jsdelivr.daoblog.top/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+    <!--<script src="/js/shirokoai.js"></script>-->
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <div id="lantern-wrapper" class="lantern-wrapper" no-select></div>
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像" data-cursor="block" data-cursor-style="backdropBlur: 0; durationBackdropFilter: 500; radius: 50%" >
+        <div class="site-name gt-c-content-color-first" data-cursor="block" data-cursor-style="backdropBlur: 0; durationBackdropFilter: 500">
+            Kris Yan
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link" data-cursor="block">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link" data-cursor="block">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link" data-cursor="block">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/friends" class="menu gt-a-link" data-cursor="block">
+                    友链
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://yandaostatus.statuspage.io/" class="menu gt-a-link" target="_blank" data-cursor="block">
+                    状态
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link" data-cursor="block">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center" data-cursor="text">
+            <form id="gridea-search-form" style="position: relative" data-update="1689863572672"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+            <!--<script async src="https://cse.google.com/cse.js?cx=c77ab7baf59fb4f8f"></script>
+            <div class="gcse-search"></div>-->
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second" style="border-radius: 10px;">
+            <article class="gt-post-content">
+                <h2 class="post-title" data-cursor="text">
+                    Docker项目 | Hexo在线管理+ Butterfly主题+ Twikoo评论系统
+                </h2>
+                <div class="post-info">
+                    <a href='javascript:AutoHan_StranBody()' id='StranLink' data-cursor="block">切换繁体</a>
+                    <time class="post-time gt-c-content-color-first" data-cursor="text">
+                        · 2023-01-01 ·
+                    </time>
+                    
+                        <a href="https://www.daoblog.top/tag/docker/" class="post-tags" data-cursor="block">
+                            # docker
+                        </a>
+                    
+                        <a href="https://www.daoblog.top/tag/hexo/" class="post-tags" data-cursor="block">
+                            # hexo
+                        </a>
+                    
+                        <a href="https://www.daoblog.top/tag/notes/" class="post-tags" data-cursor="block">
+                            # notes
+                        </a>
+                    
+                        <a href="https://www.daoblog.top/tag/tech/" class="post-tags" data-cursor="block">
+                            # tech
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <!--<div class="post-ai">
+                        <div class="ai-title">
+                            <i class="heofont icon-jiqiren ai-title-icon tianliGPT-title-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+                                    <title>机器人</title>
+                                        <g id="机器人" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <path d="M34.717885,5.03561087 C36.12744,5.27055371 37.079755,6.60373651 36.84481,8.0132786 L35.7944,14.3153359 L38.375,14.3153359 C43.138415,14.3153359 47,18.1768855 47,22.9402569 L47,34.4401516 C47,39.203523 43.138415,43.0650727 38.375,43.0650727 L9.625,43.0650727 C4.861585,43.0650727 1,39.203523 1,34.4401516 L1,22.9402569 C1,18.1768855 4.861585,14.3153359 9.625,14.3153359 L12.2056,14.3153359 L11.15519,8.0132786 C10.920245,6.60373651 11.87256,5.27055371 13.282115,5.03561087 C14.69167,4.80066802 16.024865,5.7529743 16.25981,7.16251639 L17.40981,14.0624532 C17.423955,14.1470924 17.43373,14.2315017 17.43948,14.3153359 L30.56052,14.3153359 C30.56627,14.2313867 30.576045,14.1470924 30.59019,14.0624532 L31.74019,7.16251639 C31.975135,5.7529743 33.30833,4.80066802 34.717885,5.03561087 Z M38.375,19.4902885 L9.625,19.4902885 C7.719565,19.4902885 6.175,21.0348394 6.175,22.9402569 L6.175,34.4401516 C6.175,36.3455692 7.719565,37.89012 9.625,37.89012 L38.375,37.89012 C40.280435,37.89012 41.825,36.3455692 41.825,34.4401516 L41.825,22.9402569 C41.825,21.0348394 40.280435,19.4902885 38.375,19.4902885 Z M14.8575,23.802749 C16.28649,23.802749 17.445,24.9612484 17.445,26.3902253 L17.445,28.6902043 C17.445,30.1191812 16.28649,31.2776806 14.8575,31.2776806 C13.42851,31.2776806 12.27,30.1191812 12.27,28.6902043 L12.27,26.3902253 C12.27,24.9612484 13.42851,23.802749 14.8575,23.802749 Z M33.1425,23.802749 C34.57149,23.802749 35.73,24.9612484 35.73,26.3902253 L35.73,28.6902043 C35.73,30.1191812 34.57149,31.2776806 33.1425,31.2776806 C31.71351,31.2776806 30.555,30.1191812 30.555,28.6902043 L30.555,26.3902253 C30.555,24.9612484 31.71351,23.802749 33.1425,23.802749 Z" id="形状结合" fill="#444444" fill-rule="nonzero"></path>
+                                        </g>
+                                </svg>
+                            </i>
+                            <div class="ai-title-text">AI摘要</div>
+                            <div id="ai-Toggle">切换</div>
+                            <div class="ai-tag" id="ai-tag">ShirokoAI</div>
+                        </div>
+                        <div class="ai-explanation" style="display: block;">
+                            老师，请再等等哦~
+                        </div>
+                        <div class="ai-suggestions"></div>
+                    </div>-->
+                    <div class="note-TianliGPT"><div class="tianliGPT-title">
+                        <i class="tianliGPT-title-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+                                <title>机器人</title>
+                                    <g id="机器人" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" data-cursor="block">
+                                        <path d="M34.717885,5.03561087 C36.12744,5.27055371 37.079755,6.60373651 36.84481,8.0132786 L35.7944,14.3153359 L38.375,14.3153359 C43.138415,14.3153359 47,18.1768855 47,22.9402569 L47,34.4401516 C47,39.203523 43.138415,43.0650727 38.375,43.0650727 L9.625,43.0650727 C4.861585,43.0650727 1,39.203523 1,34.4401516 L1,22.9402569 C1,18.1768855 4.861585,14.3153359 9.625,14.3153359 L12.2056,14.3153359 L11.15519,8.0132786 C10.920245,6.60373651 11.87256,5.27055371 13.282115,5.03561087 C14.69167,4.80066802 16.024865,5.7529743 16.25981,7.16251639 L17.40981,14.0624532 C17.423955,14.1470924 17.43373,14.2315017 17.43948,14.3153359 L30.56052,14.3153359 C30.56627,14.2313867 30.576045,14.1470924 30.59019,14.0624532 L31.74019,7.16251639 C31.975135,5.7529743 33.30833,4.80066802 34.717885,5.03561087 Z M38.375,19.4902885 L9.625,19.4902885 C7.719565,19.4902885 6.175,21.0348394 6.175,22.9402569 L6.175,34.4401516 C6.175,36.3455692 7.719565,37.89012 9.625,37.89012 L38.375,37.89012 C40.280435,37.89012 41.825,36.3455692 41.825,34.4401516 L41.825,22.9402569 C41.825,21.0348394 40.280435,19.4902885 38.375,19.4902885 Z M14.8575,23.802749 C16.28649,23.802749 17.445,24.9612484 17.445,26.3902253 L17.445,28.6902043 C17.445,30.1191812 16.28649,31.2776806 14.8575,31.2776806 C13.42851,31.2776806 12.27,30.1191812 12.27,28.6902043 L12.27,26.3902253 C12.27,24.9612484 13.42851,23.802749 14.8575,23.802749 Z M33.1425,23.802749 C34.57149,23.802749 35.73,24.9612484 35.73,26.3902253 L35.73,28.6902043 C35.73,30.1191812 34.57149,31.2776806 33.1425,31.2776806 C31.71351,31.2776806 30.555,30.1191812 30.555,28.6902043 L30.555,26.3902253 C30.555,24.9612484 31.71351,23.802749 33.1425,23.802749 Z" id="形状结合" fill="#444444" fill-rule="nonzero"></path>
+                                    </g>
+                            </svg>
+                        </i>
+                        <div class="tianliGPT-title-text" data-cursor="text">AI生成的内容仅供参考，不代表文章全部内容及本人立场</div>
+                        <div class="tianliGPT-tag" id="tianliGPT-tag" data-cursor="block">Tip</div>
+                    </div>
+                </div>
+                <div data-cursor="text">
+                    <blockquote>
+<p>在线管理，很舒服</p>
+</blockquote>
+<!-- more -->
+<h2 id="1-前言">1. 前言</h2>
+<p>早在 2 年前，咕咕搭建的第一个博客就是用的 Hexo 的框架（当时用的 butterfly 主题只有几十个 star），因为可以部署在 GitHub 上，加上如果可以接受 GitHub 的<code>xxxxx.github.io</code>域名，甚至可以不用一分钱就拥有自己的博客。</p>
+<figure data-type="image" tabindex="1"><img src="https://static.daoblog.top/5115/202301011138372.png" alt="" loading="lazy"></figure>
+<p>不过 Hexo 博客也有不少缺点。</p>
+<p>导致咕咕后来放弃 Hexo 的原因主要有两点：</p>
+<p>1、无法在线编辑</p>
+<p>因为都是从本地 push 到 GitHub 仓库实现部署的，所以还要配本地环境啊啥的，换一台电脑，又得重新再来一次，很麻烦。</p>
+<p>2、评论需要借助第三方服务</p>
+<p>一开始咕咕记得自己使用的是 valine，免费部署在 leancloud 上的，后来似乎是政策原因，无法使用 https 了，可能当时也比较菜，迁移的时候出了点问题，导致评论丢失了，也是比较遗憾。</p>
+<p>所以后来还是转战了 Halo，方便！</p>
+<p>具体博客框架的选择上，咕咕之前有过一次经验分享，有兴趣的小伙伴可以看这篇文章：Hexo 还是 <a href="https://blog.laoda.de/archives/blog-choosing">Hugo？Typecho 还是 Wordpress？读完这篇或许你就有答案了！</a></p>
+<p>然后，上周逛 GitHub 的时候，又点进了 butterfly 主题的仓库，现在它已经是一个 4.8k star 的 hexo 王牌主题了。</p>
+<p>看着熟悉的 demo，又怀念起了当初刚建博客的时光。</p>
+<p>我突发奇想，2 年过去了，hexo 的这几个缺点是不是可能已经解决了？在网上搜索了一番之后，发现我的猜想是正确的，果然现在可以基本实现在线写 Hexo 博客了！而且评论也可以自己部署！前提是要用到一台 VPS。VPS 多的是，所以这周就来分享一下咕咕折腾的经验。</p>
+<p>最终实现的效果：</p>
+<p><strong>Hexo 框架 + butterfly 主题 + 在线编辑（任何有网的地方）+ 评论功能自部署</strong></p>
+<p>最重要的是，你也不需要去配置很多纷繁复杂的环境，我们用 Docker 来搞定！</p>
+<h3 id="11-相关地址">1.1 相关地址</h3>
+<p>Hexo 在线部署镜像：https://hub.docker.com/r/spurin/hexo<br>
+Hexo 在线部署镜像 GitHub 地址：https://github.com/spurin/docker-hexo<br>
+Butterfly 官方 GitHub：https://github.com/jerryc127/hexo-theme-butterfly<br>
+评论 Twikoo 文档：https://twikoo.js.org/quick-start.html#私有部署-docker<br>
+Butterfly 安裝文檔 (四) 主題配置 - 2：https://butterfly.js.org/posts/ceeb73f/#評論</p>
+<h2 id="2-项目展示">2. 项目展示</h2>
+<h3 id="21-hexo-后台">2.1 Hexo 后台</h3>
+<figure data-type="image" tabindex="2"><img src="https://static.daoblog.top/5115/202301011140510.png" alt="" loading="lazy"></figure>
+<h3 id="22-博客主页">2.2 博客主页</h3>
+<figure data-type="image" tabindex="3"><img src="https://static.daoblog.top/5115/202301011140295.png" alt="" loading="lazy"></figure>
+<h3 id="23-内容页">2.3 内容页</h3>
+<p><img src="https://static.daoblog.top/5115/202301011141205.png" alt="" loading="lazy"><br>
+<img src="https://static.daoblog.top/5115/202301011141112.png" alt="" loading="lazy"></p>
+<h3 id="24-评论区">2.4 评论区</h3>
+<figure data-type="image" tabindex="4"><img src="https://static.daoblog.top/5115/202301011142739.png" alt="" loading="lazy"></figure>
+<p>这边直接丢出两个核心的<code>docker-compose.yaml</code>文件，熟悉 docker 环境的小伙伴可以直接拷贝搭建。</p>
+<p>Hexo 部署：</p>
+<pre><code class="language-yaml">version: '3.3'
+services:
+    hexo:
+        container_name: hexo
+        environment:
+            - HEXO_SERVER_PORT=4000   # 不建议改，如果这边的 4000 改了，下面 ports 部分，冒号右边的 4000 也需要修改
+            - GIT_USER=github_name       # 改成自己的用户名，可以随便写一个 
+            - GIT_EMAIL=xxxx@gmail.com  # 改成自己的邮箱，可以随便写一个
+            - TZ=Asia/Shanghai  # 时区
+        volumes:
+            - './blog:/app'    # 冒号左边可以改路径，现在是表示把数据存放在在当前文件夹下的 blog 文件夹中
+        ports:
+            - '8080:4000'     # 冒号左边可以改成自己服务器未被占用的端口
+        image: spurin/hexo
+</code></pre>
+<p>评论部署：</p>
+<pre><code class="language-yaml">version: &quot;3.5&quot;
+services:
+  twikoo:
+    container_name: twikoo
+    image: imaegoo/twikoo
+    environment:
+      - TWIKOO_THROTTLE=1000 # IP 请求限流，当同一 IP 短时间内请求次数超过阈值将对该 IP 返回错误，默认 250，可以自己修改
+    ports:
+      - 4000:8080   # 冒号左边可以改成自己服务器未被占用的端口
+    volumes:
+      - ./data:/app/data  # 冒号左边可以改路径，现在是表示把数据存放在在当前文件夹下的 data 文件夹中
+    restart: unless-stopped
+</code></pre>
+<p>以下是详细搭建教程。</p>
+<h2 id="3-搭建环境">3. 搭建环境</h2>
+<ul>
+<li>服务器：<s>腾讯香港轻量应用服务器 24 元 / 月 VPS 一台</s> 咕咕自己搭建用的是腾讯轻量应用服务器 ，（最好是选 非大陆（香港）的服务器）如果是小白刚开始玩的话，还可以购买 Racknerd 的服务器，最低一年不到 100 块（不过这个建议选择 1G 内存以上的机器）</li>
+<li>系统：Debian 10 DD 脚本 非必需 DD 用原来的系统也 OK，之后教程都是用 Debian 或者 Ubuntu 搭建</li>
+<li>安装好 Docker、Docker-compose</li>
+<li>【非必需但建议】域名一枚，并做好解析到服务器上</li>
+<li>【非必需】提前安装好宝塔面板海外版本 aapanel，并安装好 Nginx</li>
+<li>【非必需本教程选用】安装好 Nginx Proxy Manager</li>
+</ul>
+<blockquote>
+<p>服务器要求：内存建议1G 以上，硬盘20G够用了。</p>
+</blockquote>
+<h2 id="4-搭建视频">4. 搭建视频</h2>
+<p>YouTube：https://youtu.be/TR6jd6RRdk8</p>
+<p>哔哩哔哩</p>
+<iframe src="//player.bilibili.com/player.html?aid=391730449&bvid=BV1Md4y1a7PC&cid=934884114&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><br />
+<h2 id="5-搭建方式">5. 搭建方式</h2>
+<h3 id="安装系统腾讯云轻量">安装系统（腾讯云轻量）</h3>
+<figure data-type="image" tabindex="5"><img src="https://static.daoblog.top/5115/202301011146627.png" alt="" loading="lazy"></figure>
+<p>腾讯云轻量服务器最大的特点就是 “轻量”，相比 CVM，更适合小白上手，这边我们之间选择 Docker 基础镜像，就可以省去后面安装 Docker 的步骤（如果你非要用国内的服务器，这边装的 Docker 镜像还会帮你配置好国内镜像源，让你加速访问 docker 镜像资源）。</p>
+<p>登陆（腾讯云轻量应用服务器）</p>
+<figure data-type="image" tabindex="6"><img src="https://static.daoblog.top/5115/202301011146342.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://static.daoblog.top/5115/202301011147087.png" alt="" title="喂，别看IP啦" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://static.daoblog.top/5115/202301011154233.png" alt="" loading="lazy"></figure>
+<h3 id="51-服务器前期配置">5.1 服务器前期配置</h3>
+<p>服务器初始设置，参考：</p>
+<p><a href="https://blog.laoda.de/archives/vps-script">新买了一台服务器 “必须” 要做的 6 件小事</a></p>
+<p><a href="https://blog.laoda.de/archives/how-to-secure-a-linux-server">保护好你的小鸡！保姆级服务器安全教程！</a></p>
+<p>这边由于我们用的是腾讯云轻量应用服务器，系统默认就帮我们创建了名字是<code>lighthouse</code>的用户，系统后台也有防火墙（默认就开了几个常用的端口）</p>
+<p>对小白用户来说，可以不用再去管繁琐的服务器安全的配置，降低了服务器防护的门槛。</p>
+<p><a href="https://blog.laoda.de/archives/hello-docker">【Docker 系列】不用宝塔面板，小白一样可以玩转 VPS 服务器！</a></p>
+<pre><code class="language-bash">sudo -i # 切换到 root 用户
+
+apt update -y  # 升级 packages
+
+apt install wget curl sudo vim git -y  # Debian 系统比较干净，安装常用的软件
+</code></pre>
+<blockquote>
+<p>注意：如果VPS 的内存过小，建议设置一下 SWAP，一般为内存的 1-1.5 倍即可，可以让系统运行更流畅！</p>
+</blockquote>
+<p>设置 SWAP 可以用脚本:</p>
+<pre><code class="language-bash">wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &amp;&amp; chmod +x box.sh &amp;&amp; clear &amp;&amp; ./box.sh
+</code></pre>
+<figure data-type="image" tabindex="9"><img src="https://static.daoblog.top/5115/202301011156809.png" alt="" loading="lazy"></figure>
+<p>选择<code>18</code>，然后输入你想要扩容的数值即可。</p>
+<figure data-type="image" tabindex="10"><img src="https://static.daoblog.top/5115/202301011156978.png" alt="" loading="lazy"></figure>
+<p>使用腾讯云轻量的小伙伴可以直接跳到<code>5.2.4</code></p>
+<h3 id="52-安装-docker使用腾讯云轻量的可跳过这一部分">5.2 安装 Docker（使用腾讯云轻量的可跳过这一部分）</h3>
+<h4 id="521-非大陆服务器-docker-安装">5.2.1 <mark>非大陆</mark>服务器 Docker 安装</h4>
+<pre><code class="language-bash">wget -qO- get.docker.com | bash
+docker -v  #查看 docker 版本
+systemctl enable docker  # 设置开机自动启动
+</code></pre>
+<p><strong>修改 Docker 配置（可选）</strong>（来自 <a href="https://u.sb/debian-install-docker/">烧饼博客</a>）<br>
+以下配置会增加一段自定义内网 IPv6 地址，开启容器的 IPv6 功能，以及限制日志文件大小，防止 Docker 日志塞满硬盘（泪的教训）：</p>
+<pre><code class="language-bash">cat &gt; /etc/docker/daemon.json &lt;&lt;EOF
+{
+    &quot;log-driver&quot;: &quot;json-file&quot;,
+    &quot;log-opts&quot;: {
+        &quot;max-size&quot;: &quot;20m&quot;,
+        &quot;max-file&quot;: &quot;3&quot;
+    },
+    &quot;ipv6&quot;: true,
+    &quot;fixed-cidr-v6&quot;: &quot;fd00:dead:beef:c0::/80&quot;,
+    &quot;experimental&quot;:true,
+    &quot;ip6tables&quot;:true
+}
+EOF
+</code></pre>
+<p>然后重启 Docker 服务：</p>
+<pre><code class="language-bash">systemctl restart docker
+</code></pre>
+<h4 id="522-非大陆服务器-docker-compose-安装">5.2.2 <mark>非大陆</mark>服务器 Docker-compose 安装</h4>
+<pre><code class="language-bash">sudo curl -L &quot;https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)&quot; -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version  #查看 docker-compose 版本
+</code></pre>
+<h4 id="523-国内服务器安装-docker">5.2.3 <mark>国内</mark>服务器安装 docker</h4>
+<pre><code class="language-bash">curl -sSL https://get.daocloud.io/docker | sh
+docker -v  #查看 docker 版本
+systemctl enable docker  # 设置开机自动启动
+</code></pre>
+<p><strong>修改 Docker 配置（可选）</strong>（来自 <a href="https://u.sb/debian-install-docker/">烧饼博客</a>）</p>
+<p>以下配置会增加一段自定义内网 IPv6 地址，开启容器的 IPv6 功能，以及限制日志文件大小，防止 Docker 日志塞满硬盘（泪的教训）：</p>
+<pre><code class="language-bash">cat &gt; /etc/docker/daemon.json &lt;&lt;EOF
+{
+    &quot;log-driver&quot;: &quot;json-file&quot;,
+    &quot;log-opts&quot;: {
+        &quot;max-size&quot;: &quot;20m&quot;,
+        &quot;max-file&quot;: &quot;3&quot;
+    },
+    &quot;ipv6&quot;: true,
+    &quot;fixed-cidr-v6&quot;: &quot;fd00:dead:beef:c0::/80&quot;,
+    &quot;experimental&quot;:true,
+    &quot;ip6tables&quot;:true
+}
+EOF
+</code></pre>
+<p>然后重启 Docker 服务：</p>
+<pre><code class="language-bash">systemctl restart docker
+</code></pre>
+<h4 id="524-国内服务器安装-docker-compose">5.2.4 <mark>国内</mark>服务器安装 docker-compose</h4>
+<pre><code class="language-bash">curl -L https://get.daocloud.io/docker/compose/releases/download/v2.1.1/docker-compose-`uname -s`-`uname -m` &gt; /usr/local/bin/docker-compose
+
+chmod +x /usr/local/bin/docker-compose
+
+docker-compose --version  #查看 docker-compose 版本
+</code></pre>
+<h3 id="53-安装-nginxproxymanager">5.3 安装 NginxProxyManager</h3>
+<p>参考这边的内容：<code>https://blog.laoda.de/archives/nginxproxymanager</code></p>
+<h3 id="54-创建安装目录">5.4 创建安装目录</h3>
+<p>创建一下安装的目录：</p>
+<pre><code class="language-bash">sudo -i
+
+mkdir -p /root/data/docker_data/hexo
+
+cd /root/data/docker_data/hexo
+</code></pre>
+<p>这边我们直接用 docker 的方式安装。</p>
+<pre><code class="language-bash">vim docker-compose.yml
+</code></pre>
+<p>英文输入法下，按<code>i</code></p>
+<pre><code class="language-yaml">version: '3.3'
+services:
+    hexo:
+        container_name: hexo
+        environment:
+            - HEXO_SERVER_PORT=4000   # 不建议改，如果这边的 4000 改了，下面 ports 部分，冒号右边的 4000 也需要修改
+            - GIT_USER=github_name       # 改成自己的用户名，可以随便写一个 
+            - GIT_EMAIL=xxxx@gmail.com  # 改成自己的邮箱，可以随便写一个
+            - TZ=Asia/Shanghai  # 时区
+        volumes:
+            - './blog:/app'    # 冒号左边可以改路径，现在是表示把数据存放在在当前文件夹下的 blog 文件夹中
+        ports:
+            - '8080:4000'     # 冒号左边可以改成自己服务器未被占用的端口
+        image: spurin/hexo
+</code></pre>
+<p>按一下<code>esc</code>，然后<code>:wq</code>保存退出，最后：</p>
+<pre><code class="language-bash">cd /root/data/docker_data/hexo    # 来到 dockercompose 文件所在的文件夹下
+
+docker-compose up -d 
+</code></pre>
+<h3 id="55-打开服务器防火墙并访问网页">5.5 打开服务器防火墙并访问网页</h3>
+<p>打开防火墙的端口<code>8080</code></p>
+<p>腾讯云打开方法如下：</p>
+<figure data-type="image" tabindex="11"><img src="https://static.daoblog.top/5115/202301011201512.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="12"><img src="https://static.daoblog.top/5115/202301011201495.png" alt="" loading="lazy"></figure>
+<p>图中示例填的是<code>5230</code>，备注填的是<code>memos</code>，这边我们填<code>8080</code>，示例填<code>pingvin-share</code>，确定即可（如果你在<code>docker-compose.yaml</code>文件里换了<code>8081</code>，这边就需要填<code>8081</code>，以此类推）</p>
+<figure data-type="image" tabindex="13"><img src="https://static.daoblog.top/5115/202301011202082.png" alt="" loading="lazy"></figure>
+<p>查看端口是否被占用（以<code>8080</code>为例），输入：</p>
+<pre><code class="language-bash">lsof -i:8080  #查看 8080 端口是否被占用，如果被占用，重新自定义一个端口
+</code></pre>
+<p>如果啥也没出现，表示端口未被占用，我们可以继续下面的操作了～</p>
+<p>如果出现：</p>
+<pre><code class="language-bash">-bash: lsof: command not found
+</code></pre>
+<p>运行：</p>
+<pre><code class="language-bash">apt install lsof  #安装 lsof
+</code></pre>
+<p>如果端口没有被占用（被占用了就修改一下端口，比如改成 8081，注意 docker 命令行里和防火墙都要改）</p>
+<p>理论上我们就可以输入<code>http://ip:8080</code>访问了</p>
+<p>hexo 的后台地址就是<code>http://ip:8080/admin</code></p>
+<blockquote>
+<p>** 注意：**<br>
+1、不知道服务器 IP，可以直接在命令行输入：<code>curl ip.sb</code>，会显示当前服务器的 IP。<br>
+2、遇到访问不了的情况，请再次检查在宝塔面板的防火墙和服务商的后台防火墙是否打开对应了端口。</p>
+</blockquote>
+<p>有的小伙伴可能想搭建起来分享给其他人使用，如果后续想要分享给别人，IP+端口太不优雅了，咕咕建议大家还是搞一个域名，容易记，看起来也更正规一点。这样可以做https，会让网页更安全。（非要 IP + 端口访问的，可以直接跳到<code>5.6</code>，并且跳过<code>6. 反向代理</code>部分）</p>
+<p>而且如<code>namesilo</code>上面 xyz 后缀的域名一年就 7 块钱，可以年抛。如果想要长期使用，还是建议买<code>com</code>后缀的域名，更加正规一些.</p>
+<p>我们接着往下看。</p>
+<h3 id="56-更新">5.6 更新</h3>
+<h4 id="561-docker-compose-部署">5.6.1 docker-compose 部署</h4>
+<pre><code class="language-bash">cd /root/data/docker_data/hexo
+
+docker-compose down 
+
+cp -r /root/data/docker_data/hexo/root/data/docker_data/hexo.archive  # 万事先备份，以防万一，其实这边没必要，因为我们没有映射到本地文件夹
+
+docker-compose pull
+
+docker-compose up -d    # 请不要使用 docker-compose stop 来停止容器，因为这么做需要额外的时间等待容器停止；docker-compose up -d 直接升级容器时会自动停止并立刻重建新的容器，完全没有必要浪费那些时间。
+
+docker image prune  # prune 命令用来删除不再使用的 docker 对象。删除所有未被 tag 标记和未被容器使用的镜像
+</code></pre>
+<p>提示：</p>
+<pre><code>WARNING! This will remove all dangling images.
+Are you sure you want to continue? [y/N] 
+</code></pre>
+<p>输入<code>y</code></p>
+<p>利用 Docker 搭建的应用，更新非常容易～</p>
+<h3 id="57-卸载">5.7 卸载</h3>
+<pre><code class="language-bash">cd /root/data/docker_data/hexo
+
+docker-compose down 
+
+rm -rf /root/data/docker_data/hexo  # 完全删除映射到本地的数据
+</code></pre>
+<p>可以卸载得很干净。</p>
+<h2 id="6-反向代理">6. 反向代理</h2>
+<h4 id="61-利用-nginx-proxy-manager">6.1 利用 Nginx Proxy Manager</h4>
+<p>在添加反向代理之前，确保你已经完成了域名解析</p>
+<blockquote>
+<p>以cloudflare为例<br>
+<img src="https://static.daoblog.top/5115/202301011210196.png" alt="" loading="lazy"></p>
+</blockquote>
+<p>之后，登陆 Nginx Proxy Manager（不会的看这个：安装<code>Nginx Proxy Manager</code><a href="https://blog.laoda.de/archives/nginxproxymanager">相关教程</a>）</p>
+<blockquote>
+<p>** 注意**<br>
+Nginx Proxy Manager（以下简称 NPM）会用到<code>80</code>、<code>443</code>端口，所以本机不能占用（比如原来就有 Nginx）</p>
+</blockquote>
+<p>直接丢几张图：</p>
+<p><img src="https://static.daoblog.top/5115/202301011211893.png" alt="" loading="lazy"><br>
+<img src="https://static.daoblog.top/5115/202301011211493.png" alt="" loading="lazy"></p>
+<blockquote>
+<p>注意填写对应的<code>域名</code>、<code>IP</code>和<code>端口</code>，按文章来的话，应该是<code>8080</code></p>
+</blockquote>
+<p><strong>IP 填写：</strong></p>
+<p>如果 Nginx Proxy Manager 和 hexo 在同一台服务器上，可以在终端输入：</p>
+<pre><code class="language-bash">ip addr show docker0
+</code></pre>
+<p>查看对应的 Docker 容器内部 IP。</p>
+<figure data-type="image" tabindex="14"><img src="https://static.daoblog.top/5115/202301011212121.png" alt="" loading="lazy"></figure>
+<p>否则直接填<code>hexo</code>所在的服务器 IP 就行。</p>
+<figure data-type="image" tabindex="15"><img src="https://static.daoblog.top/5115/202301011212005.png" alt="" loading="lazy"></figure>
+<p>再次打开，勾选这些：</p>
+<figure data-type="image" tabindex="16"><img src="https://static.daoblog.top/5115/202301011212857.png" alt="" loading="lazy"></figure>
+<p>然后就可以用域名来安装访问了。</p>
+<h3 id="62-利用宝塔面板">6.2 利用宝塔面板</h3>
+<p>发现还是有不少小伙伴习惯用宝塔面板，这边也贴一个宝塔面板的反代配置：</p>
+<p>直接新建一个站点，不要数据库，不要 php，纯静态即可。</p>
+<p>然后打开下面的配置，修改 Nginx 的配置。</p>
+<p><img src="https://static.daoblog.top/5115/202301011213372.png" alt="" loading="lazy"><br>
+<img src="https://static.daoblog.top/5115/202301011213393.png" alt="" loading="lazy"></p>
+<p>代码如下：</p>
+<pre><code>    location / {
+      proxy_pass http://127.0.0.1:8080/;       # 注意改成你实际使用的端口
+      rewrite ^/(.*)$ /$1 break;
+      proxy_redirect off;
+      proxy_set_header Host $host;
+      proxy_set_header X-Forwarded-Proto $scheme;
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      proxy_set_header Upgrade-Insecure-Requests 1;
+      proxy_set_header X-Forwarded-Proto https;
+    }
+</code></pre>
+<p>此方法对 90% 的反向代理都能生效。</p>
+<p>有同学可能会问，为什么不直接用宝塔自带的反向代理功能。</p>
+<figure data-type="image" tabindex="17"><img src="https://static.daoblog.top/5115/202301011213518.png" alt="" loading="lazy"></figure>
+<p>也可以，不过咕咕自己之前遇到过当有多个网站需要反代的时候，在这边设置会报错的情况 = =</p>
+<p>所以后来就不用了，直接用上面的方法来操作了。</p>
+<h2 id="7-使用教程">7. 使用教程</h2>
+<p>安装和配置见咕咕的视频。</p>
+<h3 id="71-更换butterfly主题">7.1 更换butterfly主题</h3>
+<pre><code class="language-bash">cd /root/data/docker_data/hexo/blog
+
+git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+</code></pre>
+<p>进入Docker容器内部：</p>
+<pre><code class="language-bash">docker exec -it hexo bash
+</code></pre>
+<p>安装插件（pug 以及 stylus 的渲染器）：</p>
+<pre><code class="language-bash">npm install hexo-renderer-pug hexo-renderer-stylus --save
+</code></pre>
+<h3 id="72-评论搭建">7.2 评论搭建</h3>
+<p>这部分大家如果不清楚，后续可以专门出个教程。</p>
+<pre><code class="language-bash">sudo -i
+
+mkdir -p data/docker_data/twikoo
+
+cd data/docker_data/twikoo
+
+vim docker-compose.yml
+</code></pre>
+<p>填入下面的配置：</p>
+<pre><code class="language-yaml">version: &quot;3.5&quot;
+services:
+  twikoo:
+    container_name: twikoo
+    image: imaegoo/twikoo
+    environment:
+      - TWIKOO_THROTTLE=1000 # IP 请求限流，当同一 IP 短时间内请求次数超过阈值将对该 IP 返回错误，默认 250，可以自己修改
+    ports:
+      - 4000:8080   # 冒号左边可以改成自己服务器未被占用的端口
+    volumes:
+      - ./data:/app/data  # 冒号左边可以改路径，现在是表示把数据存放在在当前文件夹下的 data 文件夹中
+    restart: unless-stopped
+</code></pre>
+<p>然后：</p>
+<pre><code class="language-bash">docker-compose up -d
+</code></pre>
+<p>举一反三，反向代理参考 hexo 部分即可。</p>
+<p>访问网址，出现这个说明部署成功：</p>
+<figure data-type="image" tabindex="18"><img src="https://static.daoblog.top/5115/202301011215108.png" alt="" loading="lazy"></figure>
+<p>评论的设置可以直接在博客这边设置：</p>
+<figure data-type="image" tabindex="19"><img src="https://static.daoblog.top/5115/202301011215824.png" alt="" loading="lazy"></figure>
+<h2 id="8-目前遇到的问题">8. 目前遇到的问题</h2>
+<h3 id="1-hexo-admin-还是有点简陋">1. Hexo-Admin 还是有点简陋</h3>
+<p>Hexo-Admin 后台还是挺粗糙的，很多文章 format 的部分无法设置。</p>
+<h3 id="2-记得及时保存部分内容">2、记得及时保存部分内容</h3>
+<h2 id="9-结尾">9. 结尾</h2>
+<p>祝大家用得开心，有问题可以去 GitHub 提<a href="https://github.com/spurin/docker-hexo/issues">Issues</a>，也可以在评论区互相交流探讨。</p>
+<p>同时，项目处于刚开始阶段，有能力给项目做贡献的同学，也欢迎积极加入到<a href="https://github.com/spurin/docker-hexo">本项目</a>中来，贡献自己的一份力量！</p>
+<h2 id="参考资料">参考资料</h2>
+<p>Hexo 在线部署镜像：https://hub.docker.com/r/spurin/hexo<br>
+Hexo 在线部署镜像 GitHub 地址：https://github.com/spurin/docker-hexo<br>
+Butterfly 官方 GitHub：https://github.com/jerryc127/hexo-theme-butterfly<br>
+评论 Twikoo 文档：https://twikoo.js.org/quick-start.html#私有部署-docker<br>
+Butterfly 安裝文檔 (四) 主題配置 - 2：https://butterfly.js.org/posts/ceeb73f/#評論</p>
+<blockquote>
+<p>版权归属： 咕咕鸽<br>
+原文链接： <a href="https://blog.laoda.de/archives/docker-compose-install-hexo-admin-and-twikoo">Click here</a><br>
+许可协议： <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a></p>
+</blockquote>
+
+                </div>
+                </div>
+            </article>
+        </div>
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first" data-cursor="text">下一篇</div>
+                <a href="https://www.daoblog.top/post/gridea-modify-2022/" class="post-title gt-a-link" data-cursor="block">
+                    长文 - 持续更新 | Gridea Pure主题魔改小记
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+            <!--<script src='https://doge.jsdelivr.daoblog.top/npm/valine/dist/Valine.min.js'></script>-->
+
+<style>
+	div#waline{
+		width:100%;
+		max-width: 1050px;
+		padding: 2.5%;
+		font-family: "Noto Serif SC";
+	}
+	:root {
+        --waline-font-size: 18px;
+		font-family: "Noto Serif SC";
+		--waline-font-family: "Noto Serif SC";
+    }
+	span.katex { font-size: 18px; }
+	.wl-emoji-popup { font-size: 16px !important; }
+	.wl-emoji-popup button { height: 2em; }
+	.wl-panel {
+	    background: #6b938914 !important;
+    }
+	.wl-editor {
+	    background-color: rgba(83, 131, 130, 0.13) !important;
+	}
+</style>
+
+
+	<!--<div id="vcomments"></div>-->
+	<div id="waline"></div>
+
+<script type="module">
+	// Settings for Valine (For Original Theme)
+	// new Valine({
+	// 	el: '#vcomments',
+	//	appId: 'bAd7RExcBmuv1CJq53BAcHVv-gzGzoHsz',
+	//	appKey: 'g7dYw8npvGrgorSgGa4AH8L0',
+	//	avatar: 'retro',
+	//	pageSize: 10,
+	//	recordIp: true,
+	//	placeholder: 'ヽ(○´∀`)ﾉ♪  这里可评论哦~',
+	//	visitor: false,
+	//});
+	import { init } from 'https://doge.unpkg.daoblog.top/@waline/client@v2/dist/waline.mjs';
+	init({
+      el: '#waline',
+      serverURL: 'https://waline.ydlk.cc',
+	  avatar: 'retro',
+	  recordIp: true,
+	  reaction: false,
+	  pageview: true,
+	  comment: true,
+	  emoji: [
+      //'//doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bmoji',
+      '//doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili',
+	  '//doge.jsdelivr.daoblog.top/npm/sticker-heo@2022.7.5/Sticker-100/',
+    ],
+	//reaction: [
+    //'https://doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili/bb_sunglasses.png',
+    //'https://doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili/bb_thumbsup.png',
+    //'https://doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili/bb_doge.png',	
+	//'https://doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili/bb_confused.png',
+	//'https://doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili/bb_sweat.png',
+    //'https://doge.unpkg.daoblog.top/@waline/emojis@1.1.0/bilibili/bb_sleepy.png',
+  //],
+	  dark: false,
+	  recaptchaV3Key: "6LeicsQjAAAAAJpXhbQ4zMFDSj31XQqTI_2St5ZP",
+	  copyright: false,
+    });
+</script>
+<!--<script>
+    var versionNo = '1.1.1';
+    if(!window.localStorage.getItem('update-version') || window.localStorage.getItem('update-version') !=versionNo){
+        window.localStorage.setItem('update-version',versionNo)
+        alert('友情提示：我站已强制开启评论验证，请先在评论区点击登录，再进行评论，否则无法使用评论')
+    }
+</script>-->
+
+        
+
+        <!--<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>-->
+<script>
+    pangu.spacingPage();
+</script>
+<script 
+  data-host-id="1" 
+  data-close-width="48" 
+  data-close-height="48" 
+  data-open-width="380" 
+  data-open-height="680" 
+  src="https://chat.origin.yandao.cloud/widget.js" 
+  async ></script>
+<div class="site-footer gt-c-content-color-first">
+    <!--<div class="slogan gt-c-content-color-first">Old Personal blog website of Kris Yan</div>-->
+    <p data-cursor="text">【一言】</p><p id="hitokoto" data-cursor="text">😀 一言模块正在加载......</p>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    
+    <div class="footer-info" data-cursor="text">
+        
+    </div>
+    <p><a href="https://beian.miit.gov.cn/" target="_blank" data-cursor="block">蜀ICP备2022002434号-1</a> | <a href="https://icp.gov.moe/?keyword=20220054" target="_blank" data-cursor="block">萌ICP备20220054号</a> | <a href="https://www.daoblog.top/post/privacy/" target="_blank" data-cursor="block">隐私</a> | <a href='javascript:AutoHan_StranBody()' id='StranLink' data-cursor="block">切换繁体</a><br />
+    <br />
+    <span id="runtime_span"></span>
+    <div>
+        <p data-cursor="text">同时提供：<a href="https://www.daoblog.top/atom.xml" target="_blank" data-cursor="block">RSS</a> | Made with ❤️ by <a href="https://krisyan.dev/" target="_blank" data-cursor="block">Kris Yan</a> | <!--Power by <a href="https://vercel.com?utm_source=powered-by-vercel" target="_blank" data-cursor="block">Vercel</a> | --><span id="busuanzi_container_site_pv" data-cursor="text">总访问量<span id="busuanzi_value_site_pv"></span>次</span></p>
+        <p data-cursor="text">Copyright © 2021-2023 <a href="https://krisyan.dev/" target="_blank" data-cursor="block">Kris Yan</a>. All Rights Reserved. | <a href="https://www.daoblog.top/post/changelog/" data-cursor="block">Theme</a></p>
+    </div>
+    <div id="goTopBtn" data-cursor="block"><span class="glyphicon glyphicon-chevron-up">&Delta;</span></div>
+</div>
+<!--<script src="https://www.daoblog.top/asoul-l2d.js"></script>-->
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    /*返回顶部*/
+    $(window).scroll(function(){
+       var sc=$(window).scrollTop();
+       var rwidth=$(window).width()
+       if(sc>0){
+        $("#goTopBtn").css("display","block");
+        $("#goTopBtn").css("left",(rwidth-36)+"px")
+       }else{
+       $("#goTopBtn").css("display","none");
+       }
+     })
+     $("#goTopBtn").click(function(){
+       var sc=$(window).scrollTop();
+       $('body,html').animate({scrollTop:0},500);
+     })
+</script>
+<script src="https://yandaostatus.statuspage.io/embed/script.js"></script>
+<script>
+    function show_runtime() {window.setTimeout("show_runtime()",1000); X=new Date("11/12/2021 11:45:014"); Y=new Date(); T=(Y.getTime()-X.getTime()); M=24*60*60*1000; a=T/M;A=Math.floor(a); b=(a-A)*24;B=Math.floor(b); c=(b-B)*60;C=Math.floor((b-B)*60); D=Math.floor((c-C)*60); runtime_span.innerHTML="本站已运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();  Date("11/12/2021 11:45:14") 
+</script>
+<!--<script src="https://doge.unpkg.daoblog.top/petite-vue"></script>
+<script src="https://static.daoblog.top/5115/index.bundle.js"></script>
+<script src="https://www.daoblog.top/music.js"></script>-->
+<script>
+  hljs.highlightAll()
+</script>
+<script>
+    document.body.oncopy = function (){
+        iziToast.info({
+            timeout: 2000,
+            icon: 'Fontawesome', 
+            closeOnEscape: 'true', 
+            transitionIn: 'bounceInLeft', 
+            transitionOut: 'fadeOutRight',
+            displayMode: 'replace', 
+            layout: '2', 
+            position: 'topRight',
+            icon: 'fad fa-copy',
+            backgroundColor: '#fff', 
+            title: '复制成功', 
+            message: '未经许可，请勿转载' 
+        });
+    }
+</script>
+<!--<script>
+    let lantern = new Lantern('lantern-wrapper', {
+        date: {								// 日期格式：'月-日'
+            from: '12-20',					// 开始悬挂灯笼的日期
+            to: '1-31'						// 结束悬挂灯笼的日期
+        },
+        postion: {
+            zIndex: 9999,					// 整个灯笼的 z-index 属性
+            lanternRL: [10, 150, 150, 10],	// 灯笼距离边界的距离：左侧灯笼距离左边的距离，右侧登录距离右侧的距离；页面灯笼从左往右依次设置
+            lanternTop: 0					// 灯笼距离顶部的距离。你也可以使用数组从左往右依次设置每个灯笼的距顶距离，例如：[0, 100, 200, 300]
+        },
+        content: '新年快乐'					 // 灯笼内显示的文字，只会截取前四个字符
+    });
+</script>-->
+<script type="module">
+    import cursor from "https://doge.unpkg.daoblog.top/ipad-cursor@latest"
+
+    // 判断用户为桌面端时执行 cursor.initCursor()
+    function isDesktop() {
+      return window.matchMedia("(min-width: 992px)").matches;
+    }
+
+    if (isDesktop()) {
+      cursor.initCursor();
+    }
+</script>
+<script src="https://www.daoblog.top/js/Std_StranJF.js" integrity="sha384-dCV+UmPZoyu+EQKH2Feh0Omt4XRyIZT8QOsbFvLIr022OVZg9WmgIctnlHCnEJiX" crossorigin="anonymous"></script>
+    </div>
+</div>
+<script src="//instant.page/5.1.1" type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+<link rel="stylesheet" href="https://doge.jsdelivr.daoblog.top/gh/zhheo/Post-Abstract-AI@0.11/tianli_gpt.css">
+<script>
+    let tianliGPT_postSelector = '.post-detail .post-content';
+    let tianliGPT_key = 'va2Tg5QtTPe1nIjpH1yS';
+</script>
+<script src="https://doge.jsdelivr.daoblog.top/gh/zhheo/Post-Abstract-AI@0.11/tianli_gpt.js"></script>
+<script>
+    var tianl1GPT = document.getElementById("tianliGPT-tag");
+    var content = tianl1GPT.innerHTML;
+    content = content.replace("TianliGPT", "ShirokoAI");
+    tianl1GPT.innerHTML = content;   
+</script>
+<script>
+// 获取文章ID
+var url = window.location.href;
+var id = url.match(/\/post\/([^/]+)/)[1];
+
+// 创建标签和播放器
+var tagDiv = document.createElement('div');
+tagDiv.className = 'tianliGPT-tag';
+tagDiv.id = 'tianliGPT-tag';
+tagDiv.setAttribute('data-cursor', 'block');
+tagDiv.innerHTML = '日语朗读';
+tagDiv.addEventListener('click', toggleAudio);
+
+// 获取标题元素
+var titleDiv = document.querySelector('.tianliGPT-title-text');
+
+// 设置样式使标签紧挨在标题右边
+tagDiv.style.display = 'inline-block';
+
+// 将标签插入到目标元素旁边
+titleDiv.parentNode.insertBefore(tagDiv, titleDiv.nextSibling);
+
+// 音频播放器
+var audio = new Audio();
+audio.src = 'https://static.daoblog.top/vits/' + id + '.mp3';
+audio.volume = 0.75; // 设置音量为百分之75
+
+function toggleAudio() {
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+}
+</script>
+<script>
+// 获取需要添加属性的元素
+const explanationDiv = document.querySelector('.tianliGPT-explanation');
+const titleIcon = document.querySelector('.tianliGPT-title-icon i');
+const titleTextDiv = document.querySelector('.tianliGPT-title-text');
+const tagDiv = document.querySelector('#tianliGPT-tag');
+
+// 为元素添加 data-cursor 属性
+explanationDiv.setAttribute('data-cursor', 'text');
+titleIcon.setAttribute('data-cursor', 'block');
+titleTextDiv.setAttribute('data-cursor', 'text');
+tagDiv.setAttribute('data-cursor', 'block');
+
+</script>
+</body>
+</html>

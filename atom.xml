@@ -1,0 +1,3116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.daoblog.top</id>
+    <title>Kris Yan</title>
+    <updated>2023-07-20T14:32:57.937Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.daoblog.top"/>
+    <link rel="self" href="https://www.daoblog.top/atom.xml"/>
+    <subtitle>Old Personal blog website of Kris Yan</subtitle>
+    <logo>https://www.daoblog.top/images/avatar.png</logo>
+    <icon>https://www.daoblog.top/favicon.ico</icon>
+    <rights>All rights reserved 2023, Kris Yan</rights>
+    <entry>
+        <title type="html"><![CDATA[Kronos Insight (Preview)]]></title>
+        <id>https://www.daoblog.top/post/kronos-insight-preview/</id>
+        <link href="https://www.daoblog.top/post/kronos-insight-preview/">
+        </link>
+        <updated>2023-07-14T08:53:48.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>诗音，别乱写了，姐我求你了（</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>诗音，别乱写了，姐我求你了（</p>
+</blockquote>
+<!-- more -->
+<div id="player_0c24916ac3caf791"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_0c24916ac3caf791'),
+    userId: 3205,
+    vcode: '0c24916ac3caf791',
+    autoPlay: false
+});
+</script><br />
+<blockquote>
+<p>視頻中的人像與音頻均為深度學習合成的虛構內容<br>
+切勿帶入現實生活，僅供娛樂</p>
+</blockquote>
+<p>腳本取材自《蔚藍檔案》3rd PV</p>
+<p>下方滾動字幕為GPT生成，切勿帶入現實生活<br>
+人名均由GPT生成</p>
+<p>了解更多&gt;Kris Yan&lt;<br>
+请访问 https://krisyan.dev/ | 个人博客 https://daoblog.top/</p>
+<p>这不是盈利性质的视频<br>
+我本人无任何盈利意图、形式和行为，尊重官方设定与规定，不鼓励也没有解包，素材来源于网络，请知悉<br>
+本人与ブルーアーカイブ、Yostar、Nexon 以及 Nexon Games 没有任何形式关联。<br>
+本视频中使用的所有游戏作品、信息和素材均为各自作者的财产和版权。</p>
+<p>《蔚蓝档案（国服）》国新出审[2023]364号<br>
+抵制不良游戏  拒绝盗版游戏  注意自我保护  谨防受骗上当<br>
+适度游戏益脑  沉迷游戏伤身 合理安排时间  享受健康生活</p>
+<h2 id="补充说明">补充说明</h2>
+<p>《蔚蓝档案（国服·中国大陆）》国新出审[2023]364号，适合年满18岁（含）以上的玩家使用<br>
+《蔚藍檔案（國際服·繁中區）》主要在港澳台地區運營，根據中國台灣地區有關規定分級為輔15+（青少版為12+）</p>
+<h2 id="相关链接">相关链接</h2>
+<p>《&lt;蔚蓝档案&gt;同人创作指引v1.0（7月6日版本）》https://ydlk.cc/BA_CN_2Legal<br>
+在严格的意义上讲，本视频更适用于《蔚蓝档案（日服）》的相关约束 [涉及YouTube等全球平台发布]，参见 https://bluearchive.jp/fankit/guidelines</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BA同人剧情 | 阿姨！宿舍停电啦！]]></title>
+        <id>https://www.daoblog.top/post/20230703/</id>
+        <link href="https://www.daoblog.top/post/20230703/">
+        </link>
+        <updated>2023-07-07T06:53:38.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>阿紫一  ——小鸟游星野</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>阿紫一  ——小鸟游星野</p>
+</blockquote>
+<!-- more -->
+<div id="player_f8bb3c823fcc9259"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_f8bb3c823fcc9259'),
+    userId: 3205,
+    vcode: 'f8bb3c823fcc9259',
+    autoPlay: false
+});
+</script>  
+<blockquote>
+<p>请注意，这只是一个二创，请勿带入原作<br>
+<img src="https://static.daoblog.top/img/20230703-%E5%B0%81%E9%9D%A2-%E5%8E%8B%E7%BC%A9.png" alt="cover" loading="lazy"></p>
+</blockquote>
+<p>剧情原作者 B站@贴贴怪 BV1nP411e7LT<br>
+看到原UP主在置顶想翻新便做了，但其实我技术也不好（笑）<br>
+剧情文件与补充语音下载：<a href="https://ydlk.cc/ba230703">ydlk.cc</a><br>
+使用的VITS模型：<a href="https://huggingface.co/spaces/FrankZxShen/vits-fast-fineturning-models-ba">HF Spaces</a></p>
+<p>模型里面没有凛，这几天我也忙不过来训练，所以AI日配里面是没有凛的声音的 😦</p>
+<blockquote>
+<p>了解更多 <em>Kris Yan</em><br>
+请访问 <a href="https://krisyan.dev/">krisyan.dev</a> | 个人博客 <a href="https://daoblog.top/">blog.krisyan.dev</a></p>
+</blockquote>
+<p>使用Aris Studio进行剧情演出，视频内容是录的屏，字体MiSans（https://ydlk.cc/misans）<br>
+AI日配是人工切的（Auto话没说完就切了），可能略有点快但我不想再补录了 😛<br>
+其实可以优化的地方还挺多（毕竟这是我第一次正式地做剧情），但懒癌犯了<br>
+BGM渐弱是Aris Studio自带的功能，但是有Bug，如视频中所示</p>
+<p>末尾图像放大是后期做的，不是剧情自带<br>
+封面使用的贴纸素材来自BlueArchive.TW</p>
+<h2 id="特别说明">特别说明</h2>
+<p>这不是盈利性质的视频<br>
+我本人无任何盈利意图、形式和行为，尊重官方设定与规定，不鼓励也没有解包，素材来源于网络，请知悉<br>
+本人与ブルーアーカイブ、Yostar、Nexon 以及 Nexon Games 没有任何形式关联。<br>
+本视频中使用的所有游戏作品、信息和素材均为各自作者的财产和版权。</p>
+<h2 id="有关讯息">有关讯息</h2>
+<p>《蔚蓝档案（国服）》国新出审[2023]364号<br>
+抵制不良游戏    拒绝盗版游戏    注意自我保护    谨防受骗上当<br>
+适度游戏益脑    沉迷游戏伤身 合理安排时间    享受健康生活</p>
+<h2 id="补充说明">补充说明</h2>
+<p>《蔚蓝档案（国服·中国大陆）》国新出审[2023]364号，适合年满18岁（含）以上的玩家使用<br>
+《蔚藍檔案（國際服·繁中區）》主要在港澳台地區運營，根據中國台灣地區有關規定分級為輔15+（青少版為12+）</p>
+<h2 id="相关链接">相关链接</h2>
+<p>《&lt;蔚蓝档案&gt;同人创作指引v1.0（7月6日版本）》<a href="https://ydlk.cc/BA_CN_2Legal">ydlk.cc</a><br>
+在严格的意义上讲，本视频更适用于《蔚蓝档案（日服）》的相关约束 [涉及YouTube等全球平台发布]，参见 <a href="https://bluearchive.jp/fankit/guidelines">bluearchive.jp</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实验作品 | Schale News 夏莱新闻 01]]></title>
+        <id>https://www.daoblog.top/post/SchaleNews_test01/</id>
+        <link href="https://www.daoblog.top/post/SchaleNews_test01/">
+        </link>
+        <updated>2023-07-02T13:04:30.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>Sensei 最新力作，剑指克罗诺斯（大嘘</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>Sensei 最新力作，剑指克罗诺斯（大嘘</p>
+</blockquote>
+<!-- more -->
+<div id="player_8996ac577fbae47f"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_8996ac577fbae47f'),
+    userId: 3205,
+    vcode: '8996ac577fbae47f',
+    autoPlay: false
+});
+</script>
+<blockquote>
+<p>视频中的人像与音频均为<strong>深度学习合成的<mark>虚构内容</mark></strong><br>
+切勿带入现实生活，仅供娱乐<br>
+脚本取材自《蔚蓝档案》，基于主线Vol.3 | 利用GPT-3.5生成新闻稿</p>
+</blockquote>
+<p>制作流程：</p>
+<figure data-type="image" tabindex="1"><img src="https://static.daoblog.top/img/1922.png" alt="流程图" loading="lazy"></figure>
+<ol>
+<li>感谢<a href="https://ba.gamekee.com/">K站</a>与<a href="https://bluearchive.fandom.com/wiki/Blue_Archive_Wiki">fandom</a>上一众热心老师的无私奉献，为GPT改写提供了优质的背景资料</li>
+<li>接下来在有了资料后我让GPT据此起草了新闻稿初稿，接下来我再进行了人工分段与润色</li>
+<li>然后我根据每一段的内容从游戏CG中配了图，感谢<a href="https://ba.gamekee.com/">K站</a>热心老师的整理</li>
+<li>接下来我把内容打包上传至<code>EPENTIBI'S TOOLKIT</code>这个工具网站，进行主画面与语音的合成</li>
+<li>等待网站生成与两道审核后便拿到了初稿，但它只是干巴巴的“人声”念稿而已，“没有感觉”，不像是一个新闻的开头</li>
+<li>于是我进行了最终的润色并添加了细节，然后......</li>
+</ol>
+<p>邦邦卡邦！你收获了一段还看得过去的Fake News！</p>
+<p>还是挺简单的，对吧</p>
+<h2 id="文末警告"><mark>文末警告！</mark></h2>
+<p><strong>请<mark>不要</mark>用这个工具做任何违反法律法规的事情</strong></p>
+<p><strong>请<mark>不要</mark>用这个工具生成任何违反法律法规的内容</strong></p>
+<p><strong>作恶的从来是人，而不是工具。<mark>天网恢恢，疏而不漏。</mark></strong></p>
+<blockquote>
+<p>版权联系专线 <s>优香</s> 邮箱：<code>ba</code> at <code>ydlk</code> dot <code>cc</code></p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我体验了恐怖如斯的AI换脸 InsightFaceSwap]]></title>
+        <id>https://www.daoblog.top/post/20230616/</id>
+        <link href="https://www.daoblog.top/post/20230616/">
+        </link>
+        <updated>2023-06-16T10:44:43.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>如果被换脸的人不是你所熟识的人，那么你甚至有可能看不出端倪</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>如果被换脸的人不是你所熟识的人，那么你甚至有可能看不出端倪</p>
+</blockquote>
+<!-- more -->
+<h2 id="警告"><mark>警告！</mark></h2>
+<p><strong>请<mark>不要</mark>用这个软件做任何违反法律法规的事情</strong></p>
+<p><strong>请<mark>不要</mark>用这个软件生成任何违反法律法规的图片</strong></p>
+<p><strong>请<mark>不要</mark>用二次元图片进行替换，否则效果极差、有恐怖谷效应</strong></p>
+<p><strong>作恶的从来是人，而不是工具。<mark>天网恢恢，疏而不漏。</mark></strong></p>
+<h2 id="intro">Intro</h2>
+<p>前几年我有接触过一些AI换脸相关的软件等等，就比如之前大火的<code>ZUO</code>这款软件，但其实硬要说的话还是不怎么自然（毕竟它也是视频换脸，技术难度高），但是，随着最近这一两年算力的惊人增长（大概），我们看到AI在图像领域的进展还真挺快，那么相应的，当年不是那么自然的AI换脸，现在是不是也有了惊人的增长了呢？</p>
+<p>怀着这样的猜想，我找到了InsightFaceSwap，最后事实证明，现如今的AI换脸**“恐怖如斯”**。</p>
+<p>首先我们来看一张图：</p>
+<figure data-type="image" tabindex="1"><img src="https://static.daoblog.top/img/20230616-2.png" alt="金用河" loading="lazy"></figure>
+<p>还在找破绽吗？不用找了，因为，是的，没错——</p>
+<p><strong>它是原图</strong></p>
+<blockquote>
+<p>睦月的没品笑声.mp3<br>
+<img src="https://static.daoblog.top/img/wuyue-sticker_cn_tw.png" height="200px" /></p>
+</blockquote>
+<p>不过下面这张就是真的处理过的图片了：</p>
+<figure data-type="image" tabindex="2"><img src="https://static.daoblog.top/img/%E9%87%91%E7%94%A8%E6%B2%B3+%E4%BB%98%E5%8F%8B%E6%89%8D.jpg/blog_full" alt="6" loading="lazy"></figure>
+<p>使用的人脸为下面这张：</p>
+<img src="https://static.daoblog.top/img/%E4%BB%98%E5%8F%8B%E6%89%8D.jpg/blog_full" width="400px" />  
+<p>就这一张图片，并且还是佩戴了一副眼镜的情况下，我个人认为能做出这种效果已经算是很好的了</p>
+<p>下面还有一个样例：</p>
+<figure data-type="image" tabindex="3"><img src="https://static.daoblog.top/img/pd_to_fanshi.jpg/blog_full" alt="img" loading="lazy"></figure>
+<p>人脸来自B站UP主@泛式，使用的原图为：</p>
+<figure data-type="image" tabindex="4"><img src="https://static.daoblog.top/img/20230617-1.png" alt="pd" loading="lazy"></figure>
+<p>接下来我们也就废话不多说，直接进入说明——怎么用吧。</p>
+<h2 id="怎样使用">怎样使用</h2>
+<h3 id="注册并登陆discord">注册并登陆Discord</h3>
+<p>Discord官网：<a href="https://discord.com/">discord.com</a>，注册登录过程不再赘述。</p>
+<p>在这之后创建一个服务器。</p>
+<figure data-type="image" tabindex="5"><img src="https://static.daoblog.top/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-06-16%20195657.png" alt="img" loading="lazy"></figure>
+<p>接着，选择<code>亲自创建</code></p>
+<figure data-type="image" tabindex="6"><img src="https://static.daoblog.top/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-06-16%20195813.png" alt="img" loading="lazy"></figure>
+<p>接下来，选择<code>仅供我和我的朋友使用</code></p>
+<figure data-type="image" tabindex="7"><img src="https://static.daoblog.top/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-06-16%20195927.png" alt="img" loading="lazy"></figure>
+<p>最后，填写基本信息，点击<code>创建</code>就完成了Discord的准备工作。</p>
+<h3 id="邀请机器人">邀请机器人</h3>
+<p>点击<a href="https://discord.com/oauth2/authorize?client_id=1090660574196674713&amp;permissions=274877945856&amp;scope=bot">此处的链接</a>邀请机器人</p>
+<p>选择你刚才创建的服务器，点击<code>继续</code></p>
+<figure data-type="image" tabindex="8"><img src="https://static.daoblog.top/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-06-16%20200217.png" alt="img" loading="lazy"></figure>
+<p>参照下图，点击<code>授权</code></p>
+<figure data-type="image" tabindex="9"><img src="https://static.daoblog.top/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-06-16%20200324.png" alt="img" loading="lazy"></figure>
+<p>输入验证码，完毕后回到Discord上我们刚刚创建的服务器，可以看到机器人已经被添加进来了</p>
+<figure data-type="image" tabindex="10"><img src="https://static.daoblog.top/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-06-16%20200519.png" alt="img" loading="lazy"></figure>
+<h3 id="开始使用">开始使用</h3>
+<p>点击机器人的头像，可以查看其支持的命令</p>
+<figure data-type="image" tabindex="11"><img src="https://static.daoblog.top/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-06-16%20200638.png" alt="img" loading="lazy"></figure>
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/swapid</td>
+<td>Swap ID - 上传被换脸的图片</td>
+</tr>
+<tr>
+<td>/saveid</td>
+<td>Save ID - 储存要使用的人脸</td>
+</tr>
+<tr>
+<td>/setid</td>
+<td>Set ID - 设置默认人脸，可用于右键快速换脸</td>
+</tr>
+<tr>
+<td>/listid</td>
+<td>List ID - 列出所有已保存的人脸</td>
+</tr>
+<tr>
+<td>/delid</td>
+<td>Del ID - 删除已保存的人脸</td>
+</tr>
+</tbody>
+</table>
+<h4 id="储存人脸">储存人脸</h4>
+<p>要换脸，首先要让机器人保存一张人脸，点击<code>/saveid</code>开始</p>
+<figure data-type="image" tabindex="12"><img src="https://static.daoblog.top/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-06-16%20201252.png" alt="img" loading="lazy"></figure>
+<p><code>idname</code>即这个人脸的标识明，便于你区分不同人脸，<code>image</code>为人脸图像，建议上传<strong>没有佩戴眼镜、光线充足、清晰的正脸图像</strong></p>
+<blockquote>
+<p>当然，也可以像我一样不信邪，不过效果就没有保证了<br>
+<img src="https://static.daoblog.top/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-06-16%20201525.png" alt="img" loading="lazy"></p>
+</blockquote>
+<p>如果你只上传了一张人脸图像，那么它就是默认的人脸，后面无需切换即可右键直接生图</p>
+<p>如果上传了多张人脸，默认以最后一张为默认人脸，如需切换默认人脸，请使用<code>/setid</code>命令</p>
+<h4 id="一键换脸">一键换脸</h4>
+<p>接下来在聊天框中点击加号，上传一张图片，按回车键发送</p>
+<figure data-type="image" tabindex="13"><img src="https://static.daoblog.top/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-06-16%20201818.png" alt="img" loading="lazy"></figure>
+<p>接下来右键已发送的图片，选择<code>App</code> &gt; <code>INSwapper</code></p>
+<figure data-type="image" tabindex="14"><img src="https://static.daoblog.top/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-06-16%20202028.png" alt="img" loading="lazy"></figure>
+<p>然后看到机器人的回复了吗？我们现在只需要“坐和放宽——Microsoft”，耐心等候处理即可，一般几秒到十多秒也就好了</p>
+<figure data-type="image" tabindex="15"><img src="https://static.daoblog.top/img/%E9%87%91%E7%94%A8%E6%B2%B3+%E4%BB%98%E5%8F%8B%E6%89%8D.jpg/blog_full" alt="6" loading="lazy"></figure>
+<p>大功告成！</p>
+<h2 id="再次警告"><mark>再次警告！</mark></h2>
+<p><strong>请<mark>不要</mark>用这个软件做任何违反法律法规的事情</strong></p>
+<p><strong>请<mark>不要</mark>用这个软件生成任何违反法律法规的图片</strong></p>
+<p><strong>请<mark>不要</mark>用二次元图片进行替换，否则效果极差、有恐怖谷效应</strong></p>
+<p><strong>作恶的从来是人，而不是工具。<mark>天网恢恢，疏而不漏。</mark></strong></p>
+<figure data-type="image" tabindex="16"><img src="https://static.daoblog.top/img/aris-wtf.webp" alt="Aris: WHAAAAAT" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[主题Change Log]]></title>
+        <id>https://www.daoblog.top/post/changelog/</id>
+        <link href="https://www.daoblog.top/post/changelog/">
+        </link>
+        <updated>2023-06-16T03:03:53.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>主题<a href="https://www.daoblog.top/">DaoBlog</a>修改自<a href="https://github.com/imhanjie/gridea-theme-pure">gridea-theme-pure</a>，由<a href="https://github.com/YanDao0313">@YanDa0313</a>维护</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>主题<a href="https://www.daoblog.top/">DaoBlog</a>修改自<a href="https://github.com/imhanjie/gridea-theme-pure">gridea-theme-pure</a>，由<a href="https://github.com/YanDao0313">@YanDa0313</a>维护</p>
+</blockquote>
+<!-- more -->
+<blockquote>
+<p>另提供专门的<a href="https://cn.updates.daoblog.top/">changelog页面（中国大陆）</a><br>
+Check this out: <a href="https://updates.daoblog.top/">changelog page (global)</a></p>
+</blockquote>
+<iframe src="https://updates.daoblog.top/widget" width="100%" height="1000px" frameborder="0" style="border-radius: 10px;">
+</iframe>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[听说你Gen-2很牛......]]></title>
+        <id>https://www.daoblog.top/post/gen2-xun/</id>
+        <link href="https://www.daoblog.top/post/gen2-xun/">
+        </link>
+        <updated>2023-06-15T09:14:59.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>没有想象中那么好，但其实也没那么不堪（大概吧</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>没有想象中那么好，但其实也没那么不堪（大概吧</p>
+</blockquote>
+<!-- more -->
+<div id="player_3e7f3dcd236fd80f"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_3e7f3dcd236fd80f'),
+    userId: 3205,
+    vcode: '3e7f3dcd236fd80f',
+    autoPlay: false
+});
+</script><br />
+<p>看了Topbook的视频后，我觉得我可以试一试，结果成了逝一逝......效果出奇的<strong>一般</strong>。</p>
+<p>当然，这与我偷懒用了ChatGPT（API版本）来帮我写提示词肯定有关系，不过这效果也太......我只能说，多半是我运气不好罢。不过AI工具的进展真的非常迅速，所以我还是挺期待这家公司在不远的将来推出Gen-3模型是能不能有更优秀的表现，但就目前而言，我不大乐意为了这个服务氪金。</p>
+<blockquote>
+<p>视频使用字体：阿里巴巴普惠体、思源宋体<br>
+背景音乐来自<a href="https://bluearchive-cn.com/">《蔚蓝档案》</a>，非商业使用许可</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[化学小逝验：自制汽水]]></title>
+        <id>https://www.daoblog.top/post/wtf_chemistry230614/</id>
+        <link href="https://www.daoblog.top/post/wtf_chemistry230614/">
+        </link>
+        <updated>2023-06-14T14:24:11.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>啊哈哈，自制汽水来喽！<br>
+化学小逝验 | 自制汽水 | 无人声ASMR（大概</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>啊哈哈，自制汽水来喽！<br>
+化学小逝验 | 自制汽水 | 无人声ASMR（大概</p>
+</blockquote>
+<!-- more -->
+<div id="player_58fc81298418e8d7"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_58fc81298418e8d7'),
+    userId: 3205,
+    vcode: '58fc81298418e8d7',
+    autoPlay: false
+});
+</script><br />
+<p>其实之前上到溶液的时候就像做这个自制汽水的实验了，但是原料是网购的，运输需要时间，而且周末也是作业成山、没有时间，于是乎就拖到了现在。</p>
+<p>说句实在话，化学课本上的这个配方是真的一言难尽。不建议大家用这个配方，当然，可能也与我购买的“可乐糖浆”有关。总而言之，我的操作并不规范，只能说是勉勉强强将个就，大家不要跟我学哈。</p>
+<p>使用字体：阿里巴巴普惠体；背景音乐来自<a href="https://bluearchive-cn.com/">《蔚蓝档案》</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[鱼韵 | 近期竖屏切片合集]]></title>
+        <id>https://www.daoblog.top/post/adapt_bd-20230222/</id>
+        <link href="https://www.daoblog.top/post/adapt_bd-20230222/">
+        </link>
+        <updated>2023-02-05T14:57:46.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>Live Blue-ray&amp;DVD 2023/02/22 Release</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>Live Blue-ray&amp;DVD 2023/02/22 Release</p>
+</blockquote>
+<!-- more -->
+<div id="player_931ff830be7deba9"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_931ff830be7deba9'),
+    userId: 3205,
+    vcode: '931ff830be7deba9',
+    autoPlay: false
+});
+</script><br />
+<div id="player_6739137b69e13d36"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_6739137b69e13d36'),
+    userId: 3205,
+    vcode: '6739137b69e13d36',
+    autoPlay: false
+});
+</script><br />
+<div id="player_118de3fdb847586d"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_118de3fdb847586d'),
+    userId: 3205,
+    vcode: '118de3fdb847586d',
+    autoPlay: false
+});
+</script><br />
+<div id="player_1c684edb8f75682d"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_1c684edb8f75682d'),
+    userId: 3205,
+    vcode: '1c684edb8f75682d',
+    autoPlay: false
+});
+</script><br />
+<div id="player_b332edcab6f2940e"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_b332edcab6f2940e'),
+    userId: 3205,
+    vcode: 'b332edcab6f2940e',
+    autoPlay: false
+});
+</script><br />
+<div id="player_b16279308d75498d"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_b16279308d75498d'),
+    userId: 3205,
+    vcode: 'b16279308d75498d',
+    autoPlay: false
+});
+</script><br />
+<div id="player_67af1af92eaa1a89"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_67af1af92eaa1a89'),
+    userId: 3205,
+    vcode: '67af1af92eaa1a89',
+    autoPlay: false
+});
+</script><br />
+<div id="player_5ab22b7edfdf2695"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_5ab22b7edfdf2695'),
+    userId: 3205,
+    vcode: '5ab22b7edfdf2695',
+    autoPlay: false
+});
+</script><br />
+<blockquote>
+<p>版权联系邮箱：[copyright@ydlk.cc]<br>
+回复可能不及时，恳请谅解。</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ミュージック - サカナクション×後藤ひとり]]></title>
+        <id>https://www.daoblog.top/post/20230113/</id>
+        <link href="https://www.daoblog.top/post/20230113/">
+        </link>
+        <updated>2023-01-13T10:48:59.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>整活，甚至某站屏蔽认证......</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>整活，甚至某站屏蔽认证......</p>
+</blockquote>
+<!-- more -->
+<div id="player_3fc877deba9f814e"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_3fc877deba9f814e'),
+    userId: 3205,
+    vcode: '3fc877deba9f814e',
+    autoPlay: false
+});
+</script><br />
+<p><a href="https://www.bilibili.com/video/BV1BK411C7fm/">点击本行，跳转至睿站观看</a></p>
+<p><a href="https://youtu.be/eLYD8DfxpVY">点击本行，跳转至YouTube观看</a></p>
+<p><a href="https://weixin.qq.com/sph/AySnXl">点击本行，跳转至微信视频号观看</a></p>
+<blockquote>
+<p>我制作了与 [该词语侵权] 相关的视频，本人思想上不支持和为“[该词语侵权]”提供任何侵权服务，本频道所有搬运内容均来自互联网上公开的内容。<br>
+受来自国内某大公司的不可抗力的原因，我被禁止在本视频中使用 [该词语侵权] 的名称和相关画面。<br>
+[该词语侵权] 的成功离不开诸多乐迷的贡献和创造，但这家大公司的行为令我们对 [该词语侵权] 的未来感到担忧。<br>
+**这是一只由乐迷、乐队成员和幕后团队一同打造的充满希望的日本音乐之鱼，  **<br>
+<strong>在国内是否将会变得越来越封闭、黑暗且荒凉？</strong></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>本作仅整活，没有考虑ミュージック这首歌原来的意境哈。<br>
+工程量还挺大，结果效果并不是特别好......<br>
+跳帧真不是我的问题，是剪映的远古bug......</p>
+</blockquote>
+<blockquote>
+<p>原曲地址 https://music.ydlk.cc/album/2450266/<br>
+原MV地址 BV1Nq4y1W7oE | 记得关注结束乐队与鱼韵乐队喔！<br>
+自制作品，请勿随意转载；内容侵权版权方联系邮箱 copyright@ydlk.cc</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>“接下来要在东京大干一场啊！”怀着这种心情写下的描绘北海道景色的一曲。山口当时经常在和打工的地方关系特别好的club玩，并且在那里得到了敬仰的音乐人的激励，于是想将那时的感觉也写到曲子里。录制是在山口自家进行的。所有歌词全部唱了两遍，并将其重合——采用这种被称为“doubling”的手法，会使音色产生巧妙的律动。录和声的时候岩寺感冒了，变成了带鼻音的和声。另外，当时还制作了临时曲名为「ざきおかじごく」的另一个版本，主要是歌词的顺序编排和现在稍有不同。这之后又更改了好几个曲名，最终完成了现在的「ミュージック」。<br>
+——微博@sakanaction鱼研所</p>
+</blockquote>
+<blockquote>
+<p>这首曲子是山口先生右耳失聪后乐队五人共同创作的，承载着成员们坚持音乐创作的愿望，对鱼韵有着非凡的意义<br>
+请一定要继续歌唱下去。<br>
+——转自X易云用户 Veritas_cai</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[异化三体但是你已经记不太清了]]></title>
+        <id>https://www.daoblog.top/post/fyou_bili_tb/</id>
+        <link href="https://www.daoblog.top/post/fyou_bili_tb/">
+        </link>
+        <updated>2023-01-08T10:16:55.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>这是计划的一部分！</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>这是计划的一部分！</p>
+</blockquote>
+<!-- more -->
+<p>真的绷不住了，于是花半个小时整一个烂活给大家欣赏一下。</p>
+<div id="player_3ddf72c287995a9b"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_3ddf72c287995a9b'),
+    userId: 3205,
+    vcode: '3ddf72c287995a9b',
+    autoPlay: false
+});
+</script>
+<blockquote>
+<p><a href="https://www.bilibili.com/video/BV1iK411y7Si/">点击本行，跳转至睿站发弹幕吐槽 😀</a></p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[魔改小记 | GitHub PR提交友链与基于json的友链动态更新]]></title>
+        <id>https://www.daoblog.top/post/flink-2023-json/</id>
+        <link href="https://www.daoblog.top/post/flink-2023-json/">
+        </link>
+        <updated>2023-01-06T08:45:18.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>怎样避免低质量友链？怎样设置一定门槛？怎样不手动同步？本文会告诉你答案</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>怎样避免低质量友链？怎样设置一定门槛？怎样不手动同步？本文会告诉你答案</p>
+</blockquote>
+<!-- more -->
+<blockquote>
+<p>👨‍💻 In writing...</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[配置GPG签名，让你的Git提交不被冒充]]></title>
+        <id>https://www.daoblog.top/post/gpg-2023/</id>
+        <link href="https://www.daoblog.top/post/gpg-2023/">
+        </link>
+        <updated>2023-01-04T12:02:04.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>当你发现自己的名下出现了一些未曾谋面的commits时，你就知道花几分钟配置一下GPG签名有多重要了</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>当你发现自己的名下出现了一些未曾谋面的commits时，你就知道花几分钟配置一下GPG签名有多重要了</p>
+</blockquote>
+<!-- more -->
+<p>本文将重点讨论GPG密钥的生成以及其与Git&amp;GitHub的集成，GPG命令行工具的安装不在本文的讨论范畴之内。</p>
+<p>请注意，如果删除了先前有的GPG密钥，则<strong>凡使用了此签名的提交均会变灰</strong>，请自行斟酌！</p>
+<blockquote>
+<p><ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#step-one-%E7%94%9F%E6%88%90%E4%B8%80%E5%AF%B9%E5%AF%86%E9%92%A5">Step One. 生成一对密钥</a></li>
+<li><a href="#step-two-%E8%8E%B7%E5%8F%96%E5%AF%86%E9%92%A5%E4%BF%A1%E6%81%AF">Step Two. 获取密钥信息</a></li>
+<li><a href="#step-three-%E6%8A%8A%E5%AF%86%E9%92%A5%E5%91%8A%E8%AF%89git">Step Three. 把密钥告诉Git</a></li>
+<li><a href="#step-four-%E6%8A%8A%E5%AF%86%E9%92%A5%E5%91%8A%E8%AF%89github">Step Four. 把密钥告诉GitHub</a></li>
+</ul>
+</li>
+</ul>
+</p>
+</blockquote>
+<p>写作本文的契机是因为一个月前我配置GPG密钥时读了GitHub的官方文章，结果简中部分不但语句不通，甚至翻译还很不全......虽然最后折腾好了（挺简单一事），但是考虑到日后可能自己也有参考的需要，而且看到了Spencer's Blog上的<a href="https://spencer-blog-legacy.vercel.app/2020/08/wait-this-is-not-my-commit/">这篇文章</a>，便决定干脆写篇文章记录一下好了。</p>
+<h2 id="step-one-生成一对密钥">Step One. 生成一对密钥</h2>
+<p>在安装完GPG后，你可以使用命令<code>gpg --version</code>来检测GPG是否安装成功</p>
+<blockquote>
+<p>Tip: GPG的存储根目录为输出内容中的<code>Home</code>目录。<br>
+Windows环境可能会出现签名失败的bug，建议提前先记一下这个目录。</p>
+</blockquote>
+<p>我们使用下面的命令来为我们自己生成一对GPG密钥（公钥+私钥）</p>
+<pre><code class="language-shell">gpg --full-generate-key
+</code></pre>
+<blockquote>
+<p>注意，上面的代码需要GPG版本为<code>2.1.17</code>或更高。</p>
+</blockquote>
+<ul>
+<li>对于密钥种类，在此处输入<code>1</code>（为<code>RSA and DSA</code>）</li>
+<li>对于密钥种类，GitHub要求的最短长度为<code>4096bits</code>，一般来讲选择这个即可（输入<code>4096</code>）</li>
+<li>对于密钥有效时长，默认为永久有效，请根据实际情况选择
+<ul>
+<li>选择了有效期后，GPG会让你确认密钥会在多久后过期，若无误，在此时输入<code>y</code>表确认</li>
+</ul>
+</li>
+<li>输入用户信息时，请确保输入了GitHub帐户上绑定了的<mark>经过验证的</mark>电子邮件地址
+<ul>
+<li>“要将电子邮件地址保密，请使用GitHub提供的<code>no-reply</code>电子邮件地址。”</li>
+<li>“建议使用GitHub账户的用户名”</li>
+<li><code>comment</code>一项为密钥的注释，非必需</li>
+</ul>
+</li>
+<li>最后一步，输入一个安全且你记得住的密码，回车，稍等片刻，等待命令行打印相关信息</li>
+</ul>
+<p>若打印出了密钥的有关信息，则说明此时密钥已经生成成功啦，恭喜🎉</p>
+<pre><code>gpg: revocation certificate stored as 'C:\\Users\\xxxxxx\\AppData\\Roaming\\gnupg\\openpgp-revocs.d\\997AAxxxxxB2E8FxxxxxC38A9xxxxx5B217xxxxx.rev'
+public and secret key created and signed.
+
+pub   rsa4096 2023-01-05 [SC] [expires: 2023-01-06]
+      997AAxxxxxB2E8FxxxxxC38A9xxxxxx5B217xxxxx
+uid                      YanDao0313 &lt;xxxxxxxxxx@qq.com&gt;
+sub   rsa4096 2023-01-05 [E] [expires: 2023-01-06]
+</code></pre>
+<h2 id="step-two-获取密钥信息">Step Two. 获取密钥信息</h2>
+<p>接下来，输入以下命令，它会让GPG列出我们当前拥有的全部<code>GPG Key</code></p>
+<pre><code class="language-shell">gpg --list-secret-keys --keyid-format=long
+</code></pre>
+<p>效果如下：</p>
+<pre><code>gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   3  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 3u
+gpg: next trustdb check due at 2023-01-06
+C:\Users\xxxxxx\AppData\Roaming\gnupg\pubring.kbx
+------------------------------------------------
+sec   rsa4096/9D34EF5B217774C7 2023-01-05 [SC] [expires: 2023-01-06]
+      997AAxxxxxB2E8FxxxxxC38A9xxxxxx5B217xxxxx
+uid                 [ultimate] YanDao0313 &lt;xxxxxxxxxx@qq.com&gt;
+ssb   rsa4096/C4F16EA309D522FD 2023-01-05 [E] [expires: 2023-01-06]
+</code></pre>
+<p>在本例中，<code>sec</code>一行中的<code>rsa4096/9D34EF5B217774C7</code>即为GPG私钥，后半段的<code>9D34EF5B217774C7</code>为私钥ID</p>
+<h2 id="step-three-把密钥告诉git">Step Three. 把密钥告诉Git</h2>
+<p>在终端中输入如下命令，记得将<code>9D34EF5B217774C7</code>替换为你自己的私钥ID</p>
+<pre><code class="language-shell">git config --global user.signingkey 9D34EF5B217774C7
+</code></pre>
+<p>可选地，你可以全局强制使用GPG对提交签名，只需下面一行代码：</p>
+<pre><code class="language-shell">git config --global commit.gpgsign true
+</code></pre>
+<p>注意：在执行此命令后，每一次提交都需要输入密码进行签名，输一次密码即进入<code>sudo  mode</code>，接下来的几分钟提交时不用再输密码。</p>
+<p>此时可以进行一次提交，看看签名生效了没，如果Git报错满天飞，那么可能是Git调用了与我们刚刚使用的不一致的GPG，可以输入以下的命令进行手动指定：</p>
+<pre><code class="language-shell">git config --global gpg.program /把目录替换成你的/114514/1919810/gpg
+</code></pre>
+<p>不要忘记替换成刚刚提到过的<code>home</code>目录哦（这逝homo目录罢（悲</p>
+<h2 id="step-four-把密钥告诉github">Step Four. 把密钥告诉GitHub</h2>
+<p>接下来，在终端中输入下面这一行命令，将<code>9D34EF5B217774C7</code>替换为你刚刚得到的私钥ID</p>
+<pre><code class="language-shell">gpg --armor --export 9D34EF5B217774C7
+</code></pre>
+<p>若无误，它会打印出一串很长的GPG密钥，请复制以<code>-----BEGIN PGP PUBLIC KEY BLOCK-----</code>为开头并以<code>-----END PGP PUBLIC KEY BLOCK-----</code>为结尾的密钥内容，请先暂时保存（但是不要以明文留存）</p>
+<blockquote>
+<p>注意，<mark>包含</mark>这两句哦~</p>
+</blockquote>
+<p>将输出粘贴进入GitHub的<a href="https://github.com/settings/keys">Settings » SSH and GPG keys</a>，选择<code>New GPG key</code>项，配置、验证并保存。之后，凡是正确签名了的commit都有一个漂亮的绿标<code>Verified</code>字样，<s>可以拿去炫耀</s> 即使账号被恶意使用也有证据来证明那不是你的行为了！</p>
+<blockquote>
+<p>👨‍💻 本文到此结束，祝你不被冒充！</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docker项目 | Hexo在线管理+ Butterfly主题+ Twikoo评论系统]]></title>
+        <id>https://www.daoblog.top/post/docker-hexo-2022/</id>
+        <link href="https://www.daoblog.top/post/docker-hexo-2022/">
+        </link>
+        <updated>2023-01-01T03:35:14.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>在线管理，很舒服</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>在线管理，很舒服</p>
+</blockquote>
+<!-- more -->
+<h2 id="1-前言">1. 前言</h2>
+<p>早在 2 年前，咕咕搭建的第一个博客就是用的 Hexo 的框架（当时用的 butterfly 主题只有几十个 star），因为可以部署在 GitHub 上，加上如果可以接受 GitHub 的<code>xxxxx.github.io</code>域名，甚至可以不用一分钱就拥有自己的博客。</p>
+<figure data-type="image" tabindex="1"><img src="https://static.daoblog.top/5115/202301011138372.png" alt="" loading="lazy"></figure>
+<p>不过 Hexo 博客也有不少缺点。</p>
+<p>导致咕咕后来放弃 Hexo 的原因主要有两点：</p>
+<p>1、无法在线编辑</p>
+<p>因为都是从本地 push 到 GitHub 仓库实现部署的，所以还要配本地环境啊啥的，换一台电脑，又得重新再来一次，很麻烦。</p>
+<p>2、评论需要借助第三方服务</p>
+<p>一开始咕咕记得自己使用的是 valine，免费部署在 leancloud 上的，后来似乎是政策原因，无法使用 https 了，可能当时也比较菜，迁移的时候出了点问题，导致评论丢失了，也是比较遗憾。</p>
+<p>所以后来还是转战了 Halo，方便！</p>
+<p>具体博客框架的选择上，咕咕之前有过一次经验分享，有兴趣的小伙伴可以看这篇文章：Hexo 还是 <a href="https://blog.laoda.de/archives/blog-choosing">Hugo？Typecho 还是 Wordpress？读完这篇或许你就有答案了！</a></p>
+<p>然后，上周逛 GitHub 的时候，又点进了 butterfly 主题的仓库，现在它已经是一个 4.8k star 的 hexo 王牌主题了。</p>
+<p>看着熟悉的 demo，又怀念起了当初刚建博客的时光。</p>
+<p>我突发奇想，2 年过去了，hexo 的这几个缺点是不是可能已经解决了？在网上搜索了一番之后，发现我的猜想是正确的，果然现在可以基本实现在线写 Hexo 博客了！而且评论也可以自己部署！前提是要用到一台 VPS。VPS 多的是，所以这周就来分享一下咕咕折腾的经验。</p>
+<p>最终实现的效果：</p>
+<p><strong>Hexo 框架 + butterfly 主题 + 在线编辑（任何有网的地方）+ 评论功能自部署</strong></p>
+<p>最重要的是，你也不需要去配置很多纷繁复杂的环境，我们用 Docker 来搞定！</p>
+<h3 id="11-相关地址">1.1 相关地址</h3>
+<p>Hexo 在线部署镜像：https://hub.docker.com/r/spurin/hexo<br>
+Hexo 在线部署镜像 GitHub 地址：https://github.com/spurin/docker-hexo<br>
+Butterfly 官方 GitHub：https://github.com/jerryc127/hexo-theme-butterfly<br>
+评论 Twikoo 文档：https://twikoo.js.org/quick-start.html#私有部署-docker<br>
+Butterfly 安裝文檔 (四) 主題配置 - 2：https://butterfly.js.org/posts/ceeb73f/#評論</p>
+<h2 id="2-项目展示">2. 项目展示</h2>
+<h3 id="21-hexo-后台">2.1 Hexo 后台</h3>
+<figure data-type="image" tabindex="2"><img src="https://static.daoblog.top/5115/202301011140510.png" alt="" loading="lazy"></figure>
+<h3 id="22-博客主页">2.2 博客主页</h3>
+<figure data-type="image" tabindex="3"><img src="https://static.daoblog.top/5115/202301011140295.png" alt="" loading="lazy"></figure>
+<h3 id="23-内容页">2.3 内容页</h3>
+<p><img src="https://static.daoblog.top/5115/202301011141205.png" alt="" loading="lazy"><br>
+<img src="https://static.daoblog.top/5115/202301011141112.png" alt="" loading="lazy"></p>
+<h3 id="24-评论区">2.4 评论区</h3>
+<figure data-type="image" tabindex="4"><img src="https://static.daoblog.top/5115/202301011142739.png" alt="" loading="lazy"></figure>
+<p>这边直接丢出两个核心的<code>docker-compose.yaml</code>文件，熟悉 docker 环境的小伙伴可以直接拷贝搭建。</p>
+<p>Hexo 部署：</p>
+<pre><code class="language-yaml">version: '3.3'
+services:
+    hexo:
+        container_name: hexo
+        environment:
+            - HEXO_SERVER_PORT=4000   # 不建议改，如果这边的 4000 改了，下面 ports 部分，冒号右边的 4000 也需要修改
+            - GIT_USER=github_name       # 改成自己的用户名，可以随便写一个 
+            - GIT_EMAIL=xxxx@gmail.com  # 改成自己的邮箱，可以随便写一个
+            - TZ=Asia/Shanghai  # 时区
+        volumes:
+            - './blog:/app'    # 冒号左边可以改路径，现在是表示把数据存放在在当前文件夹下的 blog 文件夹中
+        ports:
+            - '8080:4000'     # 冒号左边可以改成自己服务器未被占用的端口
+        image: spurin/hexo
+</code></pre>
+<p>评论部署：</p>
+<pre><code class="language-yaml">version: &quot;3.5&quot;
+services:
+  twikoo:
+    container_name: twikoo
+    image: imaegoo/twikoo
+    environment:
+      - TWIKOO_THROTTLE=1000 # IP 请求限流，当同一 IP 短时间内请求次数超过阈值将对该 IP 返回错误，默认 250，可以自己修改
+    ports:
+      - 4000:8080   # 冒号左边可以改成自己服务器未被占用的端口
+    volumes:
+      - ./data:/app/data  # 冒号左边可以改路径，现在是表示把数据存放在在当前文件夹下的 data 文件夹中
+    restart: unless-stopped
+</code></pre>
+<p>以下是详细搭建教程。</p>
+<h2 id="3-搭建环境">3. 搭建环境</h2>
+<ul>
+<li>服务器：<s>腾讯香港轻量应用服务器 24 元 / 月 VPS 一台</s> 咕咕自己搭建用的是腾讯轻量应用服务器 ，（最好是选 非大陆（香港）的服务器）如果是小白刚开始玩的话，还可以购买 Racknerd 的服务器，最低一年不到 100 块（不过这个建议选择 1G 内存以上的机器）</li>
+<li>系统：Debian 10 DD 脚本 非必需 DD 用原来的系统也 OK，之后教程都是用 Debian 或者 Ubuntu 搭建</li>
+<li>安装好 Docker、Docker-compose</li>
+<li>【非必需但建议】域名一枚，并做好解析到服务器上</li>
+<li>【非必需】提前安装好宝塔面板海外版本 aapanel，并安装好 Nginx</li>
+<li>【非必需本教程选用】安装好 Nginx Proxy Manager</li>
+</ul>
+<blockquote>
+<p>服务器要求：内存建议1G 以上，硬盘20G够用了。</p>
+</blockquote>
+<h2 id="4-搭建视频">4. 搭建视频</h2>
+<p>YouTube：https://youtu.be/TR6jd6RRdk8</p>
+<p>哔哩哔哩</p>
+<iframe src="//player.bilibili.com/player.html?aid=391730449&bvid=BV1Md4y1a7PC&cid=934884114&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><br />
+<h2 id="5-搭建方式">5. 搭建方式</h2>
+<h3 id="安装系统腾讯云轻量">安装系统（腾讯云轻量）</h3>
+<figure data-type="image" tabindex="5"><img src="https://static.daoblog.top/5115/202301011146627.png" alt="" loading="lazy"></figure>
+<p>腾讯云轻量服务器最大的特点就是 “轻量”，相比 CVM，更适合小白上手，这边我们之间选择 Docker 基础镜像，就可以省去后面安装 Docker 的步骤（如果你非要用国内的服务器，这边装的 Docker 镜像还会帮你配置好国内镜像源，让你加速访问 docker 镜像资源）。</p>
+<p>登陆（腾讯云轻量应用服务器）</p>
+<figure data-type="image" tabindex="6"><img src="https://static.daoblog.top/5115/202301011146342.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://static.daoblog.top/5115/202301011147087.png" alt="" title="喂，别看IP啦" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://static.daoblog.top/5115/202301011154233.png" alt="" loading="lazy"></figure>
+<h3 id="51-服务器前期配置">5.1 服务器前期配置</h3>
+<p>服务器初始设置，参考：</p>
+<p><a href="https://blog.laoda.de/archives/vps-script">新买了一台服务器 “必须” 要做的 6 件小事</a></p>
+<p><a href="https://blog.laoda.de/archives/how-to-secure-a-linux-server">保护好你的小鸡！保姆级服务器安全教程！</a></p>
+<p>这边由于我们用的是腾讯云轻量应用服务器，系统默认就帮我们创建了名字是<code>lighthouse</code>的用户，系统后台也有防火墙（默认就开了几个常用的端口）</p>
+<p>对小白用户来说，可以不用再去管繁琐的服务器安全的配置，降低了服务器防护的门槛。</p>
+<p><a href="https://blog.laoda.de/archives/hello-docker">【Docker 系列】不用宝塔面板，小白一样可以玩转 VPS 服务器！</a></p>
+<pre><code class="language-bash">sudo -i # 切换到 root 用户
+
+apt update -y  # 升级 packages
+
+apt install wget curl sudo vim git -y  # Debian 系统比较干净，安装常用的软件
+</code></pre>
+<blockquote>
+<p>注意：如果VPS 的内存过小，建议设置一下 SWAP，一般为内存的 1-1.5 倍即可，可以让系统运行更流畅！</p>
+</blockquote>
+<p>设置 SWAP 可以用脚本:</p>
+<pre><code class="language-bash">wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &amp;&amp; chmod +x box.sh &amp;&amp; clear &amp;&amp; ./box.sh
+</code></pre>
+<figure data-type="image" tabindex="9"><img src="https://static.daoblog.top/5115/202301011156809.png" alt="" loading="lazy"></figure>
+<p>选择<code>18</code>，然后输入你想要扩容的数值即可。</p>
+<figure data-type="image" tabindex="10"><img src="https://static.daoblog.top/5115/202301011156978.png" alt="" loading="lazy"></figure>
+<p>使用腾讯云轻量的小伙伴可以直接跳到<code>5.2.4</code></p>
+<h3 id="52-安装-docker使用腾讯云轻量的可跳过这一部分">5.2 安装 Docker（使用腾讯云轻量的可跳过这一部分）</h3>
+<h4 id="521-非大陆服务器-docker-安装">5.2.1 <mark>非大陆</mark>服务器 Docker 安装</h4>
+<pre><code class="language-bash">wget -qO- get.docker.com | bash
+docker -v  #查看 docker 版本
+systemctl enable docker  # 设置开机自动启动
+</code></pre>
+<p><strong>修改 Docker 配置（可选）</strong>（来自 <a href="https://u.sb/debian-install-docker/">烧饼博客</a>）<br>
+以下配置会增加一段自定义内网 IPv6 地址，开启容器的 IPv6 功能，以及限制日志文件大小，防止 Docker 日志塞满硬盘（泪的教训）：</p>
+<pre><code class="language-bash">cat &gt; /etc/docker/daemon.json &lt;&lt;EOF
+{
+    &quot;log-driver&quot;: &quot;json-file&quot;,
+    &quot;log-opts&quot;: {
+        &quot;max-size&quot;: &quot;20m&quot;,
+        &quot;max-file&quot;: &quot;3&quot;
+    },
+    &quot;ipv6&quot;: true,
+    &quot;fixed-cidr-v6&quot;: &quot;fd00:dead:beef:c0::/80&quot;,
+    &quot;experimental&quot;:true,
+    &quot;ip6tables&quot;:true
+}
+EOF
+</code></pre>
+<p>然后重启 Docker 服务：</p>
+<pre><code class="language-bash">systemctl restart docker
+</code></pre>
+<h4 id="522-非大陆服务器-docker-compose-安装">5.2.2 <mark>非大陆</mark>服务器 Docker-compose 安装</h4>
+<pre><code class="language-bash">sudo curl -L &quot;https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)&quot; -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version  #查看 docker-compose 版本
+</code></pre>
+<h4 id="523-国内服务器安装-docker">5.2.3 <mark>国内</mark>服务器安装 docker</h4>
+<pre><code class="language-bash">curl -sSL https://get.daocloud.io/docker | sh
+docker -v  #查看 docker 版本
+systemctl enable docker  # 设置开机自动启动
+</code></pre>
+<p><strong>修改 Docker 配置（可选）</strong>（来自 <a href="https://u.sb/debian-install-docker/">烧饼博客</a>）</p>
+<p>以下配置会增加一段自定义内网 IPv6 地址，开启容器的 IPv6 功能，以及限制日志文件大小，防止 Docker 日志塞满硬盘（泪的教训）：</p>
+<pre><code class="language-bash">cat &gt; /etc/docker/daemon.json &lt;&lt;EOF
+{
+    &quot;log-driver&quot;: &quot;json-file&quot;,
+    &quot;log-opts&quot;: {
+        &quot;max-size&quot;: &quot;20m&quot;,
+        &quot;max-file&quot;: &quot;3&quot;
+    },
+    &quot;ipv6&quot;: true,
+    &quot;fixed-cidr-v6&quot;: &quot;fd00:dead:beef:c0::/80&quot;,
+    &quot;experimental&quot;:true,
+    &quot;ip6tables&quot;:true
+}
+EOF
+</code></pre>
+<p>然后重启 Docker 服务：</p>
+<pre><code class="language-bash">systemctl restart docker
+</code></pre>
+<h4 id="524-国内服务器安装-docker-compose">5.2.4 <mark>国内</mark>服务器安装 docker-compose</h4>
+<pre><code class="language-bash">curl -L https://get.daocloud.io/docker/compose/releases/download/v2.1.1/docker-compose-`uname -s`-`uname -m` &gt; /usr/local/bin/docker-compose
+
+chmod +x /usr/local/bin/docker-compose
+
+docker-compose --version  #查看 docker-compose 版本
+</code></pre>
+<h3 id="53-安装-nginxproxymanager">5.3 安装 NginxProxyManager</h3>
+<p>参考这边的内容：<code>https://blog.laoda.de/archives/nginxproxymanager</code></p>
+<h3 id="54-创建安装目录">5.4 创建安装目录</h3>
+<p>创建一下安装的目录：</p>
+<pre><code class="language-bash">sudo -i
+
+mkdir -p /root/data/docker_data/hexo
+
+cd /root/data/docker_data/hexo
+</code></pre>
+<p>这边我们直接用 docker 的方式安装。</p>
+<pre><code class="language-bash">vim docker-compose.yml
+</code></pre>
+<p>英文输入法下，按<code>i</code></p>
+<pre><code class="language-yaml">version: '3.3'
+services:
+    hexo:
+        container_name: hexo
+        environment:
+            - HEXO_SERVER_PORT=4000   # 不建议改，如果这边的 4000 改了，下面 ports 部分，冒号右边的 4000 也需要修改
+            - GIT_USER=github_name       # 改成自己的用户名，可以随便写一个 
+            - GIT_EMAIL=xxxx@gmail.com  # 改成自己的邮箱，可以随便写一个
+            - TZ=Asia/Shanghai  # 时区
+        volumes:
+            - './blog:/app'    # 冒号左边可以改路径，现在是表示把数据存放在在当前文件夹下的 blog 文件夹中
+        ports:
+            - '8080:4000'     # 冒号左边可以改成自己服务器未被占用的端口
+        image: spurin/hexo
+</code></pre>
+<p>按一下<code>esc</code>，然后<code>:wq</code>保存退出，最后：</p>
+<pre><code class="language-bash">cd /root/data/docker_data/hexo    # 来到 dockercompose 文件所在的文件夹下
+
+docker-compose up -d 
+</code></pre>
+<h3 id="55-打开服务器防火墙并访问网页">5.5 打开服务器防火墙并访问网页</h3>
+<p>打开防火墙的端口<code>8080</code></p>
+<p>腾讯云打开方法如下：</p>
+<figure data-type="image" tabindex="11"><img src="https://static.daoblog.top/5115/202301011201512.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="12"><img src="https://static.daoblog.top/5115/202301011201495.png" alt="" loading="lazy"></figure>
+<p>图中示例填的是<code>5230</code>，备注填的是<code>memos</code>，这边我们填<code>8080</code>，示例填<code>pingvin-share</code>，确定即可（如果你在<code>docker-compose.yaml</code>文件里换了<code>8081</code>，这边就需要填<code>8081</code>，以此类推）</p>
+<figure data-type="image" tabindex="13"><img src="https://static.daoblog.top/5115/202301011202082.png" alt="" loading="lazy"></figure>
+<p>查看端口是否被占用（以<code>8080</code>为例），输入：</p>
+<pre><code class="language-bash">lsof -i:8080  #查看 8080 端口是否被占用，如果被占用，重新自定义一个端口
+</code></pre>
+<p>如果啥也没出现，表示端口未被占用，我们可以继续下面的操作了～</p>
+<p>如果出现：</p>
+<pre><code class="language-bash">-bash: lsof: command not found
+</code></pre>
+<p>运行：</p>
+<pre><code class="language-bash">apt install lsof  #安装 lsof
+</code></pre>
+<p>如果端口没有被占用（被占用了就修改一下端口，比如改成 8081，注意 docker 命令行里和防火墙都要改）</p>
+<p>理论上我们就可以输入<code>http://ip:8080</code>访问了</p>
+<p>hexo 的后台地址就是<code>http://ip:8080/admin</code></p>
+<blockquote>
+<p>** 注意：**<br>
+1、不知道服务器 IP，可以直接在命令行输入：<code>curl ip.sb</code>，会显示当前服务器的 IP。<br>
+2、遇到访问不了的情况，请再次检查在宝塔面板的防火墙和服务商的后台防火墙是否打开对应了端口。</p>
+</blockquote>
+<p>有的小伙伴可能想搭建起来分享给其他人使用，如果后续想要分享给别人，IP+端口太不优雅了，咕咕建议大家还是搞一个域名，容易记，看起来也更正规一点。这样可以做https，会让网页更安全。（非要 IP + 端口访问的，可以直接跳到<code>5.6</code>，并且跳过<code>6. 反向代理</code>部分）</p>
+<p>而且如<code>namesilo</code>上面 xyz 后缀的域名一年就 7 块钱，可以年抛。如果想要长期使用，还是建议买<code>com</code>后缀的域名，更加正规一些.</p>
+<p>我们接着往下看。</p>
+<h3 id="56-更新">5.6 更新</h3>
+<h4 id="561-docker-compose-部署">5.6.1 docker-compose 部署</h4>
+<pre><code class="language-bash">cd /root/data/docker_data/hexo
+
+docker-compose down 
+
+cp -r /root/data/docker_data/hexo/root/data/docker_data/hexo.archive  # 万事先备份，以防万一，其实这边没必要，因为我们没有映射到本地文件夹
+
+docker-compose pull
+
+docker-compose up -d    # 请不要使用 docker-compose stop 来停止容器，因为这么做需要额外的时间等待容器停止；docker-compose up -d 直接升级容器时会自动停止并立刻重建新的容器，完全没有必要浪费那些时间。
+
+docker image prune  # prune 命令用来删除不再使用的 docker 对象。删除所有未被 tag 标记和未被容器使用的镜像
+</code></pre>
+<p>提示：</p>
+<pre><code>WARNING! This will remove all dangling images.
+Are you sure you want to continue? [y/N] 
+</code></pre>
+<p>输入<code>y</code></p>
+<p>利用 Docker 搭建的应用，更新非常容易～</p>
+<h3 id="57-卸载">5.7 卸载</h3>
+<pre><code class="language-bash">cd /root/data/docker_data/hexo
+
+docker-compose down 
+
+rm -rf /root/data/docker_data/hexo  # 完全删除映射到本地的数据
+</code></pre>
+<p>可以卸载得很干净。</p>
+<h2 id="6-反向代理">6. 反向代理</h2>
+<h4 id="61-利用-nginx-proxy-manager">6.1 利用 Nginx Proxy Manager</h4>
+<p>在添加反向代理之前，确保你已经完成了域名解析</p>
+<blockquote>
+<p>以cloudflare为例<br>
+<img src="https://static.daoblog.top/5115/202301011210196.png" alt="" loading="lazy"></p>
+</blockquote>
+<p>之后，登陆 Nginx Proxy Manager（不会的看这个：安装<code>Nginx Proxy Manager</code><a href="https://blog.laoda.de/archives/nginxproxymanager">相关教程</a>）</p>
+<blockquote>
+<p>** 注意**<br>
+Nginx Proxy Manager（以下简称 NPM）会用到<code>80</code>、<code>443</code>端口，所以本机不能占用（比如原来就有 Nginx）</p>
+</blockquote>
+<p>直接丢几张图：</p>
+<p><img src="https://static.daoblog.top/5115/202301011211893.png" alt="" loading="lazy"><br>
+<img src="https://static.daoblog.top/5115/202301011211493.png" alt="" loading="lazy"></p>
+<blockquote>
+<p>注意填写对应的<code>域名</code>、<code>IP</code>和<code>端口</code>，按文章来的话，应该是<code>8080</code></p>
+</blockquote>
+<p><strong>IP 填写：</strong></p>
+<p>如果 Nginx Proxy Manager 和 hexo 在同一台服务器上，可以在终端输入：</p>
+<pre><code class="language-bash">ip addr show docker0
+</code></pre>
+<p>查看对应的 Docker 容器内部 IP。</p>
+<figure data-type="image" tabindex="14"><img src="https://static.daoblog.top/5115/202301011212121.png" alt="" loading="lazy"></figure>
+<p>否则直接填<code>hexo</code>所在的服务器 IP 就行。</p>
+<figure data-type="image" tabindex="15"><img src="https://static.daoblog.top/5115/202301011212005.png" alt="" loading="lazy"></figure>
+<p>再次打开，勾选这些：</p>
+<figure data-type="image" tabindex="16"><img src="https://static.daoblog.top/5115/202301011212857.png" alt="" loading="lazy"></figure>
+<p>然后就可以用域名来安装访问了。</p>
+<h3 id="62-利用宝塔面板">6.2 利用宝塔面板</h3>
+<p>发现还是有不少小伙伴习惯用宝塔面板，这边也贴一个宝塔面板的反代配置：</p>
+<p>直接新建一个站点，不要数据库，不要 php，纯静态即可。</p>
+<p>然后打开下面的配置，修改 Nginx 的配置。</p>
+<p><img src="https://static.daoblog.top/5115/202301011213372.png" alt="" loading="lazy"><br>
+<img src="https://static.daoblog.top/5115/202301011213393.png" alt="" loading="lazy"></p>
+<p>代码如下：</p>
+<pre><code>    location / {
+      proxy_pass http://127.0.0.1:8080/;       # 注意改成你实际使用的端口
+      rewrite ^/(.*)$ /$1 break;
+      proxy_redirect off;
+      proxy_set_header Host $host;
+      proxy_set_header X-Forwarded-Proto $scheme;
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      proxy_set_header Upgrade-Insecure-Requests 1;
+      proxy_set_header X-Forwarded-Proto https;
+    }
+</code></pre>
+<p>此方法对 90% 的反向代理都能生效。</p>
+<p>有同学可能会问，为什么不直接用宝塔自带的反向代理功能。</p>
+<figure data-type="image" tabindex="17"><img src="https://static.daoblog.top/5115/202301011213518.png" alt="" loading="lazy"></figure>
+<p>也可以，不过咕咕自己之前遇到过当有多个网站需要反代的时候，在这边设置会报错的情况 = =</p>
+<p>所以后来就不用了，直接用上面的方法来操作了。</p>
+<h2 id="7-使用教程">7. 使用教程</h2>
+<p>安装和配置见咕咕的视频。</p>
+<h3 id="71-更换butterfly主题">7.1 更换butterfly主题</h3>
+<pre><code class="language-bash">cd /root/data/docker_data/hexo/blog
+
+git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+</code></pre>
+<p>进入Docker容器内部：</p>
+<pre><code class="language-bash">docker exec -it hexo bash
+</code></pre>
+<p>安装插件（pug 以及 stylus 的渲染器）：</p>
+<pre><code class="language-bash">npm install hexo-renderer-pug hexo-renderer-stylus --save
+</code></pre>
+<h3 id="72-评论搭建">7.2 评论搭建</h3>
+<p>这部分大家如果不清楚，后续可以专门出个教程。</p>
+<pre><code class="language-bash">sudo -i
+
+mkdir -p data/docker_data/twikoo
+
+cd data/docker_data/twikoo
+
+vim docker-compose.yml
+</code></pre>
+<p>填入下面的配置：</p>
+<pre><code class="language-yaml">version: &quot;3.5&quot;
+services:
+  twikoo:
+    container_name: twikoo
+    image: imaegoo/twikoo
+    environment:
+      - TWIKOO_THROTTLE=1000 # IP 请求限流，当同一 IP 短时间内请求次数超过阈值将对该 IP 返回错误，默认 250，可以自己修改
+    ports:
+      - 4000:8080   # 冒号左边可以改成自己服务器未被占用的端口
+    volumes:
+      - ./data:/app/data  # 冒号左边可以改路径，现在是表示把数据存放在在当前文件夹下的 data 文件夹中
+    restart: unless-stopped
+</code></pre>
+<p>然后：</p>
+<pre><code class="language-bash">docker-compose up -d
+</code></pre>
+<p>举一反三，反向代理参考 hexo 部分即可。</p>
+<p>访问网址，出现这个说明部署成功：</p>
+<figure data-type="image" tabindex="18"><img src="https://static.daoblog.top/5115/202301011215108.png" alt="" loading="lazy"></figure>
+<p>评论的设置可以直接在博客这边设置：</p>
+<figure data-type="image" tabindex="19"><img src="https://static.daoblog.top/5115/202301011215824.png" alt="" loading="lazy"></figure>
+<h2 id="8-目前遇到的问题">8. 目前遇到的问题</h2>
+<h3 id="1-hexo-admin-还是有点简陋">1. Hexo-Admin 还是有点简陋</h3>
+<p>Hexo-Admin 后台还是挺粗糙的，很多文章 format 的部分无法设置。</p>
+<h3 id="2-记得及时保存部分内容">2、记得及时保存部分内容</h3>
+<h2 id="9-结尾">9. 结尾</h2>
+<p>祝大家用得开心，有问题可以去 GitHub 提<a href="https://github.com/spurin/docker-hexo/issues">Issues</a>，也可以在评论区互相交流探讨。</p>
+<p>同时，项目处于刚开始阶段，有能力给项目做贡献的同学，也欢迎积极加入到<a href="https://github.com/spurin/docker-hexo">本项目</a>中来，贡献自己的一份力量！</p>
+<h2 id="参考资料">参考资料</h2>
+<p>Hexo 在线部署镜像：https://hub.docker.com/r/spurin/hexo<br>
+Hexo 在线部署镜像 GitHub 地址：https://github.com/spurin/docker-hexo<br>
+Butterfly 官方 GitHub：https://github.com/jerryc127/hexo-theme-butterfly<br>
+评论 Twikoo 文档：https://twikoo.js.org/quick-start.html#私有部署-docker<br>
+Butterfly 安裝文檔 (四) 主題配置 - 2：https://butterfly.js.org/posts/ceeb73f/#評論</p>
+<blockquote>
+<p>版权归属： 咕咕鸽<br>
+原文链接： <a href="https://blog.laoda.de/archives/docker-compose-install-hexo-admin-and-twikoo">Click here</a><br>
+许可协议： <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a></p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[长文 - 持续更新 | Gridea Pure主题魔改小记]]></title>
+        <id>https://www.daoblog.top/post/gridea-modify-2022/</id>
+        <link href="https://www.daoblog.top/post/gridea-modify-2022/">
+        </link>
+        <updated>2022-12-29T00:12:20.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>从入门到车门焊死（确信）[更新于2023.02.05]</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>从入门到车门焊死（确信）[更新于2023.02.05]</p>
+</blockquote>
+<!-- more -->
+<blockquote>
+<p>本文更新于<code>2023.06.16</code>，最初写作于<code>2022.12.29</code><br>
+主题ChangeLog页面已经上线，请前往<a href="https://www.daoblog.top/post/changelog">此处</a>查看，本文将不再更新。<br>
+另附：写作本文的目的只是记录，不是教程。本人人菜瘾大，技术十分之有限，写的代码非常之烂，都是本着能用就行写的，所以请大佬手下留情 QwQ</p>
+</blockquote>
+<h2 id="文章目录">文章目录</h2>
+<p><ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">文章目录</a></li>
+<li><a href="#%E8%B5%B7%E5%9B%A0">起因</a></li>
+<li><a href="#%E6%8A%98%E8%85%BE%E4%B9%8B%E8%B7%AF">折腾之路</a>
+<ul>
+<li><a href="#%E6%8E%A8%E8%8D%90%E6%96%87%E6%A1%A3">推荐文档</a></li>
+<li><a href="#valine-to-waline">valine to waline</a></li>
+<li><a href="#%E5%BC%95%E5%85%A5umami%E7%BB%9F%E8%AE%A1">引入umami统计</a></li>
+<li><a href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93">自定义字体</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BA%E8%AF%B4%E8%AF%B4%E9%A1%B5%E9%9D%A2">搭建说说页面</a></li>
+<li><a href="#%E4%B8%BA%E4%B8%BB%E9%A1%B5%E6%B7%BB%E5%8A%A0%E8%AF%B4%E8%AF%B4%E8%B7%B3%E8%BD%AC%E5%BC%95%E5%AF%BC">为主页添加说说跳转引导</a></li>
+<li><a href="#%E6%90%AD%E5%BB%BA%E5%8F%8B%E9%93%BE%E6%9C%8B%E5%8F%8B%E5%9C%88">搭建友链朋友圈</a></li>
+<li><a href="#%E9%98%B2%E6%AD%A2%E8%BF%9B%E5%85%A5%E6%80%AA%E5%BC%82%E6%A8%A1%E5%BC%8F">防止进入“怪异模式”</a></li>
+<li><a href="#index%E6%96%87%E7%AB%A0%E5%9D%97%E6%B7%BB%E5%8A%A0%E8%B6%85%E9%93%BE%E6%8E%A5">index文章块添加超链接</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0%E9%A1%B6%E9%83%A8%E5%8A%A0%E8%BD%BD%E8%BF%9B%E5%BA%A6%E6%9D%A1">添加顶部加载进度条</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0%E8%BF%94%E5%9B%9E%E9%A1%B6%E9%83%A8%E6%8C%89%E9%92%AE">添加“返回顶部”按钮</a></li>
+<li><a href="#%E4%B8%BA%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%B7%BB%E5%8A%A0%E5%AD%97%E7%AC%A6%E7%94%BB">为控制台添加字符画</a></li>
+<li><a href="#%E6%8E%92%E7%89%88%E8%87%AA%E5%8A%A8%E4%BC%98%E5%8C%96">排版自动优化</a></li>
+<li><a href="#%E4%B8%BA%E7%BD%91%E7%AB%99%E5%BA%95%E9%83%A8%E6%B7%BB%E5%8A%A0%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4">为网站底部添加运行时间</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E9%BC%A0%E6%A0%87%E6%8C%87%E9%92%88">添加自定义鼠标指针</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0%E5%A4%8D%E5%88%B6%E5%BC%B9%E7%AA%97">添加复制弹窗</a></li>
+<li><a href="#%E6%9B%BF%E6%8D%A2%E4%B8%BA%E5%8A%A8%E6%80%81%E5%8F%8B%E9%93%BEgithub-pr%E6%8F%90%E4%BA%A4%E5%8F%8B%E9%93%BE">替换为动态友链+GitHub PR提交友链</a></li>
+<li><a href="#instantpage%E9%A1%B5%E9%9D%A2%E5%8A%A0%E9%80%9F">instant.page页面加速</a></li>
+</ul>
+</li>
+<li><a href="#whats-next">What's next?</a></li>
+</ul>
+</li>
+</ul>
+</p>
+<blockquote>
+<p>要在Gridea中插入自动生成的目录，只需在合适的地方输入<code>@[toc]</code>即可，大小写<strong>不敏感</strong></p>
+</blockquote>
+<hr>
+<h2 id="起因">起因</h2>
+<p>对于Gridea Pure这款主题的魔改，最初是起源于最基础的一个需求——把评论系统换成waline，结果这就像打开了潘多拉的魔盒一般，一发不可收拾。</p>
+<p>替换掉valine的目的很简单，因为我不想把自己leancloud的<code>APPID</code>与<code>APPKEY</code>直接暴露在网页的源码中，这样做会有安全隐患，何况valine目前作者并不打算重新开源，也遗留有一些安全问题，使得我总是不放心评论系统的安全，再加上waline在官方文档中说明：</p>
+<blockquote>
+<p>由于 Waline 在存储上完全复用了 Valine 的数据结构，所以从 Valine 迁移至 Waline 非常简单。</p>
+</blockquote>
+<p>这就很令人心动了，一不做，二不休，在阅读完Gridea官网的简要说明之后，直接点开主题目录的<code>templates</code>下的<code>includes</code>文件夹，看到<code>valine.ejs</code>，点进去直接开干！</p>
+<blockquote>
+<p>⚠️ 注意：我的魔改方式<strong>多为硬编码</strong>，好处是修改起来十分方便，思维量小，代价也很明显，相当于是直接放弃了未来升级主题的可能性，这需要你来做出取舍再决定要不要“抄我的作业”。</p>
+</blockquote>
+<h2 id="折腾之路">折腾之路</h2>
+<h3 id="推荐文档">推荐文档</h3>
+<blockquote>
+<p>事实证明，有看文档的习惯，可以<strong>避免</strong>像我刚开始改造时一样走一大堆弯路。</p>
+</blockquote>
+<p><a href="https://gridea.dev/theme-structure/">Gridea 主题目录结构与页面变量</a></p>
+<p><a href="https://github.com/getgridea/gridea/tree/master/public/default-files/themes">Gridea 内置主题代码结构</a></p>
+<p>张洪哥的 <a href="https://butterfly.zhheo.com/">Butterfly主题美化教程</a> 具有很大的参考价值</p>
+<hr>
+<h3 id="valine-to-waline">valine to waline</h3>
+<blockquote>
+<p>waline的后端部署请参考<a href="https://waline.js.org/guide/get-started/">官方文档</a></p>
+</blockquote>
+<p>这里的替换是十分简单的，只需要注释掉原有valine的引入代码和div组件，替换成waline对应的内容，然后修改style区域内的内容，确保其能正确映射到waline的div上，最后在head.ejs中引入脚本与css文件就完事了，配置我就直接把之前用hexo的时候写的直接拿过来了，下面是参考代码。</p>
+<p><em>Tip：别忘了在<code>head.ejs</code>或<code>post.ejs</code>中引入需要的文件哦。</em></p>
+<pre><code class="language-html">&lt;style&gt;
+	div#waline{
+		width:&lt;%=site.customConfig['vPercentWidth']%&gt;%;
+		max-width: &lt;%=site.customConfig['vMaxWidth']%&gt;px;
+		padding: &lt;%=site.customConfig['vPadding']%&gt;
+	}
+	:root {
+        --waline-font-size: 18px;
+    }
+	span.katex { font-size: 18px; }
+	.wl-emoji-popup { font-size: 16px !important; }
+	.wl-emoji-popup button { height: 2em; }
+&lt;/style&gt;
+
+&lt;% if(site.customConfig['valine']) { %&gt;
+	&lt;div id=&quot;waline&quot;&gt;&lt;/div&gt;
+&lt;% } %&gt;
+&lt;script type=&quot;module&quot;&gt;
+	import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+	init({
+      el: '#waline',
+      serverURL: 'https://waline.ydlk.cc',
+	  avatar: '&lt;%=site.customConfig['avatar']%&gt;',
+	  recordIp: &lt;%=site.customConfig['recordIp']%&gt;,
+	  reaction: true,
+	  pageview: true,
+	  comment: true,
+	  emoji: [
+      '//unpkg.com/@waline/emojis@1.1.0/bmoji',
+      '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+	  '//cdn.jsdelivr.net/npm/sticker-heo@2022.7.5/Sticker-100/',
+    ],
+	reaction: [
+    'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_sunglasses.png',
+    'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_thumbsup.png',
+    'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_doge.png',	
+	'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_confused.png',
+	'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_sweat.png',
+    'https://unpkg.com/@waline/emojis@1.1.0/bilibili/bb_sleepy.png',
+  ],
+	  dark: false,
+      recaptchaV3Key: &quot;写成你的，我自己开了的&quot;,
+    });
+&lt;/script&gt;
+</code></pre>
+<p>我个人建议你把waline需要额外引入的内容放在<code>post.ejs</code>中的<code>head</code>部分。</p>
+<blockquote>
+<p>waline的js引入也可以更换为<code>https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/waline/1.5.4/Waline.min.js</code>，字节跳动的cdn源，<strong>大陆友好</strong></p>
+</blockquote>
+<p>我站开启的评论登录提示的代码如下，插入在任意位置即可：</p>
+<pre><code class="language-html">&lt;script&gt;
+    var versionNo = '1.1.1';
+    if(!window.localStorage.getItem('update-version') || window.localStorage.getItem('update-version') !=versionNo){
+        window.localStorage.setItem('update-version',versionNo)
+        alert('友情提示：我站已强制开启评论验证，请先在评论区点击登录，再进行评论，否则无法使用评论')
+    }
+&lt;/script&gt;
+</code></pre>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="引入umami统计">引入umami统计</h3>
+<p>打开与<code>valine.ejs</code>同目录下的<code>head.ejs</code>，我注释掉了谷歌统计的的代码，然后直接添加了umami的统计代码，除自己写的页面外，其余直接全局生效，这一步没有什么技术含量。</p>
+<p>换成umami是因为它可以私有部署，而且界面简洁美观，至于谷歌统计......我相信你不会想跟那个看起来停留在上个世纪的历史悠久的产物打交道。</p>
+<blockquote>
+<p>为什么我特别指出要<strong>注释掉</strong>原来的代码呢？这是为了避免日后出现稀奇古怪的问题时，自己还能人工回滚到原来的版本，虽然我的gridea工作目录也在使用git进行多版本管理，但是谁又能知道“明天与意外哪个先来”呢，对吧？</p>
+</blockquote>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="自定义字体">自定义字体</h3>
+<p>我的方法是通过修改主题目录下<code>assets</code>文件夹中<code>styles</code>文件夹下的<code>main.less</code>实现。本站就是修改为了谷歌的<code>Noto Serif SC</code>（使用loli.net提供的大陆可访问源）。</p>
+<blockquote>
+<p>👨‍💻 注意：Pure主题其实提供了自定义CSS的入口，<strong>再次强调</strong>，我的这种方案<mark>没有考虑</mark>未来升级时兼容性，纯纯的<strong>硬编码</strong>，需要你<strong>做出取舍</strong>再决定要不要“抄作业”</p>
+</blockquote>
+<p>首先在<code>main.less</code>文件的开头，我引入了字体的css内容：</p>
+<pre><code class="language-less">@import url('https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&amp;display=swap');
+</code></pre>
+<p>接着，跳转到文件的第22行左右，看到<code>font-family</code>了吗？在最开头加上<code>Noto Serif SC</code>就生效了。这时这几行会变成这样：</p>
+<pre><code class="language-less">body {
+  font-family: &quot;Noto Serif SC&quot;, &quot;PingFang SC&quot;, -apple-system, BlinkMacSystemFont, opensans, Optima, 'Microsoft Yahei', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+</code></pre>
+<p>但同时，我们也发现字与字之间的间隔过大，这是由于原来的主题为了适配原有字体而做出的变动，如果你并不打算继续完美兼容默认字体，那么可以<code>crtl+F</code>搜索全文，将与展示效果有关的<code>letter-spacing</code>项后的数值调整为<code>0px</code>，此时的效果就与我的网站相近了</p>
+<blockquote>
+<p>下面是一种据说可以提高加载速度的代码，加在<code>&lt;head&gt;</code>与<code>&lt;/head&gt;</code>之间，实测似乎有效（？</p>
+</blockquote>
+<pre><code class="language-html">&lt;!-- 引入 Noto Serif SC --&gt;
+&lt;link type=&quot;text/css&quot; rel=&quot;preload stylesheet&quot; as=&quot;style&quot; href=&quot;https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&amp;display=swap&quot; crossorigin &gt;
+
+&lt;!-- Google font预加载&amp;缓存 --&gt;
+&lt;link rel=&quot;dns-prefetch&quot; href=&quot;https://fonts.loli.net/&quot;&gt;
+&lt;link rel=&quot;dns-prefetch&quot; href=&quot;https://gstatic.loli.net/&quot;&gt;
+ 
+&lt;link rel=&quot;preconnect&quot;  href=&quot;https://gstatic.loli.net&quot;  crossorigin /&gt;
+
+&lt;noscript&gt;
+&lt;link rel=&quot;stylesheet&quot;  href=&quot;https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&amp;display=swap&quot; onload=&quot;this.media='all'&quot; /&gt;
+&lt;/noscript&gt;
+</code></pre>
+<p>其实本来是想用思源宋体的，但我的Adobe账号是国区，用不了Fonts服务，就只能上Google的<code>Noto Serif</code>家族了，其实也就是思源黑体😂</p>
+<p>除此之外，我还<strong>调整了字体大小</strong>，这样可以使大屏的浏览体验更好（注：笔者本人自用宏碁的<code>XV272U</code>显示器，27寸2K144Hz）。</p>
+<p><s>对于页面本身而言，按理说直接在<code>main.less</code>上动刀就可以了，此部分按照你的喜好来，<mark>但是</mark>我尝试将正文字体大小修改为了<code>18px</code>，<strong>并没有生效</strong>，还在研究中......</s></p>
+<p>主题目录下的<code>assets - styles - components</code>这个路径一路点进去，根据你要修改的部分，选择对应的<code>.less</code>文件下刀就可以了，对于字体大小而言，你要关注的是<code>font-size</code>属性。其他两个文件夹下的文件同理，按需修改即可，不过目前似乎对正文文本大小的修改仍是无解状态...</p>
+<p>对于<code>waline</code>评论系统而言，引入支持的css变量即可：</p>
+<pre><code class="language-css">:root {
+        --waline-font-size: 18px;
+    }
+span.katex { font-size: 18px; }
+.wl-emoji-popup { font-size: 16px !important; }
+.wl-emoji-popup button { height: 2em; }
+</code></pre>
+<p>在本例中，你最关心的文本大小为<code>18px</code></p>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="搭建说说页面">搭建说说页面</h3>
+<blockquote>
+<p>⚠️ 注意：我的这种办法虽然省事，但是<strong>很蠢</strong>，而且除了css外，其他的<mark>不能</mark>随其他页面一起<mark>动态更新</mark>，请自行斟酌<br>
+<strong>警告</strong> 请<mark>不要</mark>让valine与artitalk在同一个页面上出现！出现<mark>离奇的bug</mark>后果自负！</p>
+</blockquote>
+<p>首先，你需要一份已经Gridea渲染好了的html文件，此处我的站点根目录下的以<code>index.html</code>为例</p>
+<blockquote>
+<p>你可以在GitHub组织<code>YandaoGroup</code>的<code>daoblog.top</code>仓库找到我的站点的静态文件</p>
+</blockquote>
+<p>就我写作这篇文章时而言，我复制了从第一行到第一百六十二行的内容，也就是从<code>&lt;!DOCTYPE html&gt;</code>到<code>&lt;/script&gt;</code>之间的全部，然后针对性的删除了一些不需要的引入，例如waline相关的css/js等，然后复制了页脚相关的内容，<strong>因为每个人实际生成出来的站点都不尽相同，还请你意会一下</strong></p>
+<p>值得一提的是，我建议你<strong>提前配置好菜单</strong>，接着生成一次页面，再去复制，以免页面写好了之后又得去手动改一遍菜单。</p>
+<p>关于菜单的配置，我在这里将“说说”项配置为跳转到<code>/shuoshuo</code>这里，实际效果等同于<code>https://www.daoblog.top/shuoshuo</code>这个url。</p>
+<p>那么，要求编写时的思维量小，我们的html文件应当放在哪里呢？</p>
+<p>打开Gridea的工作目录，这里有一个<code>static</code>文件夹，在这里面存放的内容都会原封不动的输出到最终站点的根目录下，包括新建的文件夹，所以，我们可以在这里先新建一个名为<code>shuoshuo</code>的文件夹，再在其内部新建<code>index.html</code>，开始编辑就好了。</p>
+<blockquote>
+<p>小Tip：不要忘记修改页面标题哦~</p>
+</blockquote>
+<p>在适配移动端导航栏的<code>script</code>之后、<code>&lt;/body&gt;</code>标签之前的部分，就是我们最主要的内容的部分。</p>
+<p>在本例中，我们使用<code>safemode</code>模式下的<code>artitalk.js</code>作为说说页面的框架，我插入的代码如下：</p>
+<pre><code class="language-html">&lt;style&gt;
+    body {background-color:#F9F9F9;}
+	div#artitalk_main{
+	    width:100%;
+	    max-width: 1050px;
+	    padding: 2.5%;
+        margin: auto;
+	}
+&lt;/style&gt;
+&lt;br /&gt;
+&lt;div class=&quot;post-container&quot;&gt;
+   &lt;div class=&quot;post-detail gt-bg-theme-color-first&quot;&gt;
+        &lt;article class=&quot;gt-post-content&quot;&gt;
+            &lt;div id=&quot;artitalk_main&quot;&gt;&lt;/div&gt;
+            &lt;script&gt;
+            new Artitalk({
+                serverURL: 'https://artitalk.ydlk.cc',
+                appId: '114514',
+                appKey: '1919810',
+                color1: '#F3F3F3',
+                color2: '#F3F3F3',
+                color3: '#6C6C6C',
+            })
+            &lt;/script&gt;
+            &lt;!--注意：在此模式下，可以在前端随意仿冒appid与appkey--&gt;
+            &lt;br /&gt;
+        &lt;/article&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<p>插入<code>&lt;br /&gt;</code>换行是为了增加与导航栏的距离，使页面更美观，你可以根据个人想法自由调整，额外添加<code>&lt;style&gt;</code>以及套了几层<code>div</code>与<code>article</code>也是为了更改它的一些样式，使其整体更美观</p>
+<blockquote>
+<p>👨‍💻 注意：这些美化内容你也可以自定义成别的，我的方案不可能是最好的，请你自行斟酌</p>
+</blockquote>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="为主页添加说说跳转引导">为主页添加说说跳转引导</h3>
+<blockquote>
+<p>再次重申：<s>芝士</s><strong>这是硬编码</strong>，上车之前需谨慎！</p>
+</blockquote>
+<p>打开<code>index.ejs</code>，在<code>&lt;%- include('./includes/header') %&gt;</code>与<code>&lt;%- include('./includes/post-list') %&gt;</code>添加如下内容：</p>
+<pre><code class="language-html">&lt;div class=&quot;post-list-container&quot;&gt;
+    &lt;div class=&quot;post-inner&quot;&gt;
+        &lt;div class=&quot;post gt-bg-theme-color-second&quot; onclick=&quot;window.open('/shuoshuo/','_self')&quot;&gt;
+            &lt;div class=&quot;post-left&quot;&gt;
+                &lt;a href=&quot;/shuoshuo/&quot;&gt;&lt;span class=&quot;sticky-top-flag gt-bg-accent-color-first&quot;&gt;说说&lt;/span&gt;&lt;span class=&quot;post-title gt-c-content-color-first&quot; style=&quot;font-weight:bold&quot;&gt;   再见2022，你好2023！&lt;/span&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<p>套多层div与奇怪的a标签位置是为了适配原有的文章卡片的设计和css，代码中的<code>/shuoshuo/</code>为你说说页面的相对路径（相对于根目录而言，例如本例中就实际指向了根目录下的名为<code>shuoshuo</code>的文件夹）</p>
+<p>我对第二个span内的字符进行了加粗处理，使其更为美观</p>
+<p>首页的“早报”跳转引导，也是一样的思路喔！我添加的代码如下：</p>
+<pre><code class="language-html">&lt;div class=&quot;post-left&quot;&gt;
+    &lt;a href=&quot;https://news.ydlk.cc/&quot;&gt;&lt;span class=&quot;sticky-top-flag gt-bg-accent-color-first&quot;&gt;早报&lt;/span&gt;&lt;span class=&quot;post-title gt-c-content-color-first&quot; style=&quot;font-weight:bold&quot;&gt;   每早一分钟，带你读懂世界。&lt;/span&gt;&lt;embed src=&quot;/link.svg&quot; type=&quot;image/svg+xml&quot; height=&quot;14&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+<blockquote>
+<p>现在使用的版本中还加入了链接的小图标，实际是嵌入了一个svg文件，在<code>&lt;/a&gt;</code>之前，内容如下：<br>
+<code>&lt;embed src=&quot;/link.svg&quot; type=&quot;image/svg+xml&quot; height=&quot;14&quot; /&gt;</code><br>
+svg来自iconfont，放在站点根目录，在文件中修改了<code>fill</code>属性为<code>#8B959F</code>，以适配主题颜色。<br>
+<a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+</blockquote>
+<hr>
+<h3 id="搭建友链朋友圈">搭建友链朋友圈</h3>
+<p>文件的前期准备同搭建说说页面。</p>
+<blockquote>
+<p>👨‍💻 In writing...</p>
+</blockquote>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="防止进入怪异模式">防止进入“怪异模式”</h3>
+<p><code>&lt;!DOCTYPE html&gt;</code>真的很重要！如果你和我一样正在使用Pure这款主题的话，那么你可能会在浏览器的lighthouse中发现让你添加这一行代码的提示。</p>
+<p>没有这一行代码，浏览器可能就会进入“怪异模式”，这是一些网页浏览器为了维持对较旧的网页设计的向后兼容性，而使用的一种技术，代价显而易见——许多渲染问题的产生，为了避免出现这一大堆问题，这一行代码最好还是自行补起。</p>
+<p>只需要在html的文档最开头插入这一行就好了，类似于下面这样：</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;zh&quot;&gt;
+&lt;head&gt;
+    ......
+&lt;/head&gt;
+......
+</code></pre>
+<p>对于今天的主角——Gridea的Pure主题而言，受影响的有：<code>about.ejs</code> <code>archives.ejs</code> <code>friends.ejs</code> <code>index.ejs</code> <code>post.ejs</code> <code>search.ejs</code> <code>tag.ejs</code>以及<code>tags.ejs</code>......</p>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="index文章块添加超链接">index文章块添加超链接</h3>
+<p>你可能会注意到，在站点首页只有点击文章的标题才能跳转至对应文章，电脑上浏览可能还在接受范围之内，但是用户在手机上的体验就会十分别扭。</p>
+<p>打开<code>post-list.ejs</code>，在<code>templates/includes</code>目录下，看到<code>&lt;div class=&quot;post gt-bg-theme-color-second&quot;&gt;</code>了吗？在其后直接加入<code>onclick=&quot;window.open('&lt;%= post.link %&gt;','_self')&quot;</code>即可实现点击灰色背景（整个方块）也能在当前窗口跳转至文章页面的效果。</p>
+<blockquote>
+<p>这行代码的意思是：再点击这个div分区内的任意一处时，不开新窗口，直接跳转到<code>&lt;%= post.link %&gt;</code>这个链接。<code>&lt;%= post.link %&gt;</code>在Gridea生成静态站点时，会自动替换为对应的文章链接。</p>
+</blockquote>
+<p>此时，这行代码就变成了这样：</p>
+<pre><code class="language-html">&lt;div class=&quot;post gt-bg-theme-color-second&quot; onclick=&quot;window.open('&lt;%= post.link %&gt;','_self')&quot;&gt;
+</code></pre>
+<blockquote>
+<p>这种方案的缺点：电脑端可以触发点击事件时鼠标仍为默认状态，用户不知道可以点击。<br>
+其实你也可以直接用<code>&lt;a&gt;</code>标签括起来...</p>
+</blockquote>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="添加顶部加载进度条">添加顶部加载进度条</h3>
+<p>这个很多博主都在用，js来自GitHub上的<a href="https://github.com/CodeByZach/pace/">pace项目</a></p>
+<p>此处贴出我自己的配置（💊 黑白药丸式）</p>
+<p>首先，在<code>main.less</code>的末尾的一大堆<code>@import</code>前加上以下的内容：</p>
+<pre><code class="language-css">.pace {
+  pointer-events: none;
+  user-select: none;
+  z-index: 2;
+  position: fixed;
+  margin: auto;
+  top: 4px;
+  left: 0;
+  right: 0;
+  height: 8px;
+  border-radius: 8px;
+  width: 6rem;
+  background: #eaecf2;
+  overflow: hidden;
+}
+
+.pace-inactive .pace-progress {
+  opacity: 0;
+  transition: 0.3s ease-in;
+}
+
+.pace.pace-inactive {
+  opacity: 0;
+  transition: 0.3s;
+  top: -8px;
+}
+
+.pace .pace-progress {
+  box-sizing: border-box;
+  transform: translate3d(0, 0, 0);
+  position: fixed;
+  z-index: 2;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  height: 100%;
+  width: 100%;
+  background: #49b1f5;
+  background: linear-gradient(  //自定义药丸颜色
+    to right,
+    #bbbbbb,
+    #2a3a4a,
+  );
+  animation: gradient 2s ease infinite;
+  background-size: 200%;
+}
+</code></pre>
+<p>值得一提的是，看到<code>自定义药丸颜色</code>的注释了吗？这里后面就可以自定义进度条的颜色了，本例中为从左至右的渐变（靠前项目的为左），可参考<code>linear-gradient</code>的属性进行设置。</p>
+<p>除此之外，你还需要再<code>head.ejs</code>中引入下面这段js：</p>
+<pre><code class="language-html">&lt;script src=&quot;//cdn.bootcss.com/pace/1.0.2/pace.min.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>至此，渲染页面并预览，你就可以看到顶部出现了 <s>药丸</s> 进度条了！</p>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="添加返回顶部按钮">添加“返回顶部”按钮</h3>
+<p>方案参考自Jinweidy的<a href="https://www.cnblogs.com/wdysblog/p/16610767.html">这篇文章</a></p>
+<ol>
+<li>在HTML页面底部添加以下的代码，用于显示一个“返回顶部”按钮。</li>
+</ol>
+<pre><code class="language-html">&lt;div id=&quot;goTopBtn&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-chevron-up&quot;&gt;&amp;Delta;&lt;/span&gt;&lt;/div&gt;
+</code></pre>
+<ol start="2">
+<li>在CSS样式中添加以下的CSS代码，用于控制“返回顶部”按钮的样式。</li>
+</ol>
+<pre><code class="language-css">#goTopBtn {
+    position: fixed;
+    line-height: 46px;
+    text-align: center;
+    width: 46px;
+    bottom: 35px;
+    height: 46px;
+    cursor: pointer;
+    background: #fff;
+    display: none;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.13);
+    font-size: 22px;
+    color: #999;
+}
+</code></pre>
+<ol start="3">
+<li>在网页的底部放上以下的jquery代码，用于控制“返回顶部”按钮什么时候显示，什么时候隐藏。</li>
+</ol>
+<pre><code class="language-html">&lt;script src=&quot;http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script&gt;
+/*返回顶部*/
+$(window).scroll(function(){
+   var sc=$(window).scrollTop();
+   var rwidth=$(window).width()
+   if(sc&gt;0){
+    $(&quot;#goTopBtn&quot;).css(&quot;display&quot;,&quot;block&quot;);
+    $(&quot;#goTopBtn&quot;).css(&quot;left&quot;,(rwidth-36)+&quot;px&quot;)
+   }else{
+   $(&quot;#goTopBtn&quot;).css(&quot;display&quot;,&quot;none&quot;);
+   }
+ })
+ $(&quot;#goTopBtn&quot;).click(function(){
+   var sc=$(window).scrollTop();
+   $('body,html').animate({scrollTop:0},500);
+ })
+   &lt;/script&gt;
+</code></pre>
+<blockquote>
+<p>注：根据原作者的协议，我没办法在上面的文字中补充，只能在这里来提示你一下，css改在<code>main.less</code>里面，具体是在最后的一大堆<code>@import</code>之前，要添加的<code>div</code>我放在了<code>&lt;div class=&quot;site-footer gt-c-content-color-first&quot;&gt;</code>的最后一行，第三步中的<code>jquery</code>代码放在了<code>&lt;/footer&gt;</code>之前。<br>
+记得在<code>&lt;head&gt;</code>中引入jquery哦！引入如：<code>&lt;script src=&quot;https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js&quot;&gt;&lt;/script&gt;</code><br>
+还是那句话，我的方法仅供参考哦~</p>
+</blockquote>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="为控制台添加字符画">为控制台添加字符画</h3>
+<p>不知你是否在<s>睿站</s>B站的页面按下过<code>F12</code>，如果有的话，那么你会发现其实B站在控制台页面打印了一副如下图的字符画：</p>
+<figure data-type="image" tabindex="1"><img src="https://static.daoblog.top/5115/202301012232684.png" alt="img" loading="lazy"></figure>
+<p>“字符画如彩蛋般的出现在眼前，还能丰富网站的维度，一个优秀的网站也许在某个不起眼的角落也能带给你惊喜。”</p>
+<p>我的方法来自<a href="https://hassanwong.top/posts/7a58550e/">Harris's Blog</a></p>
+<p>要实现这种效果，首先，我们需要你在Gridea的工作目录下新建一个js文件，为了便于日后管理，我新建了一个名为<code>js</code>的文件夹，然后在其内部新建了一个名为<code>console-text.js</code>的文件。</p>
+<p>代码模板如下：</p>
+<pre><code class="language-js">if (window.console) {
+  Function.prototype.makeMulti = function () {
+    let l = new String(this);
+    l = l.substring(l.indexOf(&quot;/*&quot;) + 3, l.lastIndexOf(&quot;*/&quot;));
+    return l;
+  };
+  let string = function () {
+    /*
+我是字符画
+    */
+  };
+  console.log(string.makeMulti());
+}
+</code></pre>
+<p>将代码中的<code>我是字符画</code>部分替换为你要使用的字符画即可。</p>
+<p>接下来，如果你还想的话，也可以添加一点自定义文字：</p>
+<pre><code class="language-diff">    */ }
+    console.log(string.makeMulti());
++	console.log(&quot;&lt;Custom&gt;&quot;);
+</code></pre>
+<p>我添加的代码为：</p>
+<pre><code class="language-js">console.log(&quot;欢迎访问%cYandao's Blog&quot;, &quot;color:#1fc7b6;font-weight:bold&quot;);
+</code></pre>
+<p>最后，在<code>head.ejs</code>中引入js即可：</p>
+<pre><code class="language-html">&lt;script defer type=&quot;text/javascript&quot; src=&quot;https://www.daoblog.top/js/console-text.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="排版自动优化">排版自动优化</h3>
+<p>很多同学看到文章中文英文之间没有空格，会很难受，可是很多文章中文英文之间没有空格，那么<code>pangu.js</code>还可以拯救你一下。</p>
+<p>首先在<code>head.ejs</code>中引入下方的代码：</p>
+<pre><code class="language-html">&lt;script src=&quot;https://cdn.jsdelivr.net/npm/pangu.simple@1.0.5/dist/browser/pangu.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p><mark>注意</mark>：上方引入的为<code>pangu.simple.js</code>，非原版<code>pangu.js</code>，其优化了大陆用户的排版需求，原版的引入如下：</p>
+<pre><code class="language-html">&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<blockquote>
+<p>你可以将<code>cdnjs.cloudflare.com</code>替换为<code>cdnjs.loli.net</code>来确保中国大陆用户的体验。</p>
+</blockquote>
+<p>接下来，在整个网页加载完毕时，如在<code>footer.ejs</code>的末尾调用它即可</p>
+<pre><code class="language-html">&lt;script&gt;
+  pangu.spacingPage(); /*全局应用pangu.js*/
+&lt;/script&gt;
+</code></pre>
+<p>注意：上面这种用法会对全局进行修改，如果你只想修改正文之类的，请按<code>F12</code>查看你博客对应的元素，下面是一种仅修改<code>post-content</code>（博客正文）与<code>p</code>标签的调用方法</p>
+<pre><code class="language-html">&lt;script&gt;
+    pangu.spacingElementByClassName('post-content');
+    pangu.spacingElementByTagName('p');
+/*参考这两句，你可以写出适合你实际情况的语法*/
+&lt;/script&gt;
+</code></pre>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="为网站底部添加运行时间">为网站底部添加运行时间</h3>
+<p>首先，在<code>footer.ejs</code>中合适的位置添加以下代码：</p>
+<pre><code class="language-html">&lt;span id=&quot;runtime_span&quot;&gt;&lt;/span&gt;
+</code></pre>
+<p>接着，在底部合适的位置插入这样一句<code>script</code>：</p>
+<pre><code class="language-html">&lt;script&gt;
+    function show_runtime() {window.setTimeout(&quot;show_runtime()&quot;,1000); X=new Date(&quot;11/12/2021 11:45:14&quot;); Y=new Date(); T=(Y.getTime()-X.getTime()); M=24*60*60*1000; a=T/M;A=Math.floor(a); b=(a-A)*24;B=Math.floor(b); c=(b-B)*60;C=Math.floor((b-B)*60); D=Math.floor((c-C)*60); runtime_span.innerHTML=&quot;本站已运行: &quot;+A+&quot;天&quot;+B+&quot;小时&quot;+C+&quot;分&quot;+D+&quot;秒&quot;}show_runtime();  Date(&quot;11/12/2021 11:45:14&quot;) 
+&lt;/script&gt;
+</code></pre>
+<p>把里面的<code>11/12/2021 11:45:14</code>替换为你的站点的创建时间即可，格式为<code>月/日/年 小时:分:秒</code></p>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="添加自定义鼠标指针">添加自定义鼠标指针</h3>
+<blockquote>
+<p>请注意：此功能对手机浏览的用户不友好，存在bug，慎用！</p>
+</blockquote>
+<p>来自此处的 <a href="https://zhuanlan.zhihu.com/p/351951477">知乎文章</a></p>
+<p>简而言之：在Gridea工作目录的<code>static</code>文件夹下新建<code>js</code>文件夹，再在其内部新建一个名为<code>mouse.js</code>的文件，填入以下内容：</p>
+<pre><code class="language-js">var CURSOR;
+
+Math.lerp = (a, b, n) =&gt; (1 - n) * a + n * b;
+
+const getStyle = (el, attr) =&gt; {
+    try {
+        return window.getComputedStyle
+            ? window.getComputedStyle(el)[attr]
+            : el.currentStyle[attr];
+    } catch (e) {}
+    return &quot;&quot;;
+};
+
+class Cursor {
+    constructor() {
+        this.pos = {curr: null, prev: null};
+        this.pt = [];
+        this.create();
+        this.init();
+        this.render();
+    }
+
+    move(left, top) {
+        this.cursor.style[&quot;left&quot;] = `${left}px`;
+        this.cursor.style[&quot;top&quot;] = `${top}px`;
+    }
+
+    create() {
+        if (!this.cursor) {
+            this.cursor = document.createElement(&quot;div&quot;);
+            this.cursor.id = &quot;cursor&quot;;
+            this.cursor.classList.add(&quot;hidden&quot;);
+            document.body.append(this.cursor);
+        }
+
+        var el = document.getElementsByTagName('*');
+        for (let i = 0; i &lt; el.length; i++)
+            if (getStyle(el[i], &quot;cursor&quot;) == &quot;pointer&quot;)
+                this.pt.push(el[i].outerHTML);
+
+        document.body.appendChild((this.scr = document.createElement(&quot;style&quot;)));
+        this.scr.innerHTML = `* {cursor: url(&quot;data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'&gt;&lt;circle cx='4' cy='4' r='4' opacity='.5'/&gt;&lt;/svg&gt;&quot;) 4 4, auto}`;
+    }
+
+    refresh() {
+        this.scr.remove();
+        this.cursor.classList.remove(&quot;hover&quot;);
+        this.cursor.classList.remove(&quot;active&quot;);
+        this.pos = {curr: null, prev: null};
+        this.pt = [];
+
+        this.create();
+        this.init();
+        this.render();
+    }
+
+    init() {
+        document.onmouseover  = e =&gt; this.pt.includes(e.target.outerHTML) &amp;&amp; this.cursor.classList.add(&quot;hover&quot;);
+        document.onmouseout   = e =&gt; this.pt.includes(e.target.outerHTML) &amp;&amp; this.cursor.classList.remove(&quot;hover&quot;);
+        document.onmousemove  = e =&gt; {(this.pos.curr == null) &amp;&amp; this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = {x: e.clientX - 8, y: e.clientY - 8}; this.cursor.classList.remove(&quot;hidden&quot;);};
+        document.onmouseenter = e =&gt; this.cursor.classList.remove(&quot;hidden&quot;);
+        document.onmouseleave = e =&gt; this.cursor.classList.add(&quot;hidden&quot;);
+        document.onmousedown  = e =&gt; this.cursor.classList.add(&quot;active&quot;);
+        document.onmouseup    = e =&gt; this.cursor.classList.remove(&quot;active&quot;);
+    }
+
+    render() {
+        if (this.pos.prev) {
+            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);
+            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);
+            this.move(this.pos.prev.x, this.pos.prev.y);
+        } else {
+            this.pos.prev = this.pos.curr;
+        }
+        requestAnimationFrame(() =&gt; this.render());
+    }
+}
+
+(() =&gt; {
+    CURSOR = new Cursor();
+    // 需要重新获取列表时，使用 CURSOR.refresh()
+})();
+</code></pre>
+<p>接着，在<code>main.less</code>中最后的一大堆<code>@import</code>前插入以下内容：</p>
+<pre><code class="language-css">#cursor {
+    position: fixed;
+    width: 16px;
+    height: 16px;
+    background: #000;
+    border-radius: 8px;
+    opacity: 0.25;
+    z-index: 10086;
+    pointer-events: none;
+    transition: 0.2s ease-in-out;
+    transition-property: background, opacity, transform;
+}
+
+#cursor.hidden {
+    opacity: 0;
+}
+
+#cursor.hover {
+    opacity: 0.1;
+    transform: scale(2.5);
+}
+
+#cursor.active {
+    opacity: 0.5;
+    transform: scale(0.5);
+}
+</code></pre>
+<p>最后一步！在<code>head.ejs</code>中插入以下内容：</p>
+<pre><code class="language-html">&lt;script defer type=&quot;text/javascript&quot; src=&quot;/js/mouse.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>大功告成！</p>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="添加复制弹窗">添加复制弹窗</h3>
+<blockquote>
+<p>请注意：目前此功能与自定义鼠标指针存在冲突，用户如果与弹窗进行了互动，会导致指针出现bug，目前我还在钻研，如果你介意，请不要使用此种弹窗方法</p>
+</blockquote>
+<p>参考自 <a href="https://blog.trfox.ml/p/71e4d414dfa8/">Teror的客栈</a></p>
+<p>首先，在<code>head.ejs</code>中添加如下代码：</p>
+<pre><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.loli.net/ajax/libs/izitoast/1.4.0/css/iziToast.min.css&quot;&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js&quot; integrity=&quot;sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>接着，在<code>footer.ejs</code>的末尾添加如下代码即可：</p>
+<pre><code class="language-html">&lt;script&gt;
+  document.body.oncopy = function (){
+      iziToast.info({
+          timeout: 2000,  //注：弹窗持续时间，单位为毫秒
+          icon: 'Fontawesome', 
+          closeOnEscape: 'true', 
+          transitionIn: 'bounceInLeft', 
+          transitionOut: 'fadeOutRight',
+          displayMode: 'replace', 
+          layout: '2', 
+          position: 'topRight',
+          icon: 'fad fa-copy',
+          backgroundColor: '#fff', 
+          title: '复制成功', 
+          message: '未经许可，请勿转载 
+      });
+  }
+&lt;/script&gt;
+</code></pre>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="替换为动态友链github-pr提交友链">替换为动态友链+GitHub PR提交友链</h3>
+<blockquote>
+<p>这部分内容巨长，将写作为另一篇单独的文章。</p>
+</blockquote>
+<p><a href="/post/gridea-modify-2022/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">&gt;返回目录</a></p>
+<hr>
+<h3 id="instantpage页面加速">instant.page页面加速</h3>
+<p>在<code>&lt;/body&gt;</code>前插入如下内容即可</p>
+<pre><code class="language-html">&lt;script src=&quot;//instant.page/5.1.1&quot; type=&quot;module&quot; integrity=&quot;sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq&quot;&gt;&lt;/script&gt;
+</code></pre>
+<hr>
+<h2 id="whats-next">What's next?</h2>
+<blockquote>
+<p>其实还有很多功能想做...</p>
+</blockquote>
+<p>魔改是肯定没有尽头的啦，我目前还在探索中，看到我自己想要的功能就会去试一试的啦~</p>
+<p>如果你有疑问或者建议，欢迎在评论区告诉我~</p>
+<p>❤️ 爱来自中国，⏚ 接 地 ⏚</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【施工中】我的新冠阳性日记]]></title>
+        <id>https://www.daoblog.top/post/COVID-19_1st_time/</id>
+        <link href="https://www.daoblog.top/post/COVID-19_1st_time/">
+        </link>
+        <updated>2022-12-29T00:11:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>没错，这个大冤种阳了</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>没错，这个大冤种阳了</p>
+<!-- more -->
+<blockquote>
+<p>👨‍💻 In writing...</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sakana Music Player]]></title>
+        <id>https://www.daoblog.top/post/sakana-music-player/</id>
+        <link href="https://www.daoblog.top/post/sakana-music-player/">
+        </link>
+        <updated>2022-11-29T03:16:15.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>一个使用 vanilla javascript 的响应式网络音乐播放器项目</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>一个使用 vanilla javascript 的响应式网络音乐播放器项目</p>
+</blockquote>
+<!-- more -->
+<div align="center">
+<figure data-type="image" tabindex="1"><a href="https://smp.is-an.app"><img src="https://img.shields.io/website?style=for-the-badge&amp;logo=GitHub&amp;down_color=lightgrey&amp;down_message=offline&amp;up_color=blue&amp;up_message=online&amp;url=https%3A%2F%2Fsakana-music-player.vercel.app" alt="website" loading="lazy"></a></figure>
+  <br />
+  <img src="https://static.daoblog.top/5115/SMP.png" alt="Sakana Music Player">
+  <h1 align="center">Sakana Music Player</h1>
+<p>使用 vanilla javascript 的响应式网络音乐播放器<br />响应所有设备，使用 html、css 和 javascript 构建<br />配上 <a href="https://sakanaction.jp/">Sakanaction</a> 的歌曲</p>
+<p><a href="https://smp.is-an.app/"><strong>➥ 在线演示 (gh-pages)</strong></a></p>
+<p><a href="https://smp.rth.app/"><strong>➥ 在线演示 (大陆优化)</strong></a></p>
+<hr>
+<figure data-type="image" tabindex="2"><a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world&amp;project-name=sakana-music-player&amp;repository-name=SakanaMusicPlayer&amp;demo-title=Sakana%20Music%20Player&amp;demo-description=A%20fully%20responsive%20web%20music%20player%20with%20songs%20by%20Sakanaction.&amp;demo-url=https%3A%2F%2Fsmp.is-an.app&amp;demo-image=https%3A%2F%2Fxingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com%2F5115%2F20221128221852.png"><img src="https://vercel.com/button" alt="Deploy with Vercel" loading="lazy"></a></figure>
+<p>在 <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world&amp;project-name=sakana-music-player&amp;repository-name=SakanaMusicPlayer&amp;demo-title=Sakana%20Music%20Player&amp;demo-description=A%20fully%20responsive%20web%20music%20player%20with%20songs%20by%20Sakanaction.&amp;demo-url=https%3A%2F%2Fsmp.is-an.app&amp;demo-image=https%3A%2F%2Fxingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com%2F5115%2F20221128221852.png">Vercel</a> 上发布您自己的版本</p>
+<hr>
+<p>All Available Preview Websites</p>
+<p>gh-pages: <a href="https://yandao0313.github.io/SakanaMusicPlayer/">yandao0313.github.io</a> | <a href="https://smp.is-an.app/">smp.is-an.app</a></p>
+<p>vercel: <a href="https://sakana-music-player.vercel.app/">sakana-music-player.vercel.app</a> | <a href="https://music.xn--fhqw2khm122n.cn/">music.蒙古上单.cn</a> | <a href="https://smp.ydlk.cc/">smp.ydlk.cc</a></p>
+<p>retiehe host (For Mainland China Viewers): <a href="https://smp.rth.app/">smp.rth.app - 可能被和谐</a></p>
+</div>
+<br />
+<h2 id="屏幕截图">屏幕截图</h2>
+<figure data-type="image" tabindex="3"><a href="https://smp.is-an.app"><img src="https://static.daoblog.top/5115/20221201151014.png" alt="Sakana Music Player Desktop Demo" title="Desktop Demo" loading="lazy"></a></figure>
+<blockquote>
+<p><a href="https://youtu.be/izUETrfEoMs">演示视频 - Youtube</a></p>
+</blockquote>
+<h2 id="特色内容">特色内容</h2>
+<p>✅ 使用 vanilla javascript 的响应式网络音乐播放器</p>
+<p>✅ 响应所有设备，使用 html、css 和 javascript 构建，纯静态页面</p>
+<p>✅ 配上 <a href="https://sakanaction.jp/">Sakanaction</a> 的歌曲</p>
+<p>✅ 新增 | 美观的错误页面们 (来自于 <a href="https://github.com/tarampampam/error-pages">此项目</a>)</p>
+<p>✅ 新增 | 现在支持评论了！由 <a href="https://waline.js.org/">waline</a> 驱动</p>
+<h2 id="准备工作">准备工作</h2>
+<p>在你开始之前，你的设备必须满足以下条件：</p>
+<ul>
+<li><a href="https://git-scm.com/downloads" title="Download Git">Git</a> 必须在你的操作环境上已安装好。</li>
+</ul>
+<h2 id="本地运行">本地运行</h2>
+<p>为了在本地运行 <strong>Sakana Music Player</strong> ，请在终端中执行以下命令：</p>
+<p>Linux &amp; macOS:</p>
+<pre><code class="language-bash">sudo git clone https://github.com/YanDao0313/SakanaMusicPlayer.git
+</code></pre>
+<p>Windows:</p>
+<pre><code class="language-bash">git clone https://github.com/YanDao0313/SakanaMusicPlayer.git
+</code></pre>
+<h2 id="协议">协议</h2>
+<p>本项目使用<strong>MIT开源协议</strong>。</p>
+<hr>
+<figure data-type="image" tabindex="4"><img src="https://static.daoblog.top/5115/main_SakanaMusicPlayer.jpeg" alt="img" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Archive Program: the journey of the world's open source code to the Arctic]]></title>
+        <id>https://www.daoblog.top/post/20221126-1/</id>
+        <link href="https://www.daoblog.top/post/20221126-1/">
+        </link>
+        <updated>2022-11-26T13:31:12.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>Duty Report素材</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>Duty Report素材</p>
+</blockquote>
+<!-- more -->
+<blockquote>
+<p>At GitHub Universe 2019, GitHub introduced the GitHub Archive Program along with the GitHub Arctic Code Vault. Our mission is to preserve open source software for future generations by storing your code in an archive built to last a thousand years.</p>
+</blockquote>
+<h2 id="your-code-is-safe-and-sound-in-the-arctic">Your code is safe and sound in the Arctic</h2>
+<p>At <a href="https://github.blog/2019-11-13-universe-day-one/">GitHub Universe 2019</a>, GitHub introduced the <a href="https://archiveprogram.github.com/">GitHub Archive Program</a> along with the <a href="https://www.youtube.com/watch?v=fzI9FNjXQ0o">GitHub Arctic Code Vault</a>. Our mission is to preserve open source software for future generations by storing your code in an archive built to last a thousand years.</p>
+<p>On February 2, 2020, GitHub took a snapshot of all active public repositories on GitHub to archive in the vault. Over the last several months, our archive partners <a href="https://www.piql.com/">Piql</a>, wrote 21TB of repository data to 186 reels of piqlFilm (digital photosensitive archival film). Our original plan was for our team to fly to Norway and personally escort the world’s open source code to the Arctic, but as the world continues to endure a global pandemic, GitHub had to adjust our plans. GitHub stayed in close contact with our partners, waiting for the time when it was safe for them to travel to Svalbard. GitHub're happy to report that the code was successfully deposited in the Arctic Code Vault on July 8, 2020.</p>
+<p>Join us as GitHub follow the code in its journey to the Arctic, and take a look at a few other things GitHub've been up to here at the GitHub Archive Program.</p>
+<figure data-type="image" tabindex="1"><img src="https://static.daoblog.top/5115/20221126212615.png" alt="" loading="lazy"></figure>
+<h2 id="the-journey-of-the-worlds-open-source-code-to-the-arctic-circle">The journey of the world’s open source code to the Arctic Circle</h2>
+<p>Your code’s journey begins in Piql’s facility in Drammen, Norway where the boxes with 186 film reels were shipped to Oslo Airport and then loaded into the belly of the plane which provides passenger service to Svalbard. Svalbard, roughly 600 miles (1000 km) north of the European mainland, <a href="https://en.visitsvalbard.com/visitor-information/visit-svalbard-refrain-from-travelling-covid-19">just recently opened up</a> to visitors from countries within the Schengen Area and the European Economic Area.</p>
+<figure data-type="image" tabindex="2"><img src="https://static.daoblog.top/5115/20221126212649.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://static.daoblog.top/5115/20221126212703.png" alt="" loading="lazy"></figure>
+<p>The code landed in Longyearbyen, a town of a few thousand people on Svalbard, where our boxes were met by a local logistics company and taken into intermediate secure storage overnight. The next morning, it traveled to the decommissioned coal mine set in the mountain, and then to a chamber deep inside hundreds of meters of permafrost, where the code now resides fulfilling their mission of preserving the world’s open source code for over 1,000 years.</p>
+<figure data-type="image" tabindex="4"><img src="https://static.daoblog.top/5115/20221126212720.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://static.daoblog.top/5115/20221126212735.png" alt="" loading="lazy"></figure>
+<h2 id="introducing-the-arctic-code-vault-badge">Introducing the Arctic Code Vault Badge</h2>
+<p>Millions of developers around the world contributed to the open source software now stored in the Arctic Code Vault. To recognize and celebrate these contributions, GitHub designed the Arctic Code Vault Badge, which is shown in the highlights section of a developer’s profile on GitHub. Hover and you can discover some of the repositories an individual contributed to.</p>
+<figure data-type="image" tabindex="6"><img src="https://static.daoblog.top/5115/20221126212808.png" alt="EXAMPLE" loading="lazy"></figure>
+<h2 id="an-update-from-our-archive-program-partners">An update from our Archive Program partners</h2>
+<h3 id="internet-archive"><em>Internet Archive</em></h3>
+<p>The <a href="https://archive.org/">Internet Archive</a> is a well-known, widely beloved non-profit digital library which provides free public access to collections of digitized materials. In partnership with the GitHub Archive Program, the Internet Archive (IA) commenced its ongoing archive of GitHub public repositories on April 13 of this year. At present, IA is using a two-pronged approach. First, their well-known Wayback Machine is accessing and archiving raw GitHub data as WARCs, or Web ARChive files. As of this writing they have archived some <a href="http://wwwb-cawg01.us.archive.org:8380/scan/2020-04/2022-02/GitHub_Archive_Program">55TB of data</a>. Second, they have the goal of making entire archived GitHub repositories available via “git clone,” while also keeping repo comments, issues, and other metadata easily accessible on the web. This second initiative is well underway and initial archiving is expected to commence this month.</p>
+<h3 id="software-heritage-foundation"><em>Software Heritage Foundation</em></h3>
+<p><a href="https://www.softwareheritage.org/">Software Heritage</a> is a non profit, multi-stakeholder initiative <a href="https://www.softwareheritage.org/2020/02/19/software-heritage-sponsors-meet-at-unescos-headquarters/">launched by Inria in collaboration with UNESCO</a> with the goal to collect, preserve and share the source code of our software commons. They already archive <a href="https://archive.softwareheritage.org/">more than 130 million projects</a>, with their full development history, and GitHub are delighted to announce that 100 million of these are from GitHub. Thanks to the <a href="https://www.softwareheritage.org/2019/11/14/github-helps-preserve-source-code/">collaboration announced at GitHub Universe 2019</a>, the archival engine is being improved with the goal to keep it up to speed with <a href="https://github.com/">GitHub</a>‘s growth, but if the project you are interested in, or its latest version, is not archived yet, you do not need to wait, it’s easy to trigger its archival right now in a few clicks on <a href="https://save.softwareheritage.org/">https://save.softwareheritage.org</a>.</p>
+<h3 id="project-silica"><em>Project Silica</em></h3>
+<p><a href="https://www.microsoft.com/en-us/research/project/project-silica/">Project Silica</a> is developing the first storage technology designed and built from the media up for cloud-scale storage of long-lived data. By leveraging recent discoveries in ultrafast laser optics, data is stored in quartz glass, through a process that permanently changes the physical structure of the glass material. Quartz glass is a durable storage media that offers unparalleled data lifetimes of upwards of tens of thousands of years. It is resilient to electromagnetic interference, water, and heat, making it the ideal storage medium for ensuring the world’s open source software is forever preserved for future generations. As a partner in the <a href="https://archiveprogram.github.com/">GitHub Archive Program</a>, Project Silica is committed to driving storage innovation, and developing a storage technology that addresses the need for a sustainable and reliable storage technology for the world’s long-lived data. GitHub've archived 6,000 of the world’s most popular repositories as a proof of concept for future archives.</p>
+<figure data-type="image" tabindex="7"><img src="https://static.daoblog.top/5115/20221126212917.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://static.daoblog.top/5115/20221126212925.png" alt="" loading="lazy"></figure>
+<h2 id="whats-next">What’s next?</h2>
+<h3 id="code-culture-history-and-technology-the-tech-tree">Code, culture, history, and technology: The Tech Tree</h3>
+<p>Every reel of the archive includes a copy of the “Guide to the GitHub Code Vault” in five languages, written with input from GitHub’s community and available at <a href="https://github.com/github/archive-program">the Archive Program’s own GitHub repository</a>. In addition, the archive will include a separate human-readable reel which documents the technical history and cultural context of the archive’s contents. GitHub call this the Tech Tree.</p>
+<p>Inspired by the Long Now’s <a href="https://medium.com/the-long-now-foundation/manual-for-civilization/home">Manual for Civilization</a>, the Tech Tree will consist primarily of existing works, selected to provide a detailed understanding of modern computing, open source and its applications, modern software development, popular programming languages, etc. It will also include works which explain the many layers of technical foundations that make software possible: microprocessors, networking, electronics, semiconductors, and even pre-industrial technologies. This will allow the archive’s inheritors to better understand today’s world and its technologies, and may even help them recreate computers to use the archived software.</p>
+<p>Encapsulating the world’s cultural context and technical history is a challenging prospect, and GitHub expect the Tech Tree to evolve and iterate over time. GitHub will soon publish to the Archive Program’s GitHub repository a very initial draft list of works selected for the Tech Tree, along with, importantly, a request for community input. GitHub look forward to incorporating ideas and suggestions from the GitHub community before the Tech Tree is added to the Arctic Code Vault.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[抵制网课爆破入侵，腾讯会议安全操作指南]]></title>
+        <id>https://www.daoblog.top/post/抵制网课爆破入侵，腾讯会议安全操作指南/</id>
+        <link href="https://www.daoblog.top/post/抵制网课爆破入侵，腾讯会议安全操作指南/">
+        </link>
+        <updated>2022-11-26T00:38:22.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>一些小tips</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>一些小tips</p>
+</blockquote>
+<!-- more -->
+<blockquote>
+<p>为了守护在线课堂秩序，营造良好的互动教学氛围，我们总结了一些会议安全小tips，帮助老师与同学们从会前、会中、会后保障在线课堂的安全，提升教学质量，避免有人误入会议扰乱课堂秩序。</p>
+</blockquote>
+<h2 id="会-前">会 前</h2>
+<p>腾讯会议提供了多种会前设置方式，保障在线课堂安全性，满足课堂、研讨会、答辩等多种场景的教学需求。</p>
+<h3 id="方式1-会议密码等候室">方式1 | 会议密码+等候室</h3>
+<p>在预定会议或使用个人会议号发起快速会议时，主持人可以<strong>设置会议密码、开启等候室，防止其他人误入课堂</strong>，并可按需关闭“允许成员在主持人进会前加入会议”。</p>
+<blockquote>
+<p>设置路径：预定会议&gt;开启会议密码，开启等候室<br>
+<img src="https://static.daoblog.top/5115/b00bc1612e99836d927fc0e2b45b2553.png" alt="" loading="lazy"></p>
+</blockquote>
+<h3 id="方式2-开启会议报名">方式2 | 开启会议报名</h3>
+<p>对于封闭式研讨课程，除了设定密码与等候室，主持人也可在预定会议时，<strong>开启报名模式</strong>，将手机号、姓名设为必填项，并设置“发送验证码以验证手机是否真实”，通过审核后可入会，<strong>参会者昵称将显示其姓名</strong>，方便确认参会者的身份。</p>
+<blockquote>
+<p>设置路径：预定会议&gt;开启会议报名，设置报名问题<br>
+<img src="https://static.daoblog.top/5115/036d6f156f6233cf171a9a1da47f237b.png" alt="" loading="lazy"></p>
+</blockquote>
+<h3 id="方式3-微信特邀会议">方式3 | 微信特邀会议</h3>
+<p>若您有班级或课程微信群，可考虑预定<strong>微信特邀会议</strong>，仅会议预定者邀请的好友或群成员可加入该会议，<strong>会议链接转发无效</strong>。</p>
+<blockquote>
+<p>设置路径：预定会议，旁边箭头选择“特邀会议”&gt;开启等候室&gt;转发至微信群<br>
+<img src="https://static.daoblog.top/5115/6e8592d2b21c1d761e4bbf9ca34011ff.png" alt="" loading="lazy"></p>
+</blockquote>
+<h2 id="会-中">会 中</h2>
+<p>在会中，为了营造良好、有序的教学氛围，会议主持人（老师们）可以进行以下操作：</p>
+<h3 id="01-管理学生共享屏幕批注权限">01 管理学生共享屏幕/批注权限</h3>
+<p>主持人可按需设置共享屏幕权限为“全体成员可共享”或“仅主持人可共享”，并按需关闭“允许其他成员添加互动批注”，<strong>保证课堂演示的秩序</strong>。</p>
+<blockquote>
+<p>设置路径：（会议中）共享屏幕右边箭头&gt;设置共享权限；（开启共享后）互动批注右边箭头&gt;关闭“允许允许其他成员添加互动批注”<br>
+<img src="https://static.daoblog.top/5115/b990c3fbd76aa6334019010bed4b1188.png" alt="" loading="lazy"></p>
+</blockquote>
+<h3 id="02-会中防止外人误入">02 会中防止外人误入</h3>
+<p>当所有的学生到位后，主持人可<strong>开启“锁定会议”</strong>，此时其他人不能再加入会议。若发现有误入会议的人，可将其**“移出会议”**，并可设置“不允许用户再次加入会议”。</p>
+<blockquote>
+<p>设置路径：（会议中）安全&gt;锁定会议，或移出成员<br>
+<img src="https://static.daoblog.top/5115/dee5df4c77ad4efac6bd66dca5b2cae5.png" alt="" loading="lazy"></p>
+</blockquote>
+<h3 id="03-管理学生发言权限">03 管理学生发言权限</h3>
+<p>为<strong>防止学生误开麦，打乱授课节奏</strong>，主持人可<strong>关闭“允许成员自我解除静音”，并开启“允许成员举手”</strong>，等到互动环节，再通过举手同学的发言申请，开麦交流。</p>
+<blockquote>
+<p>设置路径：（会议中）管理成员&gt;更多&gt;关闭“允许成员自我解除静音”，开启“允许成员举手”&gt;按需关闭“允许成员开启视频”<br>
+<img src="https://static.daoblog.top/5115/29f1d36a8d22cdc0cab063504b9d504b.png" alt="" loading="lazy"></p>
+</blockquote>
+<h3 id="04-管理学生聊天权限">04 管理学生聊天权限</h3>
+<p>为了营造更专注的课堂氛围，老师们可选择设置成员聊天权限，<strong>关闭自由聊天，以减少“课堂悄悄话”</strong>，或仅允许公开聊天，以保留课堂提问。</p>
+<blockquote>
+<p>设置路径：（会议中）聊天&gt;设置聊天权限<br>
+<img src="https://static.daoblog.top/5115/5c281e16a9d5a2c5b77873884204117e.png" alt="" loading="lazy"></p>
+</blockquote>
+<h3 id="05-按需管理其他协作权限">05 按需管理其他协作权限</h3>
+<p>除以上操作，主持人还可<strong>按需选择设置参会成员修改昵称、发红包、上传文档、分享应用的权限</strong>，让课堂更有序。</p>
+<blockquote>
+<p>设置路径：（会议中）安全&gt;设置参会者权限；（会议中）管理成员&gt;更多&gt;关闭“允许发红包”<br>
+<img src="https://static.daoblog.top/5115/92e79c56d94f096f6a8b33e5317cee52.png" alt="" loading="lazy"></p>
+</blockquote>
+<h2 id="会-后">会 后</h2>
+<p>若您在会中开启了云录制，可<strong>在会后设置云录制查看与下载权限</strong>，方便同学们复习的同时，也保护课件共享传播范围。</p>
+<blockquote>
+<p>设置路径：官网&gt;个人中心&gt;会议录制&gt;对某个录制文档设置分享、下载权限<br>
+<img src="https://static.daoblog.top/5115/411d3615c3e46e547afc8fd6b18dc1ae.png" alt="" loading="lazy"></p>
+</blockquote>
+<h2 id="举-报">举 报</h2>
+<p>若您发现有其他人误入会议，干扰课堂秩序，可在会后进行举报，并提供相关材料，<strong>携手共建绿色健康网络环境</strong>。</p>
+<blockquote>
+<p>设置路径：（会后）历史会议&gt;详情&gt;“…”&gt;举报<br>
+<img src="https://static.daoblog.top/5115/b818b79547e6a4bc9f6a4493eeca95b3.png" alt="" loading="lazy"></p>
+</blockquote>
+<hr>
+<iframe src="//player.bilibili.com/player.html?aid=347398760&bvid=BV1Nd4y1F7qW&cid=886204875&page=1" scrolling="true" border="true" frameborder="o" framespacing="0" allowfullscreen="true"> </iframe>
+<blockquote>
+<p>内容来自 @腾讯会议官方账号 Wechat &amp; bilibili</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[常用脚本合集]]></title>
+        <id>https://www.daoblog.top/post/常用脚本合集/</id>
+        <link href="https://www.daoblog.top/post/常用脚本合集/">
+        </link>
+        <updated>2022-11-18T13:49:37.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>一个简单的整理~</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>一个简单的整理~</p>
+</blockquote>
+<!-- more -->
+<h2 id="综合工具箱强烈推荐集成了很多脚本">综合工具箱（强烈推荐，集成了很多脚本）</h2>
+<pre><code>wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh &amp;&amp; chmod +x box.sh &amp;&amp; clear &amp;&amp; ./box.sh
+</code></pre>
+<h2 id="杜甫测试">杜甫测试</h2>
+<pre><code>wget -q https://github.com/Aniverse/A/raw/i/a &amp;&amp; bash a
+</code></pre>
+<h2 id="dd相关">DD相关</h2>
+<h3 id="甲骨文dd脚本">甲骨文DD脚本</h3>
+<p>Debian 10</p>
+<pre><code>bash &lt;(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -d 10 -v 64 -p &quot;自定义root密码&quot; -port &quot;自定义ssh端口&quot;
+</code></pre>
+<p>Ubuntu 20.04</p>
+<pre><code>bash &lt;(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -u 20.04 -v 64 -p &quot;自定义root密码&quot; -port &quot;自定义ssh端口&quot;
+</code></pre>
+<h3 id="moeclub脚本">MoeClub脚本</h3>
+<p>22/11/2021 15:21 萌咖更新脚本：</p>
+<p>1.新增对 Oracle AMD，Oracle ARM全面支持. 可支持从 Ubuntu, Oracle Linux 等系统网络重装.<br>
+2.更新 dd 镜像的基础系统版本.<br>
+3.移除对外部 wget 的依赖.<br>
+4.新增 -port 参数, 可更改默认SSH端口.<br>
+5.更新 内置的网络参数计算 逻辑.<br>
+6.更新 grub 配置文件定位逻辑, 可支持任意引导grub的系统.</p>
+<pre><code>bash &lt;(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -d 10 -v 64 -p &quot;自定义root密码&quot; -port &quot;自定义ssh端口&quot;
+</code></pre>
+<p>-d 10 -v 64<br>
+-d 9 -v 64<br>
+-u 20.04 -v 64<br>
+-u 18.04 -v 64</p>
+<p>开机改密脚本：</p>
+<pre><code>#!/bin/bash
+echo root:Vicer |sudo chpasswd root
+sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
+sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
+sudo reboot
+</code></pre>
+<h3 id="另一位大佬的">另一位大佬的</h3>
+<pre><code>wget --no-check-certificate -O AutoReinstall.sh https://git.io/AutoReinstall.sh &amp;&amp; bash AutoReinstall.sh
+</code></pre>
+<blockquote>
+<p>注意<br>
+CentOS默认密码Pwd@CentOS 其它系统Pwd@Linux<br>
+OpenVZ / LXC 架构系统不适用</p>
+</blockquote>
+<p>来源：https://blog.hicasper.com/post/135.html 参考：https://www.ydyno.com/archives/1245.html 感谢大佬的付出！</p>
+<pre><code>bash &lt;(wget --no-check-certificate -qO- 'https://file.geekn.net/CNODnjau/InstallNET.sh') -d 11 -v 64 -a -firmware
+</code></pre>
+<p>-firmware 额外的驱动支持<br>
+-d 后面是系统版本号<br>
+-v 后面写64位 32位<br>
+-a （不清楚这个干啥的但是每个脚本都带）<br>
+–mirror 后面是镜像源地址<br>
+-p 后写自定义密码</p>
+<blockquote>
+<p>镜像站地址<br>
+官方给出的地址列表：https://www.debian.org/mirror/list</p>
+<p>一些国内的<br>
+ftp.cn.debian.org<br>
+mirror.bjtu.edu.cn<br>
+mirror.lzu.edu.cn<br>
+mirror.nju.edu.cn<br>
+mirrors.163.com<br>
+mirrors.bfsu.edu.cn<br>
+mirrors.hit.edu.cn<br>
+mirrors.huaweicloud.com<br>
+mirror.sjtu.edu.cn<br>
+mirrors.tuna.tsinghua.edu.cn<br>
+mirrors.ustc.edu.cn</p>
+<p>使用方法：（大致都是一样的）</p>
+<p>清华源<br>
+--mirror 'https://mirrors.ustc.edu.cn/debian/'</p>
+<p>腾讯源<br>
+--mirror 'https://mirrors.aliyun.com/debian/'</p>
+<p>阿里源<br>
+--mirror 'https://mirrors.aliyun.com/debian/'</p>
+<p>华为源<br>
+--mirror 'https://mirrors.huaweicloud.com/debian/'</p>
+</blockquote>
+<h3 id="秋水逸冰-windows-2012201620192022-1011-dd-镜像">秋水逸冰 Windows 2012/2016/2019/2022 10/11 DD 镜像</h3>
+<p>适用于 UEFI 启动的多个 Windows 系统 DD 镜像：</p>
+<p>https://teddysun.com/656.html</p>
+<p>分别是：</p>
+<ul>
+<li>Windows Server 2012 R2 Datacenter</li>
+<li>Windows Server 2016 Datacenter (build: 14393.5006)</li>
+<li>Windows Server 2019 Datacenter (build: 17763.2686)</li>
+<li>Windows Server 2022 Datacenter (build: 20348.587)</li>
+<li>Windows 10 Enterprise LTSC (build: 19044.1288)</li>
+<li>Windows 11 Pro for Workstations 21H2 (build: 22000.194)</li>
+</ul>
+<p>适用于 BIOS 启动的 Windows Server 2022 Datacenter DD 镜像：</p>
+<p>https://teddysun.com/629.html</p>
+<p>适用于 BIOS 启动的 Windows 11 Pro for Workstations 21H2 DD 镜像：</p>
+<p>https://teddysun.com/642.html</p>
+<p>适用于 BIOS 启动的 Windows 10 Enterprise LTSC DD 镜像：</p>
+<p>https://teddysun.com/640.html</p>
+<p>适用于 BIOS 启动的 Windows Server 2019/2016/2012R2 Datacenter DD 镜像：</p>
+<p>https://teddysun.com/545.html</p>
+<p>分别是：</p>
+<ul>
+<li>Windows Server 2019 Datacenter（Build: 17763.2686）</li>
+<li>Windows Server 2016 Datacenter（Build: 14393.5006）</li>
+<li>Windows Server 2012 R2 Datacenter</li>
+</ul>
+<h2 id="测试相关">测试相关</h2>
+<h3 id="机器测试">机器测试</h3>
+<h4 id="单线程测试">单线程测试</h4>
+<pre><code>bash &lt;(curl -Lso- https://bench.im/hyperspeed)
+</code></pre>
+<h4 id="测速脚本">测速脚本</h4>
+<pre><code>curl -fsL https://ilemonra.in/LemonBenchIntl | bash -s fast
+</code></pre>
+<h4 id="superbench">superbench</h4>
+<pre><code>wget -qO- git.io/superbench.sh | bash
+</code></pre>
+<h4 id="benchsh">Bench.sh</h4>
+<pre><code>wget -qO- bench.sh | bash
+</code></pre>
+<h3 id="速度测试">速度测试</h3>
+<h4 id="直接显示回程线路">直接显示回程线路</h4>
+<pre><code>curl https://raw.githubusercontent.com/zhucaidan/mtr_trace/main/mtr_trace.sh|bash
+
+
+wget -q route.f2k.pub -O route &amp;&amp; bash route
+
+
+# 第一个
+wget https://raw.githubusercontent.com/nanqinlang-script/testrace/master/testrace.sh
+</code></pre>
+<p>bash testrace.sh</p>
+<pre><code># 第二个
+wget -qO- git.io/besttrace | bash
+</code></pre>
+<h4 id="四网测速">四网测速</h4>
+<pre><code>wget -O jcnf.sh https://raw.githubusercontent.com/Netflixxp/jcnfbesttrace/main/jcnf.sh
+
+bash jcnf.sh
+</code></pre>
+<h4 id="三网测速">三网测速</h4>
+<pre><code>bash &lt;(curl -Lso- https://git.io/superspeed_uxh)
+</code></pre>
+<p>带快速四网测试版本：</p>
+<pre><code>bash &lt;(curl -Lso- https://dl.233.mba/d/sh/speedtest.sh)
+
+bash &lt;(curl -Lso- https://git.io/J1SEh)
+</code></pre>
+<p>带综合测试的版本（CPU信息、Geekbench等）：</p>
+<pre><code>bash &lt;(wget --no-check-certificate -O- https://dl.233.mba/d/sh/superbenchpro.sh)
+</code></pre>
+<blockquote>
+<p>来源：https://www.wrnxr.cn/163.html</p>
+</blockquote>
+<h3 id="测试25端口">测试25端口</h3>
+<pre><code>telnet smtp.aol.com 25
+</code></pre>
+<h3 id="测试ipv4优先-ipv6优先">测试IPv4优先 / IPv6优先</h3>
+<pre><code>curl ip.p3terx.com
+</code></pre>
+<h3 id="流媒体测试">流媒体测试</h3>
+<h4 id="全媒体测试">全媒体测试</h4>
+<pre><code>bash &lt;(curl -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/check.sh)
+</code></pre>
+<h4 id="奈飞测试">奈飞测试</h4>
+<pre><code>wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.5/nf_2.5_linux_amd64 &amp;&amp; chmod +x nf &amp;&amp; clear &amp;&amp; ./nf
+
+#第一个
+bash &lt;(curl -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/check.sh)
+
+# 第二个
+bash &lt;(curl -sSL &quot;https://github.com/CoiaPrant/MediaUnlock_Test/raw/main/check.sh&quot;)
+</code></pre>
+<h2 id="warp">WARP</h2>
+<pre><code>wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/YG-tsj/CFWarp-Pro/multi.sh &amp;&amp; chmod +x multi.sh &amp;&amp; ./multi.sh
+</code></pre>
+<p>之后进入脚本快捷方式为 <code>bash multi.sh</code></p>
+<h2 id="服务器时间">服务器时间</h2>
+<h3 id="centos-同步时间">CentOS 同步时间</h3>
+<pre><code>yum -y install ntpdate
+timedatectl set-timezone Asia/Shanghai
+ntpdate ntp1.aliyun.com
+</code></pre>
+<h2 id="bbr">BBR</h2>
+<h3 id="centos-7-bbr">CentOS 7 BBR</h3>
+<pre><code>wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh
+</code></pre>
+<h3 id="一键开启bbr">一键开启BBR</h3>
+<p>注意：需要Linux Kernel 内核升级到 4.9 及以上版本可以实现 BBR 加速</p>
+<pre><code>uname -srm
+</code></pre>
+<p>输出结果应为：</p>
+<pre><code>Linux 3.10.0-957.12.2.el7.x86_64 x86_64
+# Tip
+3 - 内核版本.
+10 - 主修订版本.
+0-957 - 次要修订版本.
+12 - 补丁版本.
+</code></pre>
+<p>一般来说，Ubuntu18.04以上就可以 (默认内核 <code>4.15</code> )</p>
+<pre><code>echo &quot;net.core.default_qdisc=fq&quot; &gt;&gt; /etc/sysctl.conf
+echo &quot;net.ipv4.tcp_congestion_control=bbr&quot; &gt;&gt; /etc/sysctl.conf
+
+sysctl -p
+
+sysctl net.ipv4.tcp_available_congestion_control
+
+lsmod | grep bbr
+</code></pre>
+<h2 id="docker相关">Docker相关</h2>
+<h3 id="更新-安装必备软件">更新、安装必备软件</h3>
+<pre><code>wget -qO- get.docker.com | bash
+</code></pre>
+<h3 id="海外服务器">海外服务器</h3>
+<h4 id="安装docker">安装Docker</h4>
+<pre><code>wget -qO- get.docker.com | bash
+</code></pre>
+<h4 id="卸载docker">卸载Docker</h4>
+<pre><code>sudo apt-get purge docker-ce docker-ce-cli containerd.io
+
+
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+</code></pre>
+<h4 id="安装docker-compose">安装Docker-compose</h4>
+<pre><code> sudo curl -L &quot;https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)&quot; -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+</code></pre>
+<p>查看版本</p>
+<pre><code>docker-compose --version
+</code></pre>
+<h3 id="大陆服务器">大陆服务器</h3>
+<h4 id="安装docker-2">安装docker</h4>
+<pre><code>curl -sSL https://get.daocloud.io/docker | sh
+</code></pre>
+<h4 id="卸载docker-2">卸载docker</h4>
+<pre><code>sudo apt-get remove docker docker-engine
+rm -fr /var/lib/docker/
+</code></pre>
+<h4 id="安装docker-compose-2">安装docker-compose</h4>
+<pre><code>curl -L https://get.daocloud.io/docker/compose/releases/download/v2.1.1/docker-	compose-`uname -s`-`uname -m` &gt; /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+</code></pre>
+<h2 id="防火墙">防火墙</h2>
+<h3 id="centos-关闭防火墙">CentOS 关闭防火墙</h3>
+<pre><code>systemctl start supervisord
+systemctl disable firewalld
+systemctl stop firewalld
+</code></pre>
+<h2 id="宝塔相关">宝塔相关</h2>
+<h3 id="宝塔aapanel那啥">宝塔&amp;aapanel那啥</h3>
+<pre><code># 宝塔&amp;aapanel破解
+编辑 /www/server/panel/class/panelplugin.py
+找到 softList['list'] = tmpList 这行代码
+在下面添加以下代码，注意缩进！！！
+
+softList['pro'] = 1
+for soft in softList['list']:
+soft['endtime'] = 0
+
+编辑完毕后保存重启面板即可
+</code></pre>
+<h3 id="宝塔安装">宝塔安装</h3>
+<h4 id="centos">CentOS</h4>
+<pre><code>yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh ed8484bec
+</code></pre>
+<h4 id="ubuntu-或-deepin">Ubuntu 或 Deepin</h4>
+<pre><code>wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh &amp;&amp; sudo bash install.sh ed8484bec
+</code></pre>
+<h4 id="debian">Debian</h4>
+<pre><code>wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh &amp;&amp; bash install.sh ed8484bec
+</code></pre>
+<h4 id="龙芯架构脚本">龙芯架构脚本</h4>
+<pre><code>wget -O install_panel.sh http://download.bt.cn/install/0/loongarch64/loongarch64_install_panel.sh &amp;&amp; bash install_panel.sh ed8484bec
+</code></pre>
+<h4 id="万能安装脚本">万能安装脚本</h4>
+<pre><code>if [ -f /usr/bin/curl ];then curl -sSO https://download.bt.cn/install/install_panel.sh;else wget -O install_panel.sh https://download.bt.cn/install/install_panel.sh;fi;bash install_panel.sh ed8484bec
+</code></pre>
+<blockquote>
+<p>注意：必须为没装过其它环境如Apache/Nginx/php/MySQL的新系统,推荐使用centos 7.X的系统安装宝塔面板</p>
+<p>推荐使用Chrome、火狐、edge浏览器，国产浏览器请使用极速模式访问面板登录地址</p>
+<p>如果不确定使用哪个Linux系统版本的，可以使用万能安装脚本</p>
+<p>国产龙芯架构CPU安装命令，支持龙芯架构的loongnix 8.x、统信UOS 20、kylin v10系统</p>
+</blockquote>
+<h2 id="最后">最后...</h2>
+<p>大家有好用的脚本欢迎推荐，有需求也欢迎留言~</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes Example]]></title>
+        <id>https://www.daoblog.top/post/Notes-Example/</id>
+        <link href="https://www.daoblog.top/post/Notes-Example/">
+        </link>
+        <updated>2022-11-12T14:31:09.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>之前用hexo的时候写的，现在没用了（悲</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>之前用hexo的时候写的，现在没用了（悲</p>
+</blockquote>
+<!-- more -->
+<p>redefine主题的“笔记模块”演示，顺带方便以后查找</p>
+<hr>
+<!---红色--->
+<div class="wr">
+  <div class="t">
+    警告
+  </div>
+  <div class="c">
+    这是内容
+  </div>
+</div>
+<!---橙色--->
+<div class="wo">
+  <div class="t">
+    橙色警告
+  </div>
+  <div class="c">
+    这是内容
+  </div>
+</div>
+<!---黄色-->
+<div class="wy">
+  <div class="t">
+    注意
+  </div>
+  <div class="c">
+    这是内容
+  </div>
+</div>
+<!---绿色--->
+<div class="wg">
+  <div class="t">
+    提示
+  </div>
+  <div class="c">
+    这是内容
+  </div>
+</div>
+<!---蓝色--->
+<div class="wb">
+  <div class="t">
+    蓝色笔记
+  </div>
+  <div class="c">
+    这是内容
+  </div>
+</div>
+<!---紫色-->
+<div class="wp">
+  <div class="t">
+    紫色提示
+  </div>
+  <div class="c">
+    这是内容
+  </div>
+</div>
+<!---灰色-->
+<div class="wgra">
+  <div class="t">
+    信息
+  </div>
+  <div class="c">
+    这是内容
+  </div>
+</div>
+<pre><code>&lt;!---红色---&gt;
+&lt;div class=&quot;wr&quot;&gt;
+  &lt;div class=&quot;t&quot;&gt;
+    警告
+  &lt;/div&gt;
+  &lt;div class=&quot;c&quot;&gt;
+    这是内容
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!---橙色---&gt;
+&lt;div class=&quot;wo&quot;&gt;
+  &lt;div class=&quot;t&quot;&gt;
+   橙色警告
+  &lt;/div&gt;
+  &lt;div class=&quot;c&quot;&gt;
+    这是内容
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!---黄色--&gt;
+&lt;div class=&quot;wy&quot;&gt;
+  &lt;div class=&quot;t&quot;&gt;
+    注意
+  &lt;/div&gt;
+  &lt;div class=&quot;c&quot;&gt;
+    这是内容
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!---绿色---&gt;
+&lt;div class=&quot;wg&quot;&gt;
+  &lt;div class=&quot;t&quot;&gt;
+    提示
+  &lt;/div&gt;
+  &lt;div class=&quot;c&quot;&gt;
+    这是内容
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!---蓝色---&gt;
+&lt;div class=&quot;wb&quot;&gt;
+ &lt;div class=&quot;t&quot;&gt;
+    蓝色笔记
+ &lt;/div&gt;
+  &lt;div class=&quot;c&quot;&gt;
+    这是内容
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!---紫色--&gt;
+&lt;div class=&quot;wp&quot;&gt;
+  &lt;div class=&quot;t&quot;&gt;
+   紫色提示
+  &lt;/div&gt;
+  &lt;div class=&quot;c&quot;&gt;
+    这是内容
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!---灰色--&gt;
+&lt;div class=&quot;wgra&quot;&gt;
+  &lt;div class=&quot;t&quot;&gt;
+   信息
+  &lt;/div&gt;
+  &lt;div class=&quot;c&quot;&gt;
+    这是内容
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<p>'''</p>
+<hr>
+<!---红色--->
+<div class="nr">
+  红色笔记
+</div>
+<!---橙色--->
+<div class="no">
+  橙色笔记
+</div>
+<!---黄色--->
+<div class="ny">
+  黄色笔记
+</div>
+<!---绿色--->
+<div class="ng">
+  绿色笔记
+</div>
+<!---蓝色--->
+<div class="nb">
+  蓝色笔记
+</div>
+<!---紫色-->
+<div class="np">
+  紫色笔记
+</div>
+<!---灰色-->
+<div class="ngra">
+ 灰色笔记
+</div>
+<pre><code>&lt;!---红色---&gt;
+&lt;div class=&quot;nr&quot;&gt;
+  红色笔记
+&lt;/div&gt;
+
+&lt;!---橙色---&gt;
+&lt;div class=&quot;no&quot;&gt;
+  橙色笔记
+&lt;/div&gt;
+
+&lt;!---黄色---&gt;
+&lt;div class=&quot;ny&quot;&gt;
+  黄色笔记
+&lt;/div&gt;
+
+&lt;!---绿色---&gt;
+&lt;div class=&quot;ng&quot;&gt;
+  绿色笔记
+&lt;/div&gt;
+
+&lt;!---蓝色---&gt;
+&lt;div class=&quot;nb&quot;&gt;
+  蓝色笔记
+&lt;/div&gt;
+
+&lt;!---紫色--&gt;
+&lt;div class=&quot;np&quot;&gt;
+  紫色笔记
+&lt;/div&gt;
+
+&lt;!---灰色--&gt;
+&lt;div class=&quot;ngra&quot;&gt;
+  灰色笔记
+&lt;/div&gt;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[德育作业 我和你有个约定]]></title>
+        <id>https://www.daoblog.top/post/德育作业-我和你有个约定/</id>
+        <link href="https://www.daoblog.top/post/德育作业-我和你有个约定/">
+        </link>
+        <updated>2022-11-05T06:47:19.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>真·别赞要脸时间</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>真·别赞要脸时间</p>
+</blockquote>
+<!-- more -->
+<p>这是一封我写给绵中的信</p>
+<p>亲爱的绵中：</p>
+<p>那是我幼时一个周末的傍晚，母亲驱车带我出门，我们路过了一所浩大的高中，虽天色已黑，但仍灯火通明，朗朗的读书声不绝于耳。后来，我才知道你的名字是“绵阳中学”，而那一次的经历也如同种子一般，在我的心中植下了根。</p>
+<p>再后来，上了初中，我便默默地在心里想着：三年后，与你相约远航楼下。</p>
+<p>你那开阔的操场、整洁的教学楼、完善的配套设施，乃至于有着“千里飘香”之盛名的远航楼大酒楼无时不紧抓我心弦，无时不敦促我进步。现在，请让我正式地与你许下约定。</p>
+<p>我与你约定，抓住好每一刻的时间，把握好每一寸光阴。从现在起，更认真地听课、学习，不断提升我自己的水平，让我在志愿单上信心十足地写下你的名字。</p>
+<p>我与你约定，养成良好习惯，形成优秀品格。从现在起，更加尊重师长、多关心同学，让我与你相见时，携一身正气而来。</p>
+<p>我与你约定，严肃考试，认真作业。从现在起，更加注重成绩的反馈，进一步提高作业的质量，一年后赴约时，以领航者之身份而来。</p>
+<p>我与你约定……</p>
+<p>也许，那会是六月的一个晴朗温暖的早晨；也许，你会由衷而笑；也许，我会留下两行欢喜的泪水。无论如何，当我以一名“Mzer (绵中人)”的身份如期赴约时，千言万语也道不出如此欣喜、这般激动……</p>
+<p>请你放心，约定已经许下，我必然努力实现。我会不断努力、厚积薄发，终将与你如期“赴约”，而那也为时不晚了。</p>
+<p>此致</p>
+<p>敬礼</p>
+<p>你的忠实追随者：颜导（化名）</p>
+<p>2022年10月22日于书桌前</p>
+<hr>
+<figure data-type="image" tabindex="1"><img src="https://image.zzko.cn/images/20/2022/10/15/1665807261634a339def639.png" alt="https://image.zzko.cn/images/20/2022/10/15/1665807261634a339def639.png" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://image.zzko.cn/images/20/2022/10/15/1665832374634a95b654445.png" alt="https://image.zzko.cn/images/20/2022/10/15/1665832374634a95b654445.png" loading="lazy"></figure>
+<blockquote>
+<p>Website Power By <a href="https://www.daoblog.top">Yandao</a> ❤️ and <a href="https://vercel.com">Vercel</a> ⚡</p>
+</blockquote>
+<hr>
+<h2 id="2023年7月更新">2023年7月更新</h2>
+<p>没考上，今年绵中分数线839，中考满分才900，太酷啦！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[meme | 当学校宣布开学推迟一周时……]]></title>
+        <id>https://www.daoblog.top/post/meme-220821/</id>
+        <link href="https://www.daoblog.top/post/meme-220821/">
+        </link>
+        <updated>2022-08-21T11:48:24.000Z</updated>
+        <content type="html"><![CDATA[<div id="player_f1be0326b7fd7fc7"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_f1be0326b7fd7fc7'),
+    userId: 3205,
+    vcode: 'f1be0326b7fd7fc7',
+    autoPlay: false
+});
+</script>
+<blockquote>
+<p><img src="https://static.daoblog.top/5115/20221221115137.png" alt="img" loading="lazy"><br>
+看不见视频？试试刷新页面~</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实时不间断推流测试（已结束）]]></title>
+        <id>https://www.daoblog.top/post/stream-test-24x7/</id>
+        <link href="https://www.daoblog.top/post/stream-test-24x7/">
+        </link>
+        <updated>2022-08-03T02:46:57.000Z</updated>
+        <content type="html"><![CDATA[<p>测试</p>
+<p>click https://ydlk.cc/247live/</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4K 当你的男票是一个乐手——]]></title>
+        <id>https://www.daoblog.top/post/twosetviolin_20220727/</id>
+        <link href="https://www.daoblog.top/post/twosetviolin_20220727/">
+        </link>
+        <updated>2022-07-27T09:41:26.000Z</updated>
+        <content type="html"><![CDATA[<div id="player_36df14d119ecd4d1"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_36df14d119ecd4d1'),
+    userId: 3205,
+    vcode: '36df14d119ecd4d1',
+    autoPlay: false
+});
+</script>
+<blockquote>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EpIYnQKaynI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
+<iframe src="//player.bilibili.com/player.html?aid=216291084&bvid=BV1Ca411K76f&cid=785841933&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><br />
+为获得更好观看体验，可以前往[bilibili](https://www.bilibili.com/video/BV1Ca411K76f/)
+</blockquote>
+<p>无后期原片指路 BV1sr4y177ve</p>
+<p>磨磨蹭蹭几天给剪出来了，突然间就感受到了双琴侠的剪辑师的痛苦23333</p>
+<p>字幕提取自油管（打包的英文字幕有误但我懒得改了...）</p>
+<p>（对不准的焦，不分段的拍摄，反反复复的废片......本零学家经受了太多QwQ）求三连</p>
+<p>侵权请联系 copyright@ydlk.cc</p>
+<p>使用字体：MiSans、思源宋体</p>
+<p>双琴侠官方网站：<a href="https://www.twosetviolin.com">twosetviolin.com</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[写给新手的Markdown快速上手指南]]></title>
+        <id>https://www.daoblog.top/post/md_beginner/</id>
+        <link href="https://www.daoblog.top/post/md_beginner/">
+        </link>
+        <updated>2022-07-15T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>markdown真的很简单！</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>markdown真的很简单！</p>
+</blockquote>
+<!-- more -->
+<p>阅读原生Markdown版本，请<a href="https://yandao.rth.app/gomarkdown.md">点击此处</a></p>
+<blockquote>
+<p>同时推荐以下视频<br /></p>
+<iframe src="//player.bilibili.com/player.html?aid=647631019&bvid=BV1Ve4y1s7Qs&cid=894088883&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=935192264&bvid=BV1TM4y1F7u2&cid=471437536&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</blockquote>
+<h2 id="一-写在前面">一、写在前面</h2>
+<h3 id="什么是markdown">什么是Markdown</h3>
+<p>在<a href="https://zh.wikipedia.org/zh-cn/Markdown">维基百科</a>上介绍说：“Markdown是一种<a href="https://zh.wikipedia.org/wiki/%E8%BD%BB%E9%87%8F%E7%BA%A7%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80">轻量级标记语言</a>，创始人为<a href="https://zh.wikipedia.org/wiki/%E7%B4%84%E7%BF%B0%C2%B7%E6%A0%BC%E9%AD%AF%E4%BC%AF">约翰·格鲁伯</a>。它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的<a href="https://zh.wikipedia.org/wiki/XHTML">XHTML</a>（或者<a href="https://zh.wikipedia.org/wiki/HTML">HTML</a>）文档。”</p>
+<p><s>因为我懒</s> 维基百科的介绍已经很详细了，对于实在不理解的同学，你可以简单地把markdown理解为一种直接用简单的符号就可以完成文章基础排版、层次划分的写作语法</p>
+<p>值得一提的是，Markdown并不是一个软件，而是一种写作方式，也就是一套写作语法体系，而借由这点，你也可以很便捷地在多种软件之间享受到一样的书写体验，我也会在文末列出我正在使用的支持markdown的写作软件</p>
+<h3 id="为什么要用markdown">为什么要用Markdown</h3>
+<p>下面我列出几点我个人使用markdown的原因</p>
+<ul>
+<li>
+<p>多软件可用（例如Wordpress、Notion、wiki.js、印象笔记、StackEdit…）</p>
+</li>
+<li>
+<p>不过度依赖图形界面，在进行灵感集中输出时更为方便，效率更高<br>
+举个例子：我之前写的一篇文章就是用的Wordpress可视化编辑器，说句实在话，不是我故意黑，但是这个“优化后的写作编辑器”与我个人而言还是不好用，说白了就是“效率太低”，用鼠标在界面上点来点去来排版真的不怎么方便</p>
+</li>
+<li>
+<p>快速实现整齐排版</p>
+</li>
+<li>
+<p>手不用在键盘与鼠标之间多次往返，长期写作更舒适</p>
+</li>
+<li>
+<p>（我自己的特殊原因）右手骨折，活动范围不大</p>
+</li>
+</ul>
+<h3 id="markdown有哪些不足较主观">Markdown有哪些不足（较主观）</h3>
+<ol>
+<li>
+<p>基础语法你自己还是要记一点，不然用不来（不过这都能难到你的话，我只能说你有点懒…）</p>
+</li>
+<li>
+<p>有些语法其实并不特别方便（例如插入文本超链接、图片与表格）</p>
+</li>
+<li>
+<p>与其说是“美观的排版”，但其实更接近于规定文章的结构层次划分，没有那么厉害，最终还是得看编辑器的渲染效果，千万不要指望用它来进行精美的排版</p>
+</li>
+<li>
+<p>最终呈现效果依赖于编辑器渲染，同一篇文章，在不同的编辑器下差别可能会很大（例如热铁盒网页托管渲染的与印象笔记渲染的效果差别就比较大）（非恰饭）</p>
+</li>
+</ol>
+<h2 id="二-基础语法">二、基础语法</h2>
+<h3 id="标题">标题</h3>
+<p>在当行语句最开头加上井号 # 就是标题，一共有六级，有多少个井号就是几级的标题</p>
+<p><em>注意</em>： 大多数语法后面不要忘了加上一个空格来让编辑器识别出来语法格式</p>
+<figure data-type="image" tabindex="1"><img src="https://static.daoblog.top/5115/20220715190831.png" alt="" loading="lazy"></figure>
+<h3 id="段落与文本">段落与文本</h3>
+<p>直接输入文字就可以直接显示，与word相差无几</p>
+<figure data-type="image" tabindex="2"><img src="https://static.daoblog.top/5115/20220715191323.png" alt="" loading="lazy"></figure>
+<p>但值得一提的是，在markdown中，普通段落换行是如下两种方式</p>
+<ol>
+<li>
+<p>在单行末尾加上两个空格<sub>（部分编辑器也可以处理源文件同行内用两个空格换行的，但比较少见）</sub></p>
+</li>
+<li>
+<p>每行之间单独空一行</p>
+</li>
+</ol>
+<figure data-type="image" tabindex="3"><img src="https://static.daoblog.top/5115/20220715192432.png" alt="" loading="lazy"></figure>
+<p>同时，如果要对文字进行一些简单的操作，markdown也是可以胜任的</p>
+<ol>
+<li>
+<p><em>倾斜文本</em> 将文本前后用星号 * 包裹起来就可以倾斜被框住的文本</p>
+</li>
+<li>
+<p><strong>加粗文本</strong> 将文本前后用两个型号 ** 包裹起来就可以加粗被框住的文本</p>
+</li>
+<li>
+<p><em><strong>既加粗又倾斜</strong></em> 将文本前后用三个星号 *** 包裹起来就可以实现</p>
+</li>
+<li>
+<p><sub>缩小文本（角标）</sub> 将文本前后用一条波浪线 ~ 包裹起来即可（部分编辑器有此语法）</p>
+</li>
+<li>
+<p><s>删除线</s> 将文本前后用两条波浪线 ~~ 包裹起来即可</p>
+</li>
+</ol>
+<figure data-type="image" tabindex="4"><img src="https://static.daoblog.top/5115/20220715192018.png" alt="" loading="lazy"></figure>
+<p>注意：不要忘了加上空格使编辑器顺利识别文本中的语法</p>
+<p>还有短语段之间的分割线，你只需要单行输入多个短横线就可以了，例如“----------”（就大多数编辑器而言，大于等于三条）</p>
+<p>例子⬇️</p>
+<hr>
+<h3 id="列举">列举</h3>
+<p>首先是无序列举（无标号），一共有两种方式</p>
+<ol>
+<li>
+<p>在单行开头打上 * 并空一格</p>
+</li>
+<li>
+<p>在单行开头打上 - 并空一格（我比较习惯于这种）</p>
+</li>
+</ol>
+<ul>
+<li>这是第一种方法</li>
+</ul>
+<ul>
+<li>这是第二种</li>
+</ul>
+<figure data-type="image" tabindex="5"><img src="https://static.daoblog.top/5115/20221221105936.png" alt="" loading="lazy"></figure>
+<p>其次是有序列举，在单行开头加上如“1.”“2.”等语句，以此类推即可</p>
+<ol>
+<li>
+<p>第一个</p>
+</li>
+<li>
+<p>第二个</p>
+</li>
+<li>
+<p>第三个</p>
+</li>
+<li>
+<p>还有更多...</p>
+</li>
+</ol>
+<figure data-type="image" tabindex="6"><img src="https://static.daoblog.top/5115/20221221110243.png" alt="" loading="lazy"></figure>
+<p>同样的，不要忘了加上空格让编辑器识别出语法（如“- ”“1. ”）</p>
+<h3 id="表格">表格</h3>
+<p>说完了列举，我们就来看表格，他的逻辑其实与你在纸上画表格很类似，下面就是一个例子</p>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th>性别</th>
+<th>年龄</th>
+<th>职业</th>
+<th>住址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>李田所</td>
+<td>男</td>
+<td>24</td>
+<td>学生</td>
+<td>日本东京下北泽</td>
+</tr>
+<tr>
+<td>御坂美琴</td>
+<td>女</td>
+<td>14</td>
+<td>学生</td>
+<td>日本学园都市</td>
+</tr>
+<tr>
+<td>老颜</td>
+<td>男</td>
+<td>14</td>
+<td>学生</td>
+<td>盒打击是吧，芝士计划的一部分！</td>
+</tr>
+<tr>
+<td>xxx</td>
+<td>x</td>
+<td>xx</td>
+<td>xxx</td>
+<td>xxxxxxxxxxxxxx</td>
+</tr>
+</tbody>
+</table>
+<p>第一行是表头，第二行用作表头与内容的分割，- 的个数可以调整（大于等于1），第三行及之后是表格内容</p>
+<p>具体可以参考图片，文字不容易说清楚：</p>
+<figure data-type="image" tabindex="7"><img src="https://static.daoblog.top/5115/20221221110351.png" alt="" loading="lazy"></figure>
+<p>混进去了奇怪的东西（悲）</p>
+<h3 id="插入项目">插入项目</h3>
+<ol>
+<li>
+<p>插入文本超链接<br>
+示例：<code>[text](https://example.com/)</code> <a href="https://xn--fhqw2khm122n.cn">链接文本</a>，这种超链接可在段落内直接使用，内容间无需空格也能被正确识别</p>
+<figure data-type="image" tabindex="8"><img src="https://static.daoblog.top/5115/20221221110518.png" alt="" loading="lazy"></figure>
+</li>
+<li>
+<p>插入图片<br>
+示例：<code>![img](https://example.com/example.jpg)</code> <img src="https://static.daoblog.top/5115/icon.jpg" alt="" loading="lazy"> 前者为图片无法加载时使用的占位文本（可略去），后者为图片地址</p>
+<figure data-type="image" tabindex="9"><img src="https://static.daoblog.top/5115/20221221110717.png" alt="" loading="lazy"></figure>
+</li>
+</ol>
+<p>但说句实在话，这个还是有点繁琐了，所以我一般都直接用PicGo的复制链接功能，传上图床之后就能直接复制markdown格式的链接 <s>其实就是懒</s></p>
+<h3 id="各种引用">各种引用</h3>
+<p>markdown里有两种引用，一种是引用文本（块引用），一种是引用代码</p>
+<ol>
+<li>块引用<br>
+格式：在段首加上大于号右半边 &gt;</li>
+</ol>
+<blockquote>
+<p>这是一个示例</p>
+</blockquote>
+<figure data-type="image" tabindex="10"><img src="https://static.daoblog.top/5115/20221221112154.png" alt="" loading="lazy"></figure>
+<ol start="2">
+<li>代码（代码引用）<br>
+格式：单行代码前后用 ` 框起来，<br>
+多行在段前一排与段后一排用```框起来</li>
+</ol>
+<p>示例：</p>
+<p><code>print('Hello world!')</code></p>
+<pre><code class="language-python">print('Hello world!')
+print(&quot;An Example&quot;)
+print('''We are studying Python at school. I don't kown why. ''')
+</code></pre>
+<figure data-type="image" tabindex="11"><img src="https://static.daoblog.top/5115/20221221111017.png" alt="" loading="lazy"></figure>
+<h3 id="数学公式">数学公式</h3>
+<p>这个上手就真的有一些难度了，我个人因为极少用到，所以一般都是用一些线上生成器，如果你确实有需要，可以自行查找相关语法</p>
+<p>下面有两个例子：</p>
+<p>行内公式（部分编辑器支持）</p>
+<p>$ {x}<sup>{2}+2xy+{y}</sup>{2}=0 $</p>
+<p><code>$ {x}^{2}+2xy+{y}^{2}=0 $</code></p>
+<p>块公式（部分编辑器支持）</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">{x}^{2}+2xy+{y}^{2}=0 
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9474379999999999em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">x</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">2</span><span class="mord mathdefault">x</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.0585479999999998em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span></span></p>
+<p><code>$$ {x}^{2}+2xy+{y}^{2}=0 $$</code></p>
+<figure data-type="image" tabindex="12"><img src="https://static.daoblog.top/5115/20221221111048.png" alt="" loading="lazy"></figure>
+<h2 id="三-写在最后">三、写在最后</h2>
+<h3 id="软件推荐">软件推荐</h3>
+<p>在看完了上面的内容之后的你想必已经迫不及待了吧？在了解了基础的写作语法之后你就可以开始尝试着写作了！</p>
+<p>在这里我简单地列举一下我所使用的支持markdown语法的软件：</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>推荐指数</th>
+<th>类别</th>
+<th>平台</th>
+<th>特点</th>
+<th>官网</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wordpress</td>
+<td>⭐⭐</td>
+<td>博客软件</td>
+<td>自行搭建网页端</td>
+<td>开源 新版对Markdown的兼容性是个谜，不再推荐</td>
+<td><a href="https://cn.wordpress.org/">官网（简中）</a></td>
+</tr>
+<tr>
+<td>Typecho</td>
+<td>⭐⭐⭐</td>
+<td>博客软件</td>
+<td>自行搭建网页端</td>
+<td>开源 轻量化、生态佳，上手有门槛</td>
+<td><a href="https://typecho.org/">官网（简中）</a></td>
+</tr>
+<tr>
+<td>Notion</td>
+<td>⭐⭐⭐</td>
+<td>多用途</td>
+<td>全平台</td>
+<td>闭源 功能强大，上手有门槛，免费，没有官方中文</td>
+<td><a href="https://www.notion.so/">官网（En）</a></td>
+</tr>
+<tr>
+<td>flowus</td>
+<td>⭐⭐⭐</td>
+<td>多用途</td>
+<td>全平台</td>
+<td>闭源 功能强大，有门槛，免费，国内公司，懂得都懂</td>
+<td><a href="https://flowus.cn/">官网（简中）</a></td>
+</tr>
+<tr>
+<td>印象笔记</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>笔记类软件</td>
+<td>全平台</td>
+<td>闭源 功能强大，界面美观，但免费版功能有限</td>
+<td><a href="https://staging.yinxiang.com/">官网（简中）</a></td>
+</tr>
+<tr>
+<td>为知笔记</td>
+<td>⭐⭐⭐⭐</td>
+<td>笔记类软件</td>
+<td>全平台</td>
+<td>半开放 可自建服务，官方服务免费100天</td>
+<td><a href="https://www.wiz.cn/zh-cn">官网（简中）</a></td>
+</tr>
+<tr>
+<td>Wiki.js</td>
+<td>⭐⭐⭐</td>
+<td>知识库</td>
+<td>自行搭建网页端</td>
+<td>开源 免费好用的知识库，上手有门槛，要自行搭建</td>
+<td><a href="https://js.wiki/">官网（En）</a></td>
+</tr>
+<tr>
+<td>Gitbook</td>
+<td>⭐⭐</td>
+<td>多用途</td>
+<td>网页端</td>
+<td>偏闭源 中国大陆间歇性访问，纯英文</td>
+<td><a href="https://www.gitbook.com/">官网（En）</a></td>
+</tr>
+<tr>
+<td>Gridea</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>静态站点生成器</td>
+<td>电脑端</td>
+<td>开源 功能强大，界面美观，上手门槛较低</td>
+<td><a href="https://gridea.dev/">官网（简中）</a></td>
+</tr>
+<tr>
+<td>Hexo</td>
+<td>⭐⭐⭐⭐</td>
+<td>静态站点生成器</td>
+<td>电脑端</td>
+<td>开源 功能强大，基于命令行，不适合新手</td>
+<td><a href="https://hexo.io/">官网（简中）</a></td>
+</tr>
+<tr>
+<td>hugo</td>
+<td>⭐⭐⭐⭐</td>
+<td>静态站点生成器</td>
+<td>电脑端</td>
+<td>开源 功能强大，基于命令行，生态略差</td>
+<td><a href="https://gohugo.io/">官网（En）</a></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>话说WP对Markdown表格的支持又歇菜了......</p>
+</blockquote>
+<h3 id="一些想法">一些想法</h3>
+<p>懒得升华力，开摆。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://www.daoblog.top/post/20220702/</id>
+        <link href="https://www.daoblog.top/post/20220702/">
+        </link>
+        <updated>2022-07-02T03:45:14.000Z</updated>
+        <summary type="html"><![CDATA[<p>嵌入测试</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>嵌入测试</p>
+<!-- more -->
+<div id="player_0f19bff738d07104"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_0f19bff738d07104'),
+    userId: 3205,
+    vcode: '0f19bff738d07104',
+    autoPlay: false
+});
+</script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oDWbDPBwhQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
+<iframe src="https://ip.skk.moe/simple" style="width: 100%; border: 0"></iframe>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4K120FPS，我做到了！]]></title>
+        <id>https://www.daoblog.top/post/4k120-old/</id>
+        <link href="https://www.daoblog.top/post/4k120-old/">
+        </link>
+        <updated>2022-04-16T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>4K120FPS视频的在线分发与嵌入尝试</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>4K120FPS视频的在线分发与嵌入尝试</p>
+</blockquote>
+<!-- more -->
+<h2 id="效果预览">效果预览</h2>
+<p>话不多说，咱直接先上视频</p>
+<blockquote>
+<p>⚠️ Attention Please! | 请注意！<br>
+**光敏性癫痫警告！如果你本人患有癫痫或家族中有癫痫病史，不建议观看本视频！**不建议在弱光环境下观看，同时，如果您有相关病史且在观看过程中感到不适，请尽快就医。</p>
+<p>视频可能无法加载，如遇此情况，请刷新页面即可（20220714）</p>
+</blockquote>
+<div id="player_95c9a82773a109d4"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_95c9a82773a109d4'),
+    userId: 3205,
+    vcode: '95c9a82773a109d4',
+    autoPlay: false
+});
+</script>
+<blockquote>
+<p>Tip<br>
+版权归sakanaction鱼韵乐队所有，版权争议请联系copyright@ydlk.cc（两周内处理）<br>
+视频来源：鱼韵乐队Adapt Online线上演唱会</p>
+</blockquote>
+<p>原片为1080p，被我补到了4K120FPS嘿嘿</p>
+<p>接下来是其他样片</p>
+<div id="player_b22518ef9f841148"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_b22518ef9f841148'),
+    userId: 3205,
+    vcode: 'b22518ef9f841148',
+    autoPlay: false
+});
+</script>
+<blockquote>
+<p>1080P120FPS样片 - 夜听巴赫&amp;月之碗<br>
+视频来源：鱼韵乐队Adapt Online线上演唱会切片</p>
+</blockquote>
+<div id="player_4bdd4e1fc4c1b556"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_4bdd4e1fc4c1b556'),
+    userId: 3205,
+    vcode: '4bdd4e1fc4c1b556',
+    autoPlay: false
+});
+</script>
+<blockquote>
+<p>720P100FPS样片 - 多分、风<br>
+视频来源：Youtube sakanaction官方频道</p>
+</blockquote>
+<div id="player_fadea08078490703"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_fadea08078490703'),
+    userId: 3205,
+    vcode: 'fadea08078490703',
+    autoPlay: false
+});
+</script>
+<blockquote>
+<p>720P120FPS样片 - Adapt online live 结束曲 - フレンドリー<br>
+视频来源：鱼韵乐队Adapt Online线上演唱会</p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="https://static.daoblog.top/5115/20221119162952.png" alt="img" loading="lazy"></figure>
+<blockquote>
+<p>鱼韵乐队ADAPT ONLINE线上演出官图（来源：哔哩哔哩@sakanaction鱼韵乐队）</p>
+</blockquote>
+<h2 id="怎样实现的">怎样实现的？</h2>
+<h3 id="1前期准备部分">1.前期准备部分</h3>
+<p>首先你肯定需要一个4K120fps的片源，如果你像我一样刚好手头没有的话，就只能考虑像我一样超分辨率+AI补帧了，大体过程如下：</p>
+<blockquote>
+<p>注意！本篇文章仅作大致流程介绍，不会详细介绍软件用法，我也是跟着别人的教程学会的（所以你跟着我的步骤做翻车了求放过QAQ</p>
+</blockquote>
+<blockquote>
+<p>你如果实在需要相关详细教程，请参考 @极客湾Geekerwan 的视频：https://www.youtube.com/watch?v=lahPKUJEhHU</p>
+</blockquote>
+<h4 id="step-one-准备片源">Step One 准备片源</h4>
+<p>这一部分就需要你自己去找你需要补帧的视频了，我这里以你在前面看到的来自鱼韵Adapt Online切片的《新宝岛》为例</p>
+<figure data-type="image" tabindex="2"><img src="https://static.daoblog.top/5115/20221119163132.png" alt="" loading="lazy"></figure>
+<blockquote>
+<p>你问我是哪里搞来的？</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oDWbDPBwhQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</blockquote>
+<h4 id="step-two-准备软件">Step Two 准备软件</h4>
+<p>我们需要用到的软件：Topaz Video Enhance AI 与 SVFI</p>
+<blockquote>
+<p>软件安装教程请自行搜索，我相信你一定可以！</p>
+</blockquote>
+<h4 id="step-three-超分辨率">Step Three 超分辨率</h4>
+<p>打开Topaz Video Enhance AI（演示版本为2.3.0），选择原视频并导入</p>
+<figure data-type="image" tabindex="3"><img src="https://static.daoblog.top/5115/20221119163432.png" alt="" loading="lazy"></figure>
+<p>然后进行一些参数上的微调，我这个项目的设置如图，仅供参考</p>
+<figure data-type="image" tabindex="4"><img src="https://static.daoblog.top/5115/20221119163502.png" alt="" loading="lazy"></figure>
+<p>然后确认好了就可以点击右下角的开始处理按钮让AI为你超分辨率了，你要做的就是......</p>
+<h1>等，然后没了。</h1>
+<blockquote>
+<p>Pro Tip：一定要先超分再补帧，不然运算量更大，所耗费的时间也会更久！</p>
+</blockquote>
+<h4 id="step-four-ai补帧">Step Four AI补帧</h4>
+<p>打开SVFI（演示版本为3.2 community）</p>
+<figure data-type="image" tabindex="5"><img src="https://static.daoblog.top/5115/20221119163602.png" alt="" loading="lazy"></figure>
+<p>在文件菜单（左上角）中导入刚刚超好分辨率的视频，再在主界面下方选择好输出目录与提升帧率的倍数，点击一键补帧就好了，进阶用法我们这里姑且不谈。</p>
+<h1>然后继续等......</h1>
+<p><s>好消息，好消息，发明时光机了就不用等啦！</s></p>
+<p>这样，你的4K120FPS的视频就出炉了，接下来讲讲怎么上传。</p>
+<h3 id="2上传分发部分">2.上传分发部分</h3>
+<p>在这之前的视频上右键，你可以看到我使用了dogecloud（多吉云）的视频云服务，为什么选它，因为我没钱而且还很懒……（不是广告）</p>
+<p><s>并且网站还隔三岔五地被打</s></p>
+<blockquote>
+<p>✅ 你当然可以使用自己搭建的视频云服务，例如我的video.yandao.cloud，但鉴于小厂的PHP空间容量不够，就我个人的这个用途而言并不是特别合适，而且要实现一些功能也比现成的麻烦的要多，所以我就偷了这个懒......</p>
+</blockquote>
+<p>关于一些我们习以为常的功能，像我自建的这种初级的视频托管服务是不具备的，你可以在这个<a href="https://video.yandao.cloud/2.mp4">示例页面 - 暂停维护</a>看一看。</p>
+<p>在多吉云的上传过程如下：</p>
+<figure data-type="image" tabindex="6"><img src="https://static.daoblog.top/5115/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-16%20215327.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://static.daoblog.top/5115/202204162154481.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://static.daoblog.top/5115/20220416215533.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="9"><img src="https://static.daoblog.top/5115/20221119164007.png" alt="" loading="lazy"></figure>
+<p><strong>注意</strong>，要实现上面那个视频的效果，在上传时还要点击“设置”，把它配置成这样：</p>
+<figure data-type="image" tabindex="10"><img src="https://static.daoblog.top/5115/20221119164033.png" alt="" loading="lazy"></figure>
+<blockquote>
+<p>这只是距离，你如果有更好的方案，欢迎在下方评论~</p>
+</blockquote>
+<h3 id="3发布部分">3.发布部分</h3>
+<p>因为我是用的多吉云的服务，因此按照他们的官方文档进行操作，<a href="https://docs.dogecloud.com/vcloud/introduction">链接在此</a></p>
+<h2 id="写在最后">写在最后</h2>
+<p>总之这就是我个人的4K120FPS初体验的全部过程，看起来挺水的（实际也挺水？），之后我有更好的方法、有更成熟的方法了肯定会和大家继续分享的?</p>
+<p>另外多嘴一句，别打我网站了，孩子要自闭了QwQ</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello World!]]></title>
+        <id>https://www.daoblog.top/post/hello-wordpress/</id>
+        <link href="https://www.daoblog.top/post/hello-wordpress/">
+        </link>
+        <updated>2021-11-12T03:45:14.000Z</updated>
+        <content type="html"><![CDATA[<p>你好<code>\(@^0^@)/</code> 我是颜导，一名来自中国的中学生！</p>
+<p>在我的探索下，初步尝试了搭建博客，使用的是Wordpress作为建站程序+阿里云轻量应用服务器的组合~</p>
+<p>我还只是一名网络小白，今后的日子里请多指教！</p>
+<blockquote>
+<p>注：本文写于2021年11月12日，一些信息可能已经过期。</p>
+</blockquote>
+]]></content>
+    </entry>
+</feed>
